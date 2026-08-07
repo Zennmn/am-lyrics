@@ -1,31 +1,20 @@
 # am-lyrics
 
-A personal collection of Apple Music TTML lyrics for AM++, indexed by Apple
-Music ID. The repository is consumed by the AM++ module through
-`index.json` on the `main` branch.
+为 AM++ 准备的 Apple Music TTML 歌词收藏仓库，按 Apple Music ID 索引。AM++ 模块通过 `main` 分支上的 `index.json` 消费本仓库。
 
-## Layout
+## 目录结构
 
-- `index.json` — entry index used by AM++: one entry per Apple Music ID with
-  artist, title, path, size and sha256.
-- `am-lyrics/` — TTML files named `Artist - Title - AppleMusicID.ttml`.
+- `index.json` — AM++ 使用的条目索引：每个 Apple Music ID 一条，包含歌手、歌名、文件路径、大小和 sha256。
+- `am-lyrics/` — TTML 文件，命名格式为 `歌手 - 歌名 - AppleMusicID.ttml`。
 
-## How AM++ uses this repository
+## AM++ 如何使用本仓库
 
-AM++ reads `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`,
-matches the exact Apple Music ID, then downloads the TTML at the indexed path.
-Users import a lyric explicitly from the AM++ settings editor and save it
-locally; the app does not watch this repository at playback time.
+AM++ 读取 `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`，按 Apple Music ID 精确匹配，再下载索引路径指向的 TTML。用户在 AM++ 设置页的编辑器中显式导入并保存到本地；应用不会在播放时监视本仓库。
 
-## Submitting lyrics
+## 提交歌词
 
-Open the **Lyrics submission** issue form and fill in the Apple Music ID,
-artist, title, TTML, and the rights declaration. A maintainer reviews and
-uploads submissions after approval. See [CONTRIBUTING.md](CONTRIBUTING.md).
+打开 **Lyrics submission** Issue 表单，填写 Apple Music ID、歌手、歌名、TTML 内容和版权声明。维护者审核通过后会代为上传。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-## Rights
+## 版权
 
-Lyrics and translations belong to their original right holders. This
-repository does not claim ownership of lyric content. If content here
-infringes your rights, open an issue or contact the repository owner and it
-will be removed.
+歌词和翻译的版权归原始权利人所有，本仓库不主张歌词内容的版权。如果本仓库中的内容侵犯了您的权利，请提交 Issue 或联系仓库所有者，相关内容将被移除。
