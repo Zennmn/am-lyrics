@@ -7,6 +7,7 @@
 - `index.json` — AM++ 使用的条目索引：每个 Apple Music ID 一条，包含歌手、歌名、文件路径、大小和 sha256。
 - `am-lyrics/` — TTML 文件，命名格式为 `歌手 - 歌名 - AppleMusicID.ttml`。
 - `ttml格式.md` — Apple Music TTML 格式参考，供投稿者参考。
+- `tools/validate_ttml.py` — TTML 格式校验脚本，按 [ttml格式.md](ttml格式.md) 的规则检查 `am-lyrics/` 下所有文件。
 
 ## AM++ 如何使用本仓库
 
@@ -16,7 +17,7 @@ AM++ 读取 `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`
 
 [👉 点此提交歌词](https://github.com/Zennmn/am-lyrics/issues/new?template=lyrics-submission.yml)
 
-填写 Apple Music ID、歌手、歌名、TTML 内容和版权声明。TTML 格式请参考 [ttml格式.md](ttml格式.md)。维护者审核通过后会代为上传。详见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [维护者指南](MAINTAINING.md)。
+填写 Apple Music ID、歌手、歌名、TTML 内容和版权声明。TTML 格式请参考 [ttml格式.md](ttml格式.md)，提交前可运行 `python tools/validate_ttml.py` 检测格式错误。维护者审核通过后会代为上传。详见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [维护者指南](MAINTAINING.md)。
 
 ## 版权
 
