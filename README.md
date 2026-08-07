@@ -13,7 +13,9 @@ AM++ 读取 `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`
 
 ## 提交歌词
 
-打开 **Lyrics submission** Issue 表单，填写 Apple Music ID、歌手、歌名、TTML 内容和版权声明。维护者审核通过后会代为上传。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+[👉 点此提交歌词](https://github.com/Zennmn/am-lyrics/issues/new?template=lyrics-submission.yml)
+
+填写 Apple Music ID、歌手、歌名、TTML 内容和版权声明。维护者审核通过后会代为上传。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 版权
 
