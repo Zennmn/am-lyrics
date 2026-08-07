@@ -1,0 +1,53 @@
+name: Lyrics submission
+description: Submit a new Apple Music TTML lyric for review.
+title: "[Lyrics] "
+labels: ["lyrics-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing lyrics to the collection. Fill in the form below; the maintainer will review and upload your entry after approval.
+
+  - type: input
+    id: apple-music-id
+    attributes:
+      label: Apple Music ID
+      description: The numeric Apple Music song ID used by AM++. You can find it in the AM++ editor via "获取 ID".
+      placeholder: "Example: 1879820931"
+    validations:
+      required: true
+
+  - type: input
+    id: artist
+    attributes:
+      label: Artist
+      description: The artist name shown in the lyric list.
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Song title
+    validations:
+      required: true
+
+  - type: textarea
+    id: ttml
+    attributes:
+      label: TTML content
+      description: Paste the Apple Music Word-TTML here. It must contain `<tt>`, `<body>`, word-level `<span>` timing, and stay within AM++ limits (<=512 KiB).
+      render: xml
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights declaration
+      description: This repository is public. Lyric rights belong to the original right holders.
+      options:
+        - label: I have the right to publish or redistribute this lyric/translation, or I created it myself.
+          required: true
+        - label: I understand lyrics are public once merged and can be removed later if needed.
+          required: true
