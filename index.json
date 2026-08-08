@@ -518,6 +518,83 @@
       "enabled": true,
       "sizeBytes": 24248,
       "sha256": "5f7ee23f0041abdead3aab1ae980165bee8e44326c3e09498b23b39cbfba1999"
+    },
+    {
+      "appleMusicId": 1811493448,
+      "artist": "J.Fla",
+      "title": "Are You My Villain",
+      "displayName": "Are You My Villain - J.Fla",
+      "path": "am-lyrics/J.Fla - Are You My Villain - 1811493448.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26225,
+      "sha256": "c5f6025b63c756ae499c935d826dc583524f6fdaf15d3b3b09c115dacd5c1174"
+    },
+    {
+      "appleMusicId": 1381916994,
+      "artist": "OneRepublic",
+      "title": "Start Again (feat. Logic)",
+      "displayName": "Start Again (feat. Logic) - OneRepublic",
+      "path": "am-lyrics/OneRepublic - Start Again (feat. Logic) - 1381916994.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27873,
+      "sha256": "fd9abca1470ed8c41683422adbf237d8abd4226d295a882a1d5cd6d595b933d8"
+    },
+    {
+      "appleMusicId": 1538281339,
+      "artist": "MIREI",
+      "title": "光",
+      "displayName": "光 - MIREI",
+      "path": "am-lyrics/MIREI - 光 - 1538281339.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 25921,
+      "sha256": "392f066dfcdae5e4e338fe60503c1d71fc697cdb519dfdd339a85cc54ecd4f35"
+    },
+    {
+      "appleMusicId": 1593531390,
+      "artist": "MIREI",
+      "title": "食えない",
+      "displayName": "食えない - MIREI",
+      "path": "am-lyrics/MIREI - 食えない - 1593531390.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 23364,
+      "sha256": "a81cd8e619a9bd991506ec58823c16d440dda792059e0b20037b5885edd21ecd"
+    },
+    {
+      "appleMusicId": 1537779208,
+      "artist": "MIREI",
+      "title": "Let Me Know",
+      "displayName": "Let Me Know - MIREI",
+      "path": "am-lyrics/MIREI - Let Me Know - 1537779208.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29703,
+      "sha256": "cec08ff05451492e9085059fc7be86dad0c985531402cd4d88c411235c87103e"
+    },
+    {
+      "appleMusicId": 1706145039,
+      "artist": "林俊杰",
+      "title": "无拘",
+      "displayName": "无拘 - 林俊杰",
+      "path": "am-lyrics/林俊杰 - 无拘 - 1706145039.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 36019,
+      "sha256": "e6d6648027bb75d6cdf3dc34be1457f2905ce3d51b4377dcc2799a574de8ed11"
+    },
+    {
+      "appleMusicId": 1440134065,
+      "artist": "ZUTOMAYO",
+      "title": "Kimigaite Mizuninaru",
+      "displayName": "Kimigaite Mizuninaru - ZUTOMAYO",
+      "path": "am-lyrics/ZUTOMAYO - Kimigaite Mizuninaru - 1440134065.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 35121,
+      "sha256": "686caa8cb218fe7067188fe21bd7676b4caed33670431062302037cf1b9bcee0"
     }
   ]
 }
