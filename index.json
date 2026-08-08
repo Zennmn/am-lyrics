@@ -595,6 +595,28 @@
       "enabled": true,
       "sizeBytes": 35121,
       "sha256": "686caa8cb218fe7067188fe21bd7676b4caed33670431062302037cf1b9bcee0"
+    },
+    {
+      "appleMusicId": 1520362749,
+      "artist": "Galdive",
+      "title": "Cloud",
+      "displayName": "Cloud - Galdive",
+      "path": "am-lyrics/Galdive - Cloud - 1520362749.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 21454,
+      "sha256": "20fe3f2b6a9778c33225788c8069aefa9bb7a6e5c066fc869ed2459f2bf6f8b3"
+    },
+    {
+      "appleMusicId": 1534998916,
+      "artist": "May'n",
+      "title": "春夢",
+      "displayName": "春夢 - May'n",
+      "path": "am-lyrics/May'n - 春夢 - 1534998916.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27583,
+      "sha256": "f09769de8a82eeee31e6dd45a677d5c4969125236adc1dce61a902d3f377de44"
     }
   ]
 }
