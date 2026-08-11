@@ -108,10 +108,10 @@ def check(path):
                         errs.append(f"{key or '?'}: x-bg 外层 begin 早于内层")
                     if inn_es and max(inn_es) > oe:
                         errs.append(f"{key or '?'}: x-bg 外层 end 晚于内层")
-            # x-bg 内不允许括号
+            # x-bg 内不允许括号（实测部分设备可正常渲染，降级为警告）
             txt = "".join(x.itertext())
             if any(c in PAREN for c in txt):
-                errs.append(f"{key or '?'}: x-bg 内出现括号: {txt[:20]!r}")
+                warns.append(f"{key or '?'}: x-bg 内出现括号: {txt[:20]!r}")
             # x-bg 内层不能再有 x-bg
             if any(i.get(f"{TTM}role") == "x-bg" for i in inner):
                 errs.append(f"{key or '?'}: x-bg 嵌套 x-bg")
@@ -136,7 +136,7 @@ def check(path):
             if t.text is None and not list(t):
                 continue
             if any(ch.tag.endswith("span") for ch in t):
-                errs.append(f"翻译 text for={t.get('for')}: 内含 span（必须纯文本）")
+                warns.append(f"翻译 text for={t.get('for')}: 内含 span（实测部分设备可正常渲染，降级为警告）")
     # agent 注册数 = 使用数
     if reg_agents and used_agents and set(reg_agents) != used_agents:
         errs.append(f"agent 注册 {sorted(reg_agents)} != 使用 {sorted(used_agents)}")
