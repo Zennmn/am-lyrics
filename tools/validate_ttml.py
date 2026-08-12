@@ -94,6 +94,8 @@ def check(path):
             errs.append(f"{key or '?'}: p 内无 span（空行）")
         for sp in spans:
             if sp.get("begin") is None or sp.get("end") is None:
+                if sp.get(f"{TTM}role") == "x-bg":
+                    continue  # 纯包裹 x-bg 外层可不带时间（见 ttml格式.md §5）
                 errs.append(f"{key or '?'}: span 缺 begin/end: {sp.text!r}")
         for sp in spans:
             sb, se = sp.get("begin"), sp.get("end")
