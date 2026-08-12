@@ -2,7 +2,8 @@ param(
     [Parameter(Mandatory = $true)][long]$AppleMusicId,
     [Parameter(Mandatory = $true)][string]$Artist,
     [Parameter(Mandatory = $true)][string]$Title,
-    [Parameter(Mandatory = $true)][string]$TtmlPath
+    [Parameter(Mandatory = $true)][string]$TtmlPath,
+    [Parameter(Mandatory = $false)][long[]]$AlternateIds
 )
 
 $ErrorActionPreference = 'Stop'
@@ -39,6 +40,14 @@ $index = Get-Content -LiteralPath $indexPath -Raw -Encoding UTF8 | ConvertFrom-J
 if (@($index.entries.appleMusicId) -contains $AppleMusicId) {
     throw "Apple Music ID $AppleMusicId 已存在于 index.json"
 }
+$allIds = @($index.entries.appleMusicId)
+foreach ($entry in @($index.entries)) {
+    if ($entry.alternateIds) { $allIds += @($entry.alternateIds) }
+}
+foreach ($alt in @($AlternateIds)) {
+    if ($alt -le 0) { throw "备用 ID 必须为正整数: $alt" }
+    if ($allIds -contains $alt) { throw "备用 ID $alt 已存在于 index.json" }
+}
 
 function Clean-Name([string]$value) {
     return ($value -replace '[\\/:*?"<>|]', '、').TrimEnd(' ', '.')
@@ -59,7 +68,7 @@ $sha = [System.BitConverter]::ToString(
     [System.Security.Cryptography.SHA256]::HashData([byte[]]$finalBytes)
 ).Replace('-', '').ToLowerInvariant()
 
-$entry = [pscustomobject]@{
+$entry = [ordered]@{
     appleMusicId = $AppleMusicId
     artist       = $Artist
     title        = $Title
@@ -70,7 +79,10 @@ $entry = [pscustomobject]@{
     sizeBytes    = $finalBytes.Length
     sha256       = $sha
 }
-$index.entries = @($index.entries) + $entry
+if (@($AlternateIds).Count -gt 0) {
+    $entry.alternateIds = @($AlternateIds)
+}
+$index.entries = @($index.entries) + [pscustomobject]$entry
 [System.IO.File]::WriteAllText(
     $indexPath,
     ($index | ConvertTo-Json -Depth 5),

@@ -23,6 +23,10 @@ manual edits to `index.json` unless asked.
 - The lyric file must be placed under `am-lyrics/` with a filename ending in
   `- <appleMusicId>.ttml`.
 - Each Apple Music ID must be unique in `index.json`.
+- The same song can have different Apple Music IDs across regions/storefronts.
+  If you know additional IDs for the song, list them in the submission; the
+  maintainer records them as `alternateIds` on the entry (the primary
+  `appleMusicId` stays in the filename).
 
 ## Review expectations
 

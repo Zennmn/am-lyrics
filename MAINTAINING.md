@@ -6,7 +6,7 @@
 
 收到歌词投稿 Issue 后，逐项检查：
 
-1. **Apple Music ID**：必须是正整数，且与 `index.json` 中已有条目不重复。
+1. **Apple Music ID**：必须是正整数，且与 `index.json` 中已有条目不重复（含其他条目的 `alternateIds`）。投稿注明其他地区 ID 时，作为 `alternateIds` 收录。
 2. **歌手 / 歌名**：填写是否清晰，与投稿文件内容一致。
 3. **TTML 内容**：
    - 是 Apple Music Word-TTML，包含 `<tt>`、`<body>`、逐词 `<span>` 时间轴。
@@ -21,10 +21,10 @@
 
 ```powershell
 # 在本仓库根目录执行
-.\tools\add-lyrics.ps1 -AppleMusicId 123456789 -Artist "歌手名" -Title "歌名" -TtmlPath "C:\path\to\投稿的.ttml"
+.\tools\add-lyrics.ps1 -AppleMusicId 123456789 -Artist "歌手名" -Title "歌名" -TtmlPath "C:\path\to\投稿的.ttml" -AlternateIds 987654321,555555555
 ```
 
-脚本会自动：校验 TTML 和 ID 重复、按 `歌手 - 歌名 - AppleMusicID.ttml` 命名、复制文件、计算 `sizeBytes`/`sha256` 并追加到 `index.json`。
+脚本会自动：校验 TTML 和 ID 重复（含备用 ID）、按 `歌手 - 歌名 - AppleMusicID.ttml` 命名、复制文件、计算 `sizeBytes`/`sha256` 并追加到 `index.json`（可选 `-AlternateIds` 收录其他地区 ID，逗号分隔）。
 
 脚本只修改工作区，不会提交。
 
@@ -48,9 +48,12 @@ am-lyrics/歌手 - 歌名 - AppleMusicID.ttml
   "source": "manual",
   "enabled": true,
   "sizeBytes": 12345,
-  "sha256": "（该文件 UTF-8 内容的 SHA-256 小写十六进制）"
+  "sha256": "（该文件 UTF-8 内容的 SHA-256 小写十六进制）",
+  "alternateIds": [987654321]
 }
 ```
+
+（可选）`alternateIds`：同一首歌在其他地区的 Apple Music ID 数组，主 ID 仍是 `appleMusicId`（文件名用主 ID）。
 
 3. 计算实际大小和哈希：
 
@@ -75,9 +78,14 @@ foreach ($entry in @($index.entries)) {
 }
 if ($errors.Count -eq 0) { "全部一致，共 $($index.entries.Count) 条" } else { $errors }
 
-# 2. 检查 ID 唯一
-$dups = @($index.entries.appleMusicId | Group-Object | Where-Object Count -gt 1)
-if ($dups.Count -eq 0) { "ID 唯一" } else { $dups }
+# 2. 检查 ID 唯一（主 ID + alternateIds 全部纳入）
+$allIds = @()
+foreach ($entry in @($index.entries)) {
+    $allIds += [long]$entry.appleMusicId
+    if ($entry.alternateIds) { $allIds += @($entry.alternateIds | ForEach-Object { [long]$_ }) }
+}
+$dups = @($allIds | Group-Object | Where-Object Count -gt 1)
+if ($dups.Count -eq 0) { "ID 唯一（含 alternateIds）" } else { $dups }
 
 # 3. 查看本次改动
 git diff
