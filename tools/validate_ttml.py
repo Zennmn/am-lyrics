@@ -23,6 +23,15 @@ PAREN = "()（）"
 
 
 def t2s(s):
+    s = s.strip()
+    if s.endswith("s"):  # 12.3s 秒数格式
+        s = s[:-1]
+    parts = s.split(":")
+    if len(parts) == 1:  # SS.fff 秒数格式（AM 原生）
+        m = re.match(r"^(\d+)(?:\.(\d{1,3}))?$", parts[0])
+        if not m:
+            return None
+        return int(m.group(1)) * 1000 + int((m.group(2) or "").ljust(3, "0") or "0")
     m = TIME_RE.match(s)
     if not m:
         return None

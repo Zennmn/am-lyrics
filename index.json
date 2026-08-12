@@ -617,6 +617,17 @@
       "enabled": true,
       "sizeBytes": 27583,
       "sha256": "f09769de8a82eeee31e6dd45a677d5c4969125236adc1dce61a902d3f377de44"
+    },
+    {
+      "appleMusicId": 1440830132,
+      "artist": "Imagine Dragons",
+      "title": "Demons",
+      "displayName": "Demons - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Demons - 1440830132.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 23308,
+      "sha256": "29945841a72b8230d753e7d05de0fb37a5ffee5f5ef70a61ef78fcec404af936"
     }
   ]
 }
