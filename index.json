@@ -395,8 +395,8 @@
       "path": "am-lyrics/ZUTOMAYO - Time Left - 1649264715.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27324,
-      "sha256": "4b7fcba3dff9c1486a1394748ae7fff7d44be53f3914f060dac558595d4620f0"
+      "sizeBytes": 27568,
+      "sha256": "64eb58664452914d3b9070e4f86ed03f08baef8a01f8f518dd71dddaaacdf75c"
     },
     {
       "appleMusicId": 1729853627,
@@ -439,8 +439,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kira Killer (feat. Mori Calliope) - 1729853527.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37523,
-      "sha256": "44e339318d82fae97cf971f33ae820f39ac4081354b6115c30cd269fb8531d74"
+      "sizeBytes": 37201,
+      "sha256": "38bb1db8b76078ad8faac5819d5534894fa850d122ad647fdb71309f38b2a46d"
     },
     {
       "appleMusicId": 1440862988,
