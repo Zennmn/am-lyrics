@@ -43,8 +43,8 @@
       "path": "am-lyrics/YOASOBI - Biri-Biri - 1716254220.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23928,
-      "sha256": "14c10504f91bc9ade2746d024c8ae4fffc8901aab36e4ddf32eef785f73835a7"
+      "sizeBytes": 23678,
+      "sha256": "6df6bf90384c223ee62e02d0c47a0fad6e59d4c8b7bb812f570f29464614bd6b"
     },
     {
       "appleMusicId": 1633319441,
@@ -147,14 +147,14 @@
     },
     {
       "appleMusicId": 1609932617,
-      "artist": "ヒグチアイ",
-      "title": "悪魔の子",
-      "displayName": "悪魔の子 - ヒグチアイ",
-      "path": "am-lyrics/ヒグチアイ - 悪魔の子 - 1609932617.ttml",
+      "artist": "Higuchi Ai",
+      "title": "Akuma no Ko",
+      "displayName": "Akuma no Ko - Higuchi Ai",
+      "path": "am-lyrics/Higuchi Ai - Akuma no Ko - 1609932617.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 14408,
-      "sha256": "72ab43d852cc88f794fd1fb59b8b6cb57577629be5f53fffea97a83b9165cdbf"
+      "sizeBytes": 14333,
+      "sha256": "00d14e36b74be3285e78f6b7f89c4e785153bf6784aff48993e40714c51867e5"
     },
     {
       "appleMusicId": 1723221649,
@@ -169,14 +169,14 @@
     },
     {
       "appleMusicId": 1538137547,
-      "artist": "緑黄色社会",
+      "artist": "Midori no Shakaiju",
       "title": "Mela!",
-      "displayName": "Mela! - 緑黄色社会",
-      "path": "am-lyrics/緑黄色社会 - Mela! - 1538137547.ttml",
+      "displayName": "Mela! - Midori no Shakaiju",
+      "path": "am-lyrics/Midori no Shakaiju - Mela! - 1538137547.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17435,
-      "sha256": "9561148b053f82a703d9b88184bf9b8ba07025df06553525eab87392ca598e2a"
+      "sizeBytes": 17261,
+      "sha256": "f00ea8ff27f97bdf22464618af8b88e072e64618c4547b151a064fb373cd0fe1"
     },
     {
       "appleMusicId": 1531658816,
@@ -197,8 +197,8 @@
       "path": "am-lyrics/YOASOBI - New me - 1778233191.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25743,
-      "sha256": "038c35e6b34589683ba7b7749a5fb52870179e4e5736295c0dbbc3cd40866258"
+      "sizeBytes": 25496,
+      "sha256": "e28e33b83c664d889945ea822bc4f9763c8a3c3c247f7b582aa7c816d9824550"
     },
     {
       "appleMusicId": 1725802551,
@@ -263,8 +263,8 @@
       "path": "am-lyrics/Halsey - Gasoline - 1440827791.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 18885,
-      "sha256": "ebcf4b400a0c0baaa4bb8eb04c7d26ccc7e09c1688fa29c075e68dddb762d477"
+      "sizeBytes": 18751,
+      "sha256": "0ff11c7065aa1a3506bcd58a550d69d65e6702ff0cbf7e11f1170406bdb6d0a8"
     },
     {
       "appleMusicId": 1756859961,
@@ -329,8 +329,8 @@
       "path": "am-lyrics/Taylor Swift - Blank Space (Taylor's Version) - 1713845737.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38888,
-      "sha256": "3e19deda990cd91d32a8db01c6037fa6ad8b0f6aa16faf3eca578978747ba10d"
+      "sizeBytes": 38662,
+      "sha256": "cdb315c7c9066ffef3f6cf289b8dc3bfb641e1ab2921142676fd05b94b7d09ef"
     },
     {
       "appleMusicId": 1464108341,
@@ -340,8 +340,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kan Saete Kuyashiiwa - 1464108341.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25037,
-      "sha256": "df0033180c384078bb18704c23e183eec8132ecb91a4244d88ee74ff6a1b3566"
+      "sizeBytes": 24613,
+      "sha256": "fc964383b8105b72f36d60bede329d46352be883f69c45d99ff5943a9400e671"
     },
     {
       "appleMusicId": 1522244028,
@@ -373,8 +373,8 @@
       "path": "am-lyrics/ZUTOMAYO - Truth in Lies - 1770242100.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23097,
-      "sha256": "f616b2404292f0aa44e18157c0eb544661d2a342b1901cd8e1619f310a08b6e4"
+      "sizeBytes": 22598,
+      "sha256": "041bcdcb69aa231e7abb0f2fa3ab0e7206d6f857e9635cce283db75f3c739a4d"
     },
     {
       "appleMusicId": 1469306713,
@@ -395,8 +395,8 @@
       "path": "am-lyrics/ZUTOMAYO - Time Left - 1649264715.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27720,
-      "sha256": "0d503c83d9e1cf5e6733f8c0fbb1795c3c5e4e9ef82fff1eb1f89b2e938e8473"
+      "sizeBytes": 27324,
+      "sha256": "4b7fcba3dff9c1486a1394748ae7fff7d44be53f3914f060dac558595d4620f0"
     },
     {
       "appleMusicId": 1729853627,
@@ -439,8 +439,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kira Killer (feat. Mori Calliope) - 1729853527.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37930,
-      "sha256": "2242a2bb08c2e1011be4b8cf3ee6754191692914b42e97a00a0795f7df7ffa86"
+      "sizeBytes": 37523,
+      "sha256": "44e339318d82fae97cf971f33ae820f39ac4081354b6115c30cd269fb8531d74"
     },
     {
       "appleMusicId": 1440862988,
@@ -461,8 +461,8 @@
       "path": "am-lyrics/Miki Matsubara - Mayonaka No Door ~Stay with Me - 1858846444.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 18570,
-      "sha256": "617934d3ae295664c8fa95805b6f9dc16779d79cc4c8f85ef4f472f745ed9d88"
+      "sizeBytes": 18426,
+      "sha256": "ccac16a43a542d600b0a22258c6dacaade797b5e504b8d234ad1400fd87bddc2"
     },
     {
       "appleMusicId": 1631321136,
@@ -483,8 +483,8 @@
       "path": "am-lyrics/Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix] - 1458638381.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22093,
-      "sha256": "08e9ab06d1ab980224511c378e5528ea192fb7ca8121b2fe2d5b9cc6bd0953f8"
+      "sizeBytes": 21994,
+      "sha256": "a749578da6ba01dd6d555376ae8a693c8ede3a1daaab52cda0a5a2b7fdd5bfb5"
     },
     {
       "appleMusicId": 1617908915,
@@ -632,13 +632,13 @@
     {
       "appleMusicId": 1679278167,
       "artist": "YOASOBI",
-      "title": "アイドル",
-      "displayName": "アイドル - YOASOBI",
-      "path": "am-lyrics/YOASOBI - アイドル - 1679278167.ttml",
+      "title": "Idol",
+      "displayName": "Idol - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Idol - 1679278167.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28380,
-      "sha256": "709260f6d07b182a1da3fa2f4402432d7c249cfb471b861cc1d39dcaf4fb91e1"
+      "sizeBytes": 28156,
+      "sha256": "72dc504e2827a61e68deda8071a54b34ddb6c1b0f19cf8ba2269586b23ad20d1"
     }
   ]
 }
