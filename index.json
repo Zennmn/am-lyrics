@@ -43,8 +43,8 @@
       "path": "am-lyrics/YOASOBI - Biri-Biri - 1716254220.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23852,
-      "sha256": "9133ee6f9f3b54d4968bf6fcd58374a5c08f13de68c20fa3c680aaefb1e764c9"
+      "sizeBytes": 23928,
+      "sha256": "14c10504f91bc9ade2746d024c8ae4fffc8901aab36e4ddf32eef785f73835a7"
     },
     {
       "appleMusicId": 1633319441,
@@ -153,8 +153,8 @@
       "path": "am-lyrics/ヒグチアイ - 悪魔の子 - 1609932617.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 14402,
-      "sha256": "7b93ce35b88d48ca6c836ecf7495d8e0253a4ea6351399110d55a895b84d6bf8"
+      "sizeBytes": 14408,
+      "sha256": "72ab43d852cc88f794fd1fb59b8b6cb57577629be5f53fffea97a83b9165cdbf"
     },
     {
       "appleMusicId": 1723221649,
@@ -175,8 +175,8 @@
       "path": "am-lyrics/緑黄色社会 - Mela! - 1538137547.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17426,
-      "sha256": "61d3e2cb7121bbff37e7e5f08ab919e9cb7282d850c0f29c2616b5400dac0251"
+      "sizeBytes": 17435,
+      "sha256": "9561148b053f82a703d9b88184bf9b8ba07025df06553525eab87392ca598e2a"
     },
     {
       "appleMusicId": 1531658816,
@@ -197,8 +197,8 @@
       "path": "am-lyrics/YOASOBI - New me - 1778233191.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25674,
-      "sha256": "e5c8df23dd192191dbdc063a013934631b39c3cde66a8fe0c84c548b1cc92502"
+      "sizeBytes": 25743,
+      "sha256": "038c35e6b34589683ba7b7749a5fb52870179e4e5736295c0dbbc3cd40866258"
     },
     {
       "appleMusicId": 1725802551,
@@ -263,8 +263,8 @@
       "path": "am-lyrics/Halsey - Gasoline - 1440827791.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 18864,
-      "sha256": "4c13db2c146e23a6b205db8a91d9cc537925458f4d59ede33da46f5d612b9e3e"
+      "sizeBytes": 18885,
+      "sha256": "ebcf4b400a0c0baaa4bb8eb04c7d26ccc7e09c1688fa29c075e68dddb762d477"
     },
     {
       "appleMusicId": 1756859961,
@@ -329,8 +329,8 @@
       "path": "am-lyrics/Taylor Swift - Blank Space (Taylor's Version) - 1713845737.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38873,
-      "sha256": "fc564ce68035bce37427f07e8270fab445ed4c5bd5dc1030269ab51e4e7dad4c"
+      "sizeBytes": 38888,
+      "sha256": "3e19deda990cd91d32a8db01c6037fa6ad8b0f6aa16faf3eca578978747ba10d"
     },
     {
       "appleMusicId": 1464108341,
@@ -340,8 +340,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kan Saete Kuyashiiwa - 1464108341.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24883,
-      "sha256": "147615220e458306d15d417215eb059781e712fd95a4fa87156baa9aea3614ac"
+      "sizeBytes": 25037,
+      "sha256": "df0033180c384078bb18704c23e183eec8132ecb91a4244d88ee74ff6a1b3566"
     },
     {
       "appleMusicId": 1522244028,
@@ -373,8 +373,8 @@
       "path": "am-lyrics/ZUTOMAYO - Truth in Lies - 1770242100.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22911,
-      "sha256": "509cb163627acebc3106f6f3506af0d2d7f53dcbf596d81ac3117885d6d99163"
+      "sizeBytes": 23097,
+      "sha256": "f616b2404292f0aa44e18157c0eb544661d2a342b1901cd8e1619f310a08b6e4"
     },
     {
       "appleMusicId": 1469306713,
@@ -395,8 +395,8 @@
       "path": "am-lyrics/ZUTOMAYO - Time Left - 1649264715.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27657,
-      "sha256": "51c321b584ddb8115b1d0f798222e599145cd97d7d220f6c1db3bbbb9b2af6d2"
+      "sizeBytes": 27720,
+      "sha256": "0d503c83d9e1cf5e6733f8c0fbb1795c3c5e4e9ef82fff1eb1f89b2e938e8473"
     },
     {
       "appleMusicId": 1729853627,
@@ -439,8 +439,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kira Killer (feat. Mori Calliope) - 1729853527.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37626,
-      "sha256": "82bdefb2ab88e75889b67bed3cbb511a53240fa3f69dc39b07fca91faf400b1f"
+      "sizeBytes": 37930,
+      "sha256": "2242a2bb08c2e1011be4b8cf3ee6754191692914b42e97a00a0795f7df7ffa86"
     },
     {
       "appleMusicId": 1440862988,
@@ -462,7 +462,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 18570,
-      "sha256": "455b23dda51743a3755961a0189b4f5a4bb86bdacfebb27f8609a32a13a9a80a"
+      "sha256": "617934d3ae295664c8fa95805b6f9dc16779d79cc4c8f85ef4f472f745ed9d88"
     },
     {
       "appleMusicId": 1631321136,
@@ -483,8 +483,8 @@
       "path": "am-lyrics/Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix] - 1458638381.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22082,
-      "sha256": "367bcfd77c679939199ef7b8791cb73d0718e0236348a48218cca5fb02394118"
+      "sizeBytes": 22093,
+      "sha256": "08e9ab06d1ab980224511c378e5528ea192fb7ca8121b2fe2d5b9cc6bd0953f8"
     },
     {
       "appleMusicId": 1617908915,
@@ -637,8 +637,8 @@
       "path": "am-lyrics/YOASOBI - アイドル - 1679278167.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28325,
-      "sha256": "660ac6f50ea67383e40f833025bcb792d0707893c74b06db525ed912a8fd52fe"
+      "sizeBytes": 28380,
+      "sha256": "709260f6d07b182a1da3fa2f4402432d7c249cfb471b861cc1d39dcaf4fb91e1"
     }
   ]
 }
