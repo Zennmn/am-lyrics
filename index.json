@@ -651,6 +651,39 @@
       "enabled": true,
       "sizeBytes": 28156,
       "sha256": "72dc504e2827a61e68deda8071a54b34ddb6c1b0f19cf8ba2269586b23ad20d1"
+    },
+    {
+      "appleMusicId": 1502298674,
+      "artist": "OneRepublic",
+      "title": "Run",
+      "displayName": "Run - OneRepublic",
+      "path": "am-lyrics/OneRepublic - Run - 1502298674.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 31204,
+      "sha256": "d24354b8b7cd5559156680d1e97c2037c07a8003ffed6da34c364f58ccb79df2"
+    },
+    {
+      "appleMusicId": 1445840797,
+      "artist": "OneRepublic",
+      "title": "Secrets",
+      "displayName": "Secrets - OneRepublic",
+      "path": "am-lyrics/OneRepublic - Secrets - 1445840797.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24536,
+      "sha256": "5acc14f471ef386c8dcac54a49c1ae42be0fdb91fea502370cd0063e7652b677"
+    },
+    {
+      "appleMusicId": 6790708389,
+      "artist": "s0rrow",
+      "title": "unhappy",
+      "displayName": "unhappy - s0rrow",
+      "path": "am-lyrics/s0rrow - unhappy - 6790708389.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 10936,
+      "sha256": "0faea30724b4001df0e331e2daac6c60146ed98f1186a9f0e466e2ac54721516"
     }
   ]
 }
