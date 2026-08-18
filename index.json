@@ -492,8 +492,8 @@
       "path": "am-lyrics/Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix] - 1458638381.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21994,
-      "sha256": "a749578da6ba01dd6d555376ae8a693c8ede3a1daaab52cda0a5a2b7fdd5bfb5"
+      "sizeBytes": 21719,
+      "sha256": "d22d0440c4ca00f37b17ba41c94610552a821f7647a6e61a1f101989d6375709"
     },
     {
       "appleMusicId": 1617908915,
@@ -684,6 +684,50 @@
       "enabled": true,
       "sizeBytes": 10936,
       "sha256": "0faea30724b4001df0e331e2daac6c60146ed98f1186a9f0e466e2ac54721516"
+    },
+    {
+      "appleMusicId": 1520198760,
+      "artist": "YOASOBI",
+      "title": "Probably",
+      "displayName": "Probably - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Probably - 1520198760.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 22557,
+      "sha256": "585fca0e4c086e0a71712abde9fd63c2a20711c208af5d30ee73fd496782c132"
+    },
+    {
+      "appleMusicId": 1638045618,
+      "artist": "YOASOBI",
+      "title": "Moshimo inochiga egaketara",
+      "displayName": "Moshimo inochiga egaketara - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Moshimo inochiga egaketara - 1638045618.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24957,
+      "sha256": "ef4d79904fb67c5943ba2c3a83c72299face6b0550583b01cb9b0c7e8cee46c8"
+    },
+    {
+      "appleMusicId": 6775750604,
+      "artist": "YOASOBI",
+      "title": "Orion",
+      "displayName": "Orion - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Orion - 6775750604.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 31705,
+      "sha256": "8b233d65b0077110b70f5af6eea75319c39ad40121ef8d057f0633b01c1e7cf2"
+    },
+    {
+      "appleMusicId": 1584159576,
+      "artist": "Ayase",
+      "title": "幽霊東京",
+      "displayName": "幽霊東京 - Ayase",
+      "path": "am-lyrics/Ayase - 幽霊東京 - 1584159576.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29660,
+      "sha256": "ba3b62cd5b4563c8ccf9a56cacdcc5b0b86861a48ebe6fd8c523e4514717b00d"
     }
   ]
 }
