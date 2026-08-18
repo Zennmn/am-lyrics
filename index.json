@@ -728,6 +728,17 @@
       "enabled": true,
       "sizeBytes": 29660,
       "sha256": "ba3b62cd5b4563c8ccf9a56cacdcc5b0b86861a48ebe6fd8c523e4514717b00d"
+    },
+    {
+      "appleMusicId": 1443866435,
+      "artist": "张敬轩",
+      "title": "吻得太逼真",
+      "displayName": "吻得太逼真 - 张敬轩",
+      "path": "am-lyrics/张敬轩 - 吻得太逼真 - 1443866435.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 59076,
+      "sha256": "0252102a82dc14979f8f48a7ce6e3154199fb63144bd9fa14a96443c7bafb3a5"
     }
   ]
 }
