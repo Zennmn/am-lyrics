@@ -594,8 +594,8 @@
       "path": "am-lyrics/林俊杰 - 无拘 - 1706145039.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 36019,
-      "sha256": "e6d6648027bb75d6cdf3dc34be1457f2905ce3d51b4377dcc2799a574de8ed11"
+      "sizeBytes": 35852,
+      "sha256": "ae6f48a5f87e82e9b389486f9e93ef9f082889c41b1b2f8713f77647f88acdf6"
     },
     {
       "appleMusicId": 1440134065,
@@ -715,8 +715,8 @@
       "path": "am-lyrics/YOASOBI - Orion - 6775750604.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31705,
-      "sha256": "8b233d65b0077110b70f5af6eea75319c39ad40121ef8d057f0633b01c1e7cf2"
+      "sizeBytes": 31720,
+      "sha256": "02608b84fe61ba4813cf70ec58aa06b8704cf3156732c9618cb7f7146503a251"
     },
     {
       "appleMusicId": 1584159576,
@@ -739,6 +739,17 @@
       "enabled": true,
       "sizeBytes": 59076,
       "sha256": "0252102a82dc14979f8f48a7ce6e3154199fb63144bd9fa14a96443c7bafb3a5"
+    },
+    {
+      "appleMusicId": 1588668629,
+      "artist": "YOASOBI",
+      "title": "Tsubame (feat. midories)",
+      "displayName": "Tsubame (feat. midories) - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Tsubame (feat. midories) - 1588668629.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 14483,
+      "sha256": "f6964e3335d337b306c1b43bab1682d7c67e914927739a484f3ba82f1fce3537"
     }
   ]
 }
