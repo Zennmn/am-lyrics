@@ -750,6 +750,17 @@
       "enabled": true,
       "sizeBytes": 14483,
       "sha256": "f6964e3335d337b306c1b43bab1682d7c67e914927739a484f3ba82f1fce3537"
+    },
+    {
+      "appleMusicId": 1615076981,
+      "artist": "Marika／Nao'ymt",
+      "title": "Lil' Goldfish",
+      "displayName": "Lil' Goldfish - Marika／Nao'ymt",
+      "path": "am-lyrics/Marika／Nao'ymt - Lil' Goldfish - 1615076981.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 43656,
+      "sha256": "417c941870df5f6684227e53f9bf228a429cb084f62ad8d0130acb433939925f"
     }
   ]
 }
