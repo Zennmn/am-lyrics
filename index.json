@@ -434,8 +434,8 @@
       "path": "am-lyrics/Kocchi No Kento - Hai Yorokonde - 1745488818.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37448,
-      "sha256": "30b9b96228c60256ba4a8bd3fcda9b8e88544af38c40815ea5a171bd7e0c21bb"
+      "sizeBytes": 25205,
+      "sha256": "abd962878ffcebc863d7b026ab5942ab3a51e1bf9b2ced59dd6ae1e7a62e157b"
     },
     {
       "appleMusicId": 1729853527,
@@ -649,8 +649,8 @@
       "path": "am-lyrics/YOASOBI - アイドル - 1679278167.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28156,
-      "sha256": "72dc504e2827a61e68deda8071a54b34ddb6c1b0f19cf8ba2269586b23ad20d1"
+      "sizeBytes": 28431,
+      "sha256": "10da9c9cac37bd11e7e3255a0fa05dcce64255b6583d7684b7d721de2e9acbe0"
     },
     {
       "appleMusicId": 1502298674,
@@ -715,8 +715,8 @@
       "path": "am-lyrics/YOASOBI - Orion - 6775750604.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31720,
-      "sha256": "02608b84fe61ba4813cf70ec58aa06b8704cf3156732c9618cb7f7146503a251"
+      "sizeBytes": 31758,
+      "sha256": "58841d6c38af85b242b8622b20a5134710269ab44c02c85ad92d8269886737df"
     },
     {
       "appleMusicId": 1584159576,
