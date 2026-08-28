@@ -3,18 +3,15 @@
   "layout": "artist-title-id",
   "entries": [
     {
-      "appleMusicId": 1445840922,
+      "appleMusicId": 1461280616,
       "artist": "OneRepublic",
       "title": "Good Life",
       "displayName": "Good Life - OneRepublic",
-      "path": "am-lyrics/OneRepublic - Good Life - 1445840922.ttml",
+      "path": "am-lyrics/OneRepublic - Good Life - 1461280616.ttml",
       "source": "manual",
       "enabled": true,
       "sizeBytes": 29542,
-      "sha256": "e8d432ff3b16378f08aa5ff5f7395e885b85e48af61de537c43408f36bf0f387",
-      "alternateIds": [
-        1461280616
-      ]
+      "sha256": "e8d432ff3b16378f08aa5ff5f7395e885b85e48af61de537c43408f36bf0f387"
     },
     {
       "appleMusicId": 1609445854,
