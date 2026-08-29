@@ -902,6 +902,17 @@
       "alternateIds": [
         6789684026
       ]
+    },
+    {
+      "appleMusicId": 1688968528,
+      "artist": "ZUTOMAYO",
+      "title": "Hanaichi Monnme",
+      "displayName": "Hanaichi Monnme - ZUTOMAYO",
+      "path": "am-lyrics/ZUTOMAYO - Hanaichi Monnme - 1688968528.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26959,
+      "sha256": "20caeccae201cbadaa2dcb5c13f76217a7d73f1ab2d6976ac49f20614b4424d9"
     }
   ]
 }
