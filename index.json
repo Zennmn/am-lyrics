@@ -128,8 +128,8 @@
       "path": "am-lyrics/MIREI - 春夏秋冬 reprise - 1555193623.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 53632,
-      "sha256": "b9aecfebd252e0635a8d8f93c7db3b8bfe210cb1b9fac147b2e73337ff882b80"
+      "sizeBytes": 41910,
+      "sha256": "43455c6601dad6a33cec83141c8bfe5d32aaed15e4e42f438da6a3089187ee98"
     },
     {
       "appleMusicId": 1538281338,
@@ -324,8 +324,8 @@
       "path": "am-lyrics/Rainych - Say So (Japanese Version) - 1505586937.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 33610,
-      "sha256": "e1a5260d841f87f3ab93d0e188a7d73c3a09c508cc8379561dd72cc2a826a930"
+      "sizeBytes": 28594,
+      "sha256": "7a0be79d1763dfa3a30d39d62882959599d9f84e6ce99f9901522e61d29f908e"
     },
     {
       "appleMusicId": 1559300640,
@@ -843,8 +843,8 @@
       "path": "am-lyrics/Ayase - 幽霊東京 - 1584159576.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29660,
-      "sha256": "ba3b62cd5b4563c8ccf9a56cacdcc5b0b86861a48ebe6fd8c523e4514717b00d"
+      "sizeBytes": 19642,
+      "sha256": "da85ac4706ef6ca53739062125a2115b04a5a236685b2c857bbde7050a1650e6"
     },
     {
       "appleMusicId": 1443866435,
