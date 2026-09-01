@@ -913,6 +913,17 @@
       "enabled": true,
       "sizeBytes": 26959,
       "sha256": "20caeccae201cbadaa2dcb5c13f76217a7d73f1ab2d6976ac49f20614b4424d9"
+    },
+    {
+      "appleMusicId": 1570795403,
+      "artist": "ZUTOMAYO",
+      "title": "Inside Joke",
+      "displayName": "Inside Joke - ZUTOMAYO",
+      "path": "am-lyrics/ZUTOMAYO - Inside Joke - 1570795403.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 37614,
+      "sha256": "f4d718b46fa0ae60c6df11e0dd1418a207f3856cbaf30511836cdfd5e0b6aebc"
     }
   ]
 }
