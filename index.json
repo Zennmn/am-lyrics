@@ -949,6 +949,17 @@
       "alternateIds": [
         1364030570
       ]
+    },
+    {
+      "appleMusicId": 1081573445,
+      "artist": "Lukas Graham",
+      "title": "7 Years",
+      "displayName": "7 Years - Lukas Graham",
+      "path": "am-lyrics/Lukas Graham - 7 Years - 1081573445.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 30017,
+      "sha256": "2188111f8311a960adb0843a46236fe9b6f58dba41c53b4f550336d74cc46af4"
     }
   ]
 }
