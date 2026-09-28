@@ -935,6 +935,17 @@
       "enabled": true,
       "sizeBytes": 27823,
       "sha256": "a13a20d086213f4aa4b84fe956f4b56822b81195b9aa471fa5c2a893a4abb8bd"
+    },
+    {
+      "appleMusicId": 1816252354,
+      "artist": "J.Fla",
+      "title": "Stay",
+      "displayName": "Stay - J.Fla",
+      "path": "am-lyrics/J.Fla - Stay - 1816252354.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 17464,
+      "sha256": "fbe09f5e0fa96b8ab51882733fa37084f4c3934a2e3bbbeab034201b097b1398"
     }
   ]
 }
