@@ -924,6 +924,17 @@
       "enabled": true,
       "sizeBytes": 37614,
       "sha256": "f4d718b46fa0ae60c6df11e0dd1418a207f3856cbaf30511836cdfd5e0b6aebc"
+    },
+    {
+      "appleMusicId": 1441728853,
+      "artist": "Alec Benjamin",
+      "title": "Gotta Be a Reason",
+      "displayName": "Gotta Be a Reason - Alec Benjamin",
+      "path": "am-lyrics/Alec Benjamin - Gotta Be a Reason - 1441728853.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27823,
+      "sha256": "a13a20d086213f4aa4b84fe956f4b56822b81195b9aa471fa5c2a893a4abb8bd"
     }
   ]
 }
