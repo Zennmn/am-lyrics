@@ -960,6 +960,17 @@
       "enabled": true,
       "sizeBytes": 29964,
       "sha256": "13c93af323afd291d1a16e859bab52dc4001ec76712ee007fb539b5bd3913340"
+    },
+    {
+      "appleMusicId": 1600659272,
+      "artist": "緑黄色社会",
+      "title": "ずっとずっとずっと",
+      "displayName": "ずっとずっとずっと - 緑黄色社会",
+      "path": "am-lyrics/緑黄色社会 - ずっとずっとずっと - 1600659272.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26674,
+      "sha256": "2e580323c89759edb030298a09af2f7cff00390345a1cbc7e1728da200532f8d"
     }
   ]
 }
