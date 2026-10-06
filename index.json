@@ -971,6 +971,17 @@
       "enabled": true,
       "sizeBytes": 26674,
       "sha256": "2e580323c89759edb030298a09af2f7cff00390345a1cbc7e1728da200532f8d"
+    },
+    {
+      "appleMusicId": 1721295079,
+      "artist": "YOASOBI",
+      "title": "HEART BEAT",
+      "displayName": "HEART BEAT - YOASOBI",
+      "path": "am-lyrics/YOASOBI - HEART BEAT - 1721295079.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 53706,
+      "sha256": "9184db46f86c26a309e4690586f5976e38af9be7acb774c7c7ab66b7c3cbf0d4"
     }
   ]
 }
