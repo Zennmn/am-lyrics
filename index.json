@@ -993,6 +993,17 @@
       "enabled": true,
       "sizeBytes": 21856,
       "sha256": "fecfff40e2e50fcd7a70379c47bc39f963fc253de563a1a8af5396d3634aa955"
+    },
+    {
+      "appleMusicId": 1081573461,
+      "artist": "Lukas Graham",
+      "title": "Mama Said",
+      "displayName": "Mama Said - Lukas Graham",
+      "path": "am-lyrics/Lukas Graham - Mama Said - 1081573461.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29954,
+      "sha256": "9692c08d4e08322039be1723dd9f53c386df965f438888cdbd0a1d53601420b3"
     }
   ]
 }
