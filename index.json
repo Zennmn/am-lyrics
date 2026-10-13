@@ -1018,6 +1018,17 @@
       "alternateIds": [
         675919330
       ]
+    },
+    {
+      "appleMusicId": 1401489355,
+      "artist": "OneRepublic",
+      "title": "Connection",
+      "displayName": "Connection - OneRepublic",
+      "path": "am-lyrics/OneRepublic - Connection - 1401489355.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 23539,
+      "sha256": "ccb961cf19cc53bfe99c1e5ba1301f255ecccaa83acb128383a1961f9aecefc7"
     }
   ]
 }
