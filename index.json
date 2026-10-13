@@ -1029,6 +1029,17 @@
       "enabled": true,
       "sizeBytes": 23539,
       "sha256": "ccb961cf19cc53bfe99c1e5ba1301f255ecccaa83acb128383a1961f9aecefc7"
+    },
+    {
+      "appleMusicId": 1463236498,
+      "artist": "OneRepublic",
+      "title": "Rescue Me",
+      "displayName": "Rescue Me - OneRepublic",
+      "path": "am-lyrics/OneRepublic - Rescue Me - 1463236498.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 31041,
+      "sha256": "c1e6e1e34c8ae38c63d2f7a53101c3b8dc891712590739471b9cf398eda811f3"
     }
   ]
 }
