@@ -1004,6 +1004,17 @@
       "enabled": true,
       "sizeBytes": 29954,
       "sha256": "9692c08d4e08322039be1723dd9f53c386df965f438888cdbd0a1d53601420b3"
+    },
+    {
+      "appleMusicId": 1795032540,
+      "artist": "Michita",
+      "title": "Cry For Me (feat. Ami)",
+      "displayName": "Cry For Me (feat. Ami) - Michita",
+      "path": "am-lyrics/Michita - Cry For Me (feat. Ami) - 1795032540.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 17917,
+      "sha256": "cd3a28925f4ef2a3306397a827e025b5a152b2692fd696ce82dcf0eec863273f"
     }
   ]
 }
