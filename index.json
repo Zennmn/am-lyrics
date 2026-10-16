@@ -1040,6 +1040,17 @@
       "enabled": true,
       "sizeBytes": 31041,
       "sha256": "c1e6e1e34c8ae38c63d2f7a53101c3b8dc891712590739471b9cf398eda811f3"
+    },
+    {
+      "appleMusicId": 1441728727,
+      "artist": "Alec Benjamin",
+      "title": "Let Me Down Slowly",
+      "displayName": "Let Me Down Slowly - Alec Benjamin",
+      "path": "am-lyrics/Alec Benjamin - Let Me Down Slowly - 1441728727.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27904,
+      "sha256": "2c4869a6ab35eca1c6b53639186295d7b6584190e20dcdfb869f7952caf7c628"
     }
   ]
 }
