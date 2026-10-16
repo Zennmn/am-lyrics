@@ -1051,6 +1051,17 @@
       "enabled": true,
       "sizeBytes": 27904,
       "sha256": "2c4869a6ab35eca1c6b53639186295d7b6584190e20dcdfb869f7952caf7c628"
+    },
+    {
+      "appleMusicId": 1441728724,
+      "artist": "Alec Benjamin",
+      "title": "If We Have Each Other",
+      "displayName": "If We Have Each Other - Alec Benjamin",
+      "path": "am-lyrics/Alec Benjamin - If We Have Each Other - 1441728724.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 35511,
+      "sha256": "a2889abfab7b48239715583eaff226fd54c277d69a4869c1f691f771336f81f8"
     }
   ]
 }
