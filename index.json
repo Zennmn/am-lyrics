@@ -1062,6 +1062,17 @@
       "enabled": true,
       "sizeBytes": 35511,
       "sha256": "a2889abfab7b48239715583eaff226fd54c277d69a4869c1f691f771336f81f8"
+    },
+    {
+      "appleMusicId": 1808885814,
+      "artist": "J.Fla",
+      "title": "FRIENDS",
+      "displayName": "FRIENDS - J.Fla",
+      "path": "am-lyrics/J.Fla - FRIENDS - 1808885814.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 21034,
+      "sha256": "f5cb12df5121154923de8c81fbbedd1029d4bc666e1474218135fbecf7f49e51"
     }
   ]
 }
