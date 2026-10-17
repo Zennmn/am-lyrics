@@ -1073,6 +1073,17 @@
       "enabled": true,
       "sizeBytes": 21033,
       "sha256": "a45f286f7fa727f1f3ec6fdfc4b4ff50b0c1e119a963afbee401f701e01c3ef9"
+    },
+    {
+      "appleMusicId": 1502298687,
+      "artist": "OneRepublic",
+      "title": "Wanted",
+      "displayName": "Wanted - OneRepublic",
+      "path": "am-lyrics/OneRepublic - Wanted - 1502298687.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 21482,
+      "sha256": "37ed8e169d8d22b58ca322d87c3cd88e286d8ee79e23c6c9f0ecd5a042fe5f73"
     }
   ]
 }
