@@ -1120,6 +1120,17 @@
       "enabled": true,
       "sizeBytes": 25179,
       "sha256": "506cc409ea27bfc0aa4506fa5dbb4f17308b74b152886abb68a3155e27eb9b04"
+    },
+    {
+      "appleMusicId": 1437948983,
+      "artist": "Imagine Dragons",
+      "title": "Machine",
+      "displayName": "Machine - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Machine - 1437948983.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 22777,
+      "sha256": "2656a310b257821ebd48120661dd518cf8ab1c263beec8805ca65610eec4d5fa"
     }
   ]
 }
