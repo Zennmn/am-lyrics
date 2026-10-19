@@ -1131,6 +1131,17 @@
       "enabled": true,
       "sizeBytes": 22777,
       "sha256": "2656a310b257821ebd48120661dd518cf8ab1c263beec8805ca65610eec4d5fa"
+    },
+    {
+      "appleMusicId": 1437948991,
+      "artist": "Imagine Dragons",
+      "title": "Zero (From \"Ralph Breaks the Internet\")",
+      "displayName": "Zero (From \"Ralph Breaks the Internet\") - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Zero (From 、Ralph Breaks the Internet、) - 1437948991.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 36671,
+      "sha256": "6cb8c50d07fb37bbb918780e1d55c761aee3e92499b08718b5c361b1fc1327a5"
     }
   ]
 }
