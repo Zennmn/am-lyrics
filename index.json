@@ -1164,6 +1164,17 @@
       "enabled": true,
       "sizeBytes": 21658,
       "sha256": "750e7aa5e1d2b5d262a4df66dcb19a068d9423c48323cf4fe97f57fc47dae627"
+    },
+    {
+      "appleMusicId": 1437949214,
+      "artist": "Imagine Dragons",
+      "title": "Stuck",
+      "displayName": "Stuck - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Stuck - 1437949214.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 23623,
+      "sha256": "d954c5f0dd04522ef0cd47f6e085343da0921e29a67c4c4bb1f0a4cbd1e04fb2"
     }
   ]
 }
