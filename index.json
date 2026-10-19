@@ -1109,6 +1109,17 @@
       "enabled": true,
       "sizeBytes": 30449,
       "sha256": "7ce11fda970a4cf8e8cfc588646b1106d683d621a15cc8b099fd2b7b7a60b7c2"
+    },
+    {
+      "appleMusicId": 1437948985,
+      "artist": "Imagine Dragons",
+      "title": "Cool Out",
+      "displayName": "Cool Out - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Cool Out - 1437948985.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 25179,
+      "sha256": "506cc409ea27bfc0aa4506fa5dbb4f17308b74b152886abb68a3155e27eb9b04"
     }
   ]
 }
