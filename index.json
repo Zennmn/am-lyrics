@@ -1087,6 +1087,17 @@
       "alternateIds": [
         1828512794
       ]
+    },
+    {
+      "appleMusicId": 1536633324,
+      "artist": "MIREI",
+      "title": "iyaiiya",
+      "displayName": "iyaiiya - MIREI",
+      "path": "am-lyrics/MIREI - iyaiiya - 1536633324.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 34433,
+      "sha256": "2a8c87dc2e0e4db8588b0ca86c8a974aea75c4ddb93729f5a4a58ca42508e89b"
     }
   ]
 }
