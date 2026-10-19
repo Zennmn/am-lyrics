@@ -1142,6 +1142,17 @@
       "enabled": true,
       "sizeBytes": 36671,
       "sha256": "288c9871f1af2c152e580669c3f2a910cae666a0e74afec5bb48365a63915bfc"
+    },
+    {
+      "appleMusicId": 1437949212,
+      "artist": "Imagine Dragons",
+      "title": "Only",
+      "displayName": "Only - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Only - 1437949212.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24653,
+      "sha256": "303de9b9c44aff25051fac0068c21cd2aa3fa30c21c20b06c67b1404e9129d38"
     }
   ]
 }
