@@ -1098,6 +1098,17 @@
       "enabled": true,
       "sizeBytes": 34803,
       "sha256": "0278505c73944d921efc2119f44ae82d7efa6d94c7c9a5fab1f3d8c74134c603"
+    },
+    {
+      "appleMusicId": 1437948996,
+      "artist": "Imagine Dragons",
+      "title": "Digital",
+      "displayName": "Digital - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Digital - 1437948996.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 30449,
+      "sha256": "7ce11fda970a4cf8e8cfc588646b1106d683d621a15cc8b099fd2b7b7a60b7c2"
     }
   ]
 }
