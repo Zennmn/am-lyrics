@@ -1186,6 +1186,17 @@
       "enabled": true,
       "sizeBytes": 32617,
       "sha256": "9d36ee162dddf445282f6f903f5c1f8ec2b925898f869d6a6af07ab0c91459f5"
+    },
+    {
+      "appleMusicId": 1437949222,
+      "artist": "Imagine Dragons",
+      "title": "Real Life",
+      "displayName": "Real Life - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Real Life - 1437949222.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 19542,
+      "sha256": "1111e645f443272cd6aa987fa65a49d55ca2daa1fb5860282ceb380ba0c8fd3a"
     }
   ]
 }
