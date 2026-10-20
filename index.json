@@ -1208,6 +1208,17 @@
       "enabled": true,
       "sizeBytes": 24534,
       "sha256": "841eaa325216d4206c352931940f5cf5925e5bcfd6550ce62947b9b41a976340"
+    },
+    {
+      "appleMusicId": 1437948981,
+      "artist": "Imagine Dragons",
+      "title": "Boomerang",
+      "displayName": "Boomerang - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Boomerang - 1437948981.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24478,
+      "sha256": "2223ed84000a014ca6aa4e7aa0a92e3b088c4a6b37425349393b5de68e5daf33"
     }
   ]
 }
