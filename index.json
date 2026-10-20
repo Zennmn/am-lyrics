@@ -1197,6 +1197,17 @@
       "enabled": true,
       "sizeBytes": 19542,
       "sha256": "1111e645f443272cd6aa987fa65a49d55ca2daa1fb5860282ceb380ba0c8fd3a"
+    },
+    {
+      "appleMusicId": 1437948990,
+      "artist": "Imagine Dragons",
+      "title": "West Coast",
+      "displayName": "West Coast - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - West Coast - 1437948990.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24442,
+      "sha256": "819cb062eeb52ecc59052f11c181f9dabdfd2751be2aa58483e5086f4d0f143c"
     }
   ]
 }
