@@ -1219,6 +1219,17 @@
       "enabled": true,
       "sizeBytes": 24478,
       "sha256": "2223ed84000a014ca6aa4e7aa0a92e3b088c4a6b37425349393b5de68e5daf33"
+    },
+    {
+      "appleMusicId": 1833385237,
+      "artist": "无畏契约",
+      "title": "TICKING AWAY",
+      "displayName": "TICKING AWAY - 无畏契约",
+      "path": "am-lyrics/无畏契约 - TICKING AWAY - 1833385237.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 21369,
+      "sha256": "360fce1323113c12976cc1c1bc729f17b63f7ba56a28b83ec23d909b674ff7b1"
     }
   ]
 }
