@@ -1233,6 +1233,17 @@
       "alternateIds": [
         1833385238
       ]
+    },
+    {
+      "appleMusicId": 1832097286,
+      "artist": "347aidan",
+      "title": "Last Shot",
+      "displayName": "Last Shot - 347aidan",
+      "path": "am-lyrics/347aidan - Last Shot - 1832097286.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27233,
+      "sha256": "c8ce62778223cf1fa07502a80cbc88857d7a227152d2a2cca2eba2c2882e06b3"
     }
   ]
 }
