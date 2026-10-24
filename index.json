@@ -1266,6 +1266,20 @@
       "enabled": true,
       "sizeBytes": 30633,
       "sha256": "6644a8a279d571c2522d5e288e414c4c05babc7c4149aff2744810ffc6aa150f"
+    },
+    {
+      "appleMusicId": 1555193628,
+      "artist": "MIREI",
+      "title": "Giai",
+      "displayName": "Giai - MIREI",
+      "path": "am-lyrics/MIREI - Giai - 1555193628.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 39991,
+      "sha256": "08101535c2e1e910d63d75984a83b0581e7562bb084539a708646222348df204",
+      "alternateIds": [
+        1534682814
+      ]
     }
   ]
 }
