@@ -1255,6 +1255,17 @@
       "enabled": true,
       "sizeBytes": 48252,
       "sha256": "70b6a13002499b136cdb77db9f7630e4483d1eb37e112c61f366341367419de0"
+    },
+    {
+      "appleMusicId": 1555193620,
+      "artist": "MIREI",
+      "title": "Wake Atte",
+      "displayName": "Wake Atte - MIREI",
+      "path": "am-lyrics/MIREI - Wake Atte - 1555193620.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 30633,
+      "sha256": "6644a8a279d571c2522d5e288e414c4c05babc7c4149aff2744810ffc6aa150f"
     }
   ]
 }
