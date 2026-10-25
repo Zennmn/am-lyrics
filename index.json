@@ -1302,6 +1302,17 @@
       "enabled": true,
       "sizeBytes": 15497,
       "sha256": "0dd7c8a265506cc8b6c57342800fd32d2193039a66ca9da7af442ecfb8761bd7"
+    },
+    {
+      "appleMusicId": 1528119630,
+      "artist": "YOASOBI",
+      "title": "Gunjou",
+      "displayName": "Gunjou - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Gunjou - 1528119630.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 28783,
+      "sha256": "b4551f6540a8e4a448e9d23eb2e7aaf5b4b82dc7b2a378bc98c4451e46e3c95e"
     }
   ]
 }
