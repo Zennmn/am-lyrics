@@ -1324,6 +1324,17 @@
       "enabled": true,
       "sizeBytes": 19699,
       "sha256": "d752cda8244a0e7401be5cc6d66674e9575f8efb41464d5a7f701f3ae07daef2"
+    },
+    {
+      "appleMusicId": 1645308331,
+      "artist": "YOASOBI",
+      "title": "The Blessing",
+      "displayName": "The Blessing - YOASOBI",
+      "path": "am-lyrics/YOASOBI - The Blessing - 1645308331.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 22404,
+      "sha256": "204f8b350c095c0c9e1f656b20806a802a34739df64c126fcc49d5a5e5b38c53"
     }
   ]
 }
