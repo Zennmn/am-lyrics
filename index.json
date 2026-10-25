@@ -1280,6 +1280,17 @@
       "alternateIds": [
         1534682814
       ]
+    },
+    {
+      "appleMusicId": 1831861474,
+      "artist": "K/DA, Madison Beer & i-dle",
+      "title": "POP/STARS (feat. Jaira Burns & League of Legends Music)",
+      "displayName": "POP/STARS (feat. Jaira Burns & League of Legends Music) - K/DA, Madison Beer & i-dle",
+      "path": "am-lyrics/K、DA, Madison Beer & i-dle - POP、STARS (feat. Jaira Burns & League of Legends Music) - 1831861474.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 40665,
+      "sha256": "a711741725deb512d60c0ed75dfeea6f8c96870fa2c030fe46eb0b73c5d6d682"
     }
   ]
 }
