@@ -1291,6 +1291,17 @@
       "enabled": true,
       "sizeBytes": 40665,
       "sha256": "b203046600ce337456d74577ad1abe0cfa54e27485e0838fff6841b3dec5ff43"
+    },
+    {
+      "appleMusicId": 1547210425,
+      "artist": "YOASOBI",
+      "title": "Comet",
+      "displayName": "Comet - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Comet - 1547210425.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 15497,
+      "sha256": "0dd7c8a265506cc8b6c57342800fd32d2193039a66ca9da7af442ecfb8761bd7"
     }
   ]
 }
