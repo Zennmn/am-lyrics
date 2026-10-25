@@ -1313,6 +1313,17 @@
       "enabled": true,
       "sizeBytes": 28783,
       "sha256": "b4551f6540a8e4a448e9d23eb2e7aaf5b4b82dc7b2a378bc98c4451e46e3c95e"
+    },
+    {
+      "appleMusicId": 1544083979,
+      "artist": "YOASOBI",
+      "title": "Monster",
+      "displayName": "Monster - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Monster - 1544083979.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 19699,
+      "sha256": "d752cda8244a0e7401be5cc6d66674e9575f8efb41464d5a7f701f3ae07daef2"
     }
   ]
 }
