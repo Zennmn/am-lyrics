@@ -1335,6 +1335,17 @@
       "enabled": true,
       "sizeBytes": 22404,
       "sha256": "204f8b350c095c0c9e1f656b20806a802a34739df64c126fcc49d5a5e5b38c53"
+    },
+    {
+      "appleMusicId": 1490256995,
+      "artist": "YOASOBI",
+      "title": "夜に駆ける",
+      "displayName": "夜に駆ける - YOASOBI",
+      "path": "am-lyrics/YOASOBI - 夜に駆ける - 1490256995.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27145,
+      "sha256": "94f87cc0dedc93f4c6076a71d796852cda5450a7f13d4e5c0eb4d6dc644c7694"
     }
   ]
 }
