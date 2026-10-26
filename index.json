@@ -1357,6 +1357,17 @@
       "enabled": true,
       "sizeBytes": 31170,
       "sha256": "b222450334bdc7b05e96f209db603fcc1f23a8df1159105db8e6de4c260a899f"
+    },
+    {
+      "appleMusicId": 1538283043,
+      "artist": "MIREI",
+      "title": "Dear My Boo",
+      "displayName": "Dear My Boo - MIREI",
+      "path": "am-lyrics/MIREI - Dear My Boo - 1538283043.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 32876,
+      "sha256": "650b13b2357d8f5bed61fd1482475f3095df274704f449e559f1fa8b4f70903e"
     }
   ]
 }
