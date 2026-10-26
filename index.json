@@ -1368,6 +1368,17 @@
       "enabled": true,
       "sizeBytes": 32876,
       "sha256": "650b13b2357d8f5bed61fd1482475f3095df274704f449e559f1fa8b4f70903e"
+    },
+    {
+      "appleMusicId": 1538283044,
+      "artist": "MIREI",
+      "title": "P.S. Toushindai No Love Song",
+      "displayName": "P.S. Toushindai No Love Song - MIREI",
+      "path": "am-lyrics/MIREI - P.S. Toushindai No Love Song - 1538283044.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 40568,
+      "sha256": "e4ca9291c281cfcd37ecbc9011b62c727eee6d9e1b8a0828cd481ad5673fac30"
     }
   ]
 }
