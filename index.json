@@ -1379,6 +1379,17 @@
       "enabled": true,
       "sizeBytes": 40568,
       "sha256": "e4ca9291c281cfcd37ecbc9011b62c727eee6d9e1b8a0828cd481ad5673fac30"
+    },
+    {
+      "appleMusicId": 1538283047,
+      "artist": "MIREI",
+      "title": "Tiger",
+      "displayName": "Tiger - MIREI",
+      "path": "am-lyrics/MIREI - Tiger - 1538283047.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 34921,
+      "sha256": "90b681588b0ee2586ede2a7bc7b4c59e21ff739a39e37dfd523719a214760850"
     }
   ]
 }
