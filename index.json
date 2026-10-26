@@ -1423,6 +1423,17 @@
       "enabled": true,
       "sizeBytes": 22552,
       "sha256": "da1107e2c0a08e2180c284a641498799de55e9f6bb558b0da981db5dc18b197c"
+    },
+    {
+      "appleMusicId": 1538283052,
+      "artist": "MIREI",
+      "title": "Kimi No Sukina Uta",
+      "displayName": "Kimi No Sukina Uta - MIREI",
+      "path": "am-lyrics/MIREI - Kimi No Sukina Uta - 1538283052.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29797,
+      "sha256": "9be262ad30b25036195f855b9dcfc156d6e002f9645da3465cbeec168b41da3d"
     }
   ]
 }
