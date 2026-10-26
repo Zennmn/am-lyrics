@@ -1412,6 +1412,17 @@
       "enabled": true,
       "sizeBytes": 33663,
       "sha256": "f659fe647f2d6e7593ebd0f0eb8e52f34cc638e19a2bd4db42685273e5037620"
+    },
+    {
+      "appleMusicId": 1538283051,
+      "artist": "MIREI",
+      "title": "Missing You",
+      "displayName": "Missing You - MIREI",
+      "path": "am-lyrics/MIREI - Missing You - 1538283051.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 22552,
+      "sha256": "da1107e2c0a08e2180c284a641498799de55e9f6bb558b0da981db5dc18b197c"
     }
   ]
 }
