@@ -1346,6 +1346,17 @@
       "enabled": true,
       "sizeBytes": 27145,
       "sha256": "94f87cc0dedc93f4c6076a71d796852cda5450a7f13d4e5c0eb4d6dc644c7694"
+    },
+    {
+      "appleMusicId": 6817668876,
+      "artist": "YOASOBI",
+      "title": "The Bloom",
+      "displayName": "The Bloom - YOASOBI",
+      "path": "am-lyrics/YOASOBI - The Bloom - 6817668876.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 31170,
+      "sha256": "b222450334bdc7b05e96f209db603fcc1f23a8df1159105db8e6de4c260a899f"
     }
   ]
 }
