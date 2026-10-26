@@ -1434,6 +1434,17 @@
       "enabled": true,
       "sizeBytes": 29797,
       "sha256": "9be262ad30b25036195f855b9dcfc156d6e002f9645da3465cbeec168b41da3d"
+    },
+    {
+      "appleMusicId": 1538283053,
+      "artist": "MIREI",
+      "title": "Answer",
+      "displayName": "Answer - MIREI",
+      "path": "am-lyrics/MIREI - Answer - 1538283053.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 36790,
+      "sha256": "4e68eac97098eb28889c4978c1fef6f2d33fc9208e67d8b714a71a5afa252e30"
     }
   ]
 }
