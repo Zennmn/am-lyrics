@@ -1390,6 +1390,17 @@
       "enabled": true,
       "sizeBytes": 34921,
       "sha256": "90b681588b0ee2586ede2a7bc7b4c59e21ff739a39e37dfd523719a214760850"
+    },
+    {
+      "appleMusicId": 1538283048,
+      "artist": "MIREI",
+      "title": "By Your Side",
+      "displayName": "By Your Side - MIREI",
+      "path": "am-lyrics/MIREI - By Your Side - 1538283048.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29510,
+      "sha256": "36ea2ff41d0d24ae3dd349f5ec924608b7bcaaff2ec7603614d455795cf22431"
     }
   ]
 }
