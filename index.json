@@ -1401,6 +1401,17 @@
       "enabled": true,
       "sizeBytes": 29510,
       "sha256": "36ea2ff41d0d24ae3dd349f5ec924608b7bcaaff2ec7603614d455795cf22431"
+    },
+    {
+      "appleMusicId": 1538283049,
+      "artist": "MIREI",
+      "title": "Neiro Regards",
+      "displayName": "Neiro Regards - MIREI",
+      "path": "am-lyrics/MIREI - Neiro Regards - 1538283049.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 33663,
+      "sha256": "f659fe647f2d6e7593ebd0f0eb8e52f34cc638e19a2bd4db42685273e5037620"
     }
   ]
 }
