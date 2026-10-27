@@ -146,17 +146,6 @@
       ]
     },
     {
-      "appleMusicId": 1158609134,
-      "artist": "Mili",
-      "title": "world.execute (me) ;",
-      "displayName": "world.execute (me) ; - Mili",
-      "path": "am-lyrics/Mili - world.execute (me) ; - 1158609134.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 31091,
-      "sha256": "3fa028cb1361278946baa90e8e2bfab0012a964d50b3ff8fe8d03a6832b1bec0"
-    },
-    {
       "appleMusicId": 1556607963,
       "artist": "Rainych & evening cinema",
       "title": "RIDE ON TIME",
@@ -217,31 +206,6 @@
       "alternateIds": [
         1555193626
       ]
-    },
-    {
-      "appleMusicId": 1778233191,
-      "artist": "YOASOBI",
-      "title": "New me",
-      "displayName": "New me - YOASOBI",
-      "path": "am-lyrics/YOASOBI - New me - 1778233191.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 25496,
-      "sha256": "e28e33b83c664d889945ea822bc4f9763c8a3c3c247f7b582aa7c816d9824550",
-      "alternateIds": [
-        6775750942
-      ]
-    },
-    {
-      "appleMusicId": 1725802551,
-      "artist": "Minami",
-      "title": "Kawakiwoameku",
-      "displayName": "Kawakiwoameku - Minami",
-      "path": "am-lyrics/Minami - Kawakiwoameku - 1725802551.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 38947,
-      "sha256": "a35dee9cec6915896af6bde505c50d1f57df062b7153f3bdef2d2c739b6b6d99"
     },
     {
       "appleMusicId": 1537404923,
@@ -569,20 +533,6 @@
       ]
     },
     {
-      "appleMusicId": 1617908915,
-      "artist": "Imagine Dragons",
-      "title": "Lonely",
-      "displayName": "Lonely - Imagine Dragons",
-      "path": "am-lyrics/Imagine Dragons - Lonely - 1617908915.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 35176,
-      "sha256": "688d02fcc5a9c74c09ebd77bfa248edd4a20e03ef9856e81252fbb8afb46e760",
-      "alternateIds": [
-        1574210890
-      ]
-    },
-    {
       "appleMusicId": 1440134010,
       "artist": "ZUTOMAYO",
       "title": "Byoushinwo Kamu",
@@ -797,20 +747,6 @@
       "sha256": "37d6bd65734b15f714134616e0c576bcc272f97380b9c52227a1fa24f472c872"
     },
     {
-      "appleMusicId": 1520198760,
-      "artist": "YOASOBI",
-      "title": "Probably",
-      "displayName": "Probably - YOASOBI",
-      "path": "am-lyrics/YOASOBI - Probably - 1520198760.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 22557,
-      "sha256": "585fca0e4c086e0a71712abde9fd63c2a20711c208af5d30ee73fd496782c132",
-      "alternateIds": [
-        1542182550
-      ]
-    },
-    {
       "appleMusicId": 1638045618,
       "artist": "YOASOBI",
       "title": "Moshimo inochiga egaketara",
@@ -845,24 +781,6 @@
       "enabled": true,
       "sizeBytes": 29247,
       "sha256": "3972b8733ceaeec27ace07ff59435e469372d6b6d57a291d8db9b92c241590ba"
-    },
-    {
-      "appleMusicId": 1443866435,
-      "artist": "张敬轩",
-      "title": "吻得太逼真",
-      "displayName": "吻得太逼真 - 张敬轩",
-      "path": "am-lyrics/张敬轩 - 吻得太逼真 - 1443866435.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 59076,
-      "sha256": "0252102a82dc14979f8f48a7ce6e3154199fb63144bd9fa14a96443c7bafb3a5",
-      "alternateIds": [
-        1443824421,
-        1493753744,
-        1574887564,
-        1442420017,
-        1716638898
-      ]
     },
     {
       "appleMusicId": 1588668629,
