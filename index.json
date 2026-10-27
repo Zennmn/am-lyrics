@@ -1445,6 +1445,17 @@
       "enabled": true,
       "sizeBytes": 36790,
       "sha256": "4e68eac97098eb28889c4978c1fef6f2d33fc9208e67d8b714a71a5afa252e30"
+    },
+    {
+      "appleMusicId": 1437948994,
+      "artist": "Imagine Dragons",
+      "title": "Bullet In a Gun",
+      "displayName": "Bullet In a Gun - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Bullet In a Gun - 1437948994.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 28211,
+      "sha256": "235d85a00dabf9e39bd475fa78a37051327ade9f4a91261962afea2e63c9ddd7"
     }
   ]
 }
