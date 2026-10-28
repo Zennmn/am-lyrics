@@ -1428,10 +1428,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 26909,
-      "sha256": "1d8c27b6c414d2acf048f37aab19b5cd77d264a22b85139f30c393b90c82c099",
-      "alternateIds": [
-        1671948401
-      ]
+      "sha256": "1d8c27b6c414d2acf048f37aab19b5cd77d264a22b85139f30c393b90c82c099"
     },
     {
       "appleMusicId": 1543594895,
@@ -1487,6 +1484,17 @@
       "enabled": true,
       "sizeBytes": 16019,
       "sha256": "6068e0dc62cb7a5c78424f1e6d48b0dbbaea8924422b688eb23d384015c0ec8e"
+    },
+    {
+      "appleMusicId": 1671948401,
+      "artist": "Lilas",
+      "title": "Answer",
+      "displayName": "Answer - Lilas",
+      "path": "am-lyrics/Lilas - Answer - 1671948401.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26950,
+      "sha256": "e3b897f129f622432fd96c357810f7db2bf60061eb0cfaee3fe4be45426fdf3a"
     }
   ]
 }
