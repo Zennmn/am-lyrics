@@ -1473,6 +1473,17 @@
       "enabled": true,
       "sizeBytes": 20959,
       "sha256": "5b041568d0f3ba7366f851a41b8ea69780e8a71df7fa7da6b171be9768da71ef"
+    },
+    {
+      "appleMusicId": 1857886416,
+      "artist": "Lilas",
+      "title": "In Bloom",
+      "displayName": "In Bloom - Lilas",
+      "path": "am-lyrics/Lilas - In Bloom - 1857886416.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 16019,
+      "sha256": "6068e0dc62cb7a5c78424f1e6d48b0dbbaea8924422b688eb23d384015c0ec8e"
     }
   ]
 }
