@@ -1418,6 +1418,61 @@
       "enabled": true,
       "sizeBytes": 26001,
       "sha256": "8f86112d5bc8f43bd67bfc57e78be49f86a67c40a46d355961aa312224d0557e"
+    },
+    {
+      "appleMusicId": 1554086499,
+      "artist": "Lilas",
+      "title": "Answer",
+      "displayName": "Answer - Lilas",
+      "path": "am-lyrics/Lilas - Answer - 1554086499.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26909,
+      "sha256": "1d8c27b6c414d2acf048f37aab19b5cd77d264a22b85139f30c393b90c82c099"
+    },
+    {
+      "appleMusicId": 1543594895,
+      "artist": "Lilas",
+      "title": "HIkari",
+      "displayName": "HIkari - Lilas",
+      "path": "am-lyrics/Lilas - HIkari - 1543594895.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26432,
+      "sha256": "64ff87701e1b9bdf40f7e274a3d8fc0c468efdfe558912b3bf93be83526998f0"
+    },
+    {
+      "appleMusicId": 1671948838,
+      "artist": "Lilas",
+      "title": "JUMP",
+      "displayName": "JUMP - Lilas",
+      "path": "am-lyrics/Lilas - JUMP - 1671948838.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 20743,
+      "sha256": "db2ce626942849f99baf235e9b5e90c30a173b284472cec325e675b2a08dcec9"
+    },
+    {
+      "appleMusicId": 1671948843,
+      "artist": "Lilas",
+      "title": "Kichijoji",
+      "displayName": "Kichijoji - Lilas",
+      "path": "am-lyrics/Lilas - Kichijoji - 1671948843.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 21675,
+      "sha256": "acb497fb68f92552ccfc5c3587a17f21284eb5d231ff8daf849ac24250ad9dd0"
+    },
+    {
+      "appleMusicId": 1671948834,
+      "artist": "Lilas",
+      "title": "Midnight Talk",
+      "displayName": "Midnight Talk - Lilas",
+      "path": "am-lyrics/Lilas - Midnight Talk - 1671948834.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 20959,
+      "sha256": "5b041568d0f3ba7366f851a41b8ea69780e8a71df7fa7da6b171be9768da71ef"
     }
   ]
 }
