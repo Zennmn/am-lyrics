@@ -1385,6 +1385,17 @@
       "enabled": true,
       "sizeBytes": 20507,
       "sha256": "66a5758aba710ea9ecbc7b6fae0c564bdea75c9f2beb6a5ee253871257c22658"
+    },
+    {
+      "appleMusicId": 1440840442,
+      "artist": "Glass Animals",
+      "title": "The Other Side of Paradise",
+      "displayName": "The Other Side of Paradise - Glass Animals",
+      "path": "am-lyrics/Glass Animals - The Other Side of Paradise - 1440840442.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 25936,
+      "sha256": "2abfc806e53970bdf2cf8b8cb51f132821d61fd1b3eea03fa7dd649d95713739"
     }
   ]
 }
