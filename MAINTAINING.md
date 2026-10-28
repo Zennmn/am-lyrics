@@ -6,7 +6,7 @@
 
 收到歌词投稿 Issue 后，逐项检查：
 
-1. **Apple Music ID**：必须是正整数，且与 `index.json` 中已有条目不重复（含其他条目的 `alternateIds`）。投稿注明其他地区 ID 时，作为 `alternateIds` 收录。
+1. **Apple Music ID**：必须是正整数，且与 `index.json` 中已有条目不重复（含其他条目的 `alternateIds`）。投稿注明其他地区 ID 时，只有同专辑且时间轴相同才作为 `alternateIds` 收录。
 2. **歌手 / 歌名**：填写是否清晰，与投稿文件内容一致。
 3. **TTML 内容**：
    - 是 Apple Music Word-TTML，包含 `<tt>`、`<body>`、逐词 `<span>` 时间轴。
@@ -17,16 +17,30 @@
 
 审核通过后在 Issue 回复"已通过，正在上传"；不通过则回复原因（ID 重复、TTML 无效、缺少版权声明等），可关闭 Issue。
 
-## 二、快速上传（推荐，使用脚本）
+## 二、自己快速上传（推荐）
+
+把多个 TTML 文件一起拖到仓库根目录的 `upload-lyrics.cmd` 上，即可批量上传；单文件拖拽仍可照常使用。也可以只上传一个文件，在仓库根目录运行：
+
+```powershell
+.\upload-lyrics.cmd "C:\歌词\歌手 - 歌名 - 123456789.ttml"
+```
+
+脚本会从规范文件名或 TTML 内的 AMLL 元数据自动识别歌手、歌名和 Apple Music ID，缺少时再询问；冲突时提示并默认使用文件名。批量上传会先逐首完成整批 TTML 校验和变更汇总；任一文件未通过校验，整批停止且不会改动仓库。全部通过后只需确认一次，随后统一更新歌词与索引，有实际改动时只创建一个提交并推送。要求 PowerShell 7、Python 3、Git 和推送权限；如果推送失败，本地提交会保留，可处理报错后运行 `git push origin main`。
+
+同一 Apple Music ID 不能重复出现在本批多个文件的主 ID 或备用 ID 中；遇到重复时，脚本会提示并停止。
+
+批量和单文件上传都沿用同一套重复上传规则：歌手和歌名相同的新 ID 若专辑不同，或时间轴不同，会新建独立条目和歌词文件；只有专辑与时间轴都相同，才加入对应条目的 `alternateIds`。已有主 ID 对应的歌词内容不同时会覆盖原文件并重算大小和哈希，内容相同则跳过；备用 ID 不会覆盖主条目的歌词。即使上传文件里的歌手名或歌名与已匹配的 ID 不同，也按索引记录更新。同名条目有多条时，脚本会按专辑和时间轴匹配，仍无法确定时请指定目标主 ID。旧索引条目缺少 `album` 时，脚本会从对应 TTML 读取；`alternateIds` 目前不参与 AM++ 的导入匹配。
+
+只想更新工作区、不自动提交推送时，继续使用底层脚本：
 
 ```powershell
 # 在本仓库根目录执行
-.\tools\add-lyrics.ps1 -AppleMusicId 123456789 -Artist "歌手名" -Title "歌名" -TtmlPath "C:\path\to\投稿的.ttml" -AlternateIds 987654321,555555555
+.\tools\add-lyrics.ps1 -AppleMusicId 123456789 -Artist "歌手名" -Title "歌名" -Album "专辑名" -TtmlPath "C:\path\to\投稿的.ttml" -AlternateIds 987654321,555555555
 ```
 
-脚本会自动：校验 TTML 和 ID 重复（含备用 ID）、按 `歌手 - 歌名 - AppleMusicID.ttml` 命名、复制文件、计算 `sizeBytes`/`sha256` 并追加到 `index.json`（可选 `-AlternateIds` 收录其他地区 ID，逗号分隔）。
+脚本会自动：校验 TTML 和 ID 重复（含备用 ID）、按 `歌手 - 歌名 - AppleMusicID.ttml` 命名、复制文件、计算 `sizeBytes`/`sha256` 并追加到 `index.json`。`-Album` 可选；使用 `upload-lyrics.ps1` 时，专辑会从 TTML 的 AMLL 元数据读取，也可通过 `-Album` 覆盖。可选 `-AlternateIds` 收录其他地区 ID，逗号分隔。
 
-脚本只修改工作区，不会提交。
+`add-lyrics.ps1` 只修改工作区，不会提交。
 
 ## 三、手动上传（不用脚本时）
 
@@ -43,6 +57,7 @@ am-lyrics/歌手 - 歌名 - AppleMusicID.ttml
   "appleMusicId": 123456789,
   "artist": "歌手名",
   "title": "歌名",
+  "album": "专辑名",
   "displayName": "歌名 - 歌手名",
   "path": "am-lyrics/歌手名 - 歌名 - 123456789.ttml",
   "source": "manual",
@@ -53,7 +68,9 @@ am-lyrics/歌手 - 歌名 - AppleMusicID.ttml
 }
 ```
 
-（可选）`alternateIds`：同一首歌在其他地区的 Apple Music ID 数组，主 ID 仍是 `appleMusicId`（文件名用主 ID）。
+（可选）`album`：专辑名；新条目优先从 TTML 元数据读取，旧条目缺失时可由工具回读 TTML。
+
+（可选）`alternateIds`：同一专辑、同一时间轴录音在其他地区的 Apple Music ID 数组，主 ID 仍是 `appleMusicId`（文件名用主 ID）。
 
 3. 计算实际大小和哈希：
 

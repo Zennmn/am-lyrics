@@ -3,7 +3,9 @@ param(
     [Parameter(Mandatory = $true)][string]$Artist,
     [Parameter(Mandatory = $true)][string]$Title,
     [Parameter(Mandatory = $true)][string]$TtmlPath,
-    [Parameter(Mandatory = $false)][long[]]$AlternateIds
+    [string]$Album,
+    [Parameter(Mandatory = $false)][long[]]$AlternateIds,
+    [switch]$SkipNextSteps
 )
 
 $ErrorActionPreference = 'Stop'
@@ -11,11 +13,17 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $indexPath = Join-Path $repoRoot 'index.json'
 $lyricsDir = Join-Path $repoRoot 'am-lyrics'
+if ($null -eq $AlternateIds) { $AlternateIds = @() }
+if ($AppleMusicId -le 0) { throw "Apple Music ID 必须为正整数: $AppleMusicId" }
+if ([string]::IsNullOrWhiteSpace($Artist) -or [string]::IsNullOrWhiteSpace($Title)) {
+    throw '歌手和歌名不能为空'
+}
 
 if (-not (Test-Path -LiteralPath $TtmlPath -PathType Leaf)) {
     throw "TTML 文件不存在: $TtmlPath"
 }
-$bytes = [System.IO.File]::ReadAllBytes((Resolve-Path -LiteralPath $TtmlPath))
+$sourcePath = (Resolve-Path -LiteralPath $TtmlPath).ProviderPath
+$bytes = [System.IO.File]::ReadAllBytes($sourcePath)
 if ($bytes.Length -gt 512 * 1024) {
     throw "TTML 超过 512 KiB 上限（当前 $($bytes.Length) bytes）"
 }
@@ -37,16 +45,18 @@ if (-not (Test-Path -LiteralPath $indexPath -PathType Leaf)) {
     throw "index.json 不存在: $indexPath"
 }
 $index = Get-Content -LiteralPath $indexPath -Raw -Encoding UTF8 | ConvertFrom-Json
-if (@($index.entries.appleMusicId) -contains $AppleMusicId) {
-    throw "Apple Music ID $AppleMusicId 已存在于 index.json"
-}
 $allIds = @($index.entries.appleMusicId)
 foreach ($entry in @($index.entries)) {
     if ($entry.alternateIds) { $allIds += @($entry.alternateIds) }
 }
+if ($allIds -contains $AppleMusicId) {
+    throw "Apple Music ID $AppleMusicId 已存在于 index.json（含备用 ID）"
+}
 foreach ($alt in @($AlternateIds)) {
     if ($alt -le 0) { throw "备用 ID 必须为正整数: $alt" }
+    if ($alt -eq $AppleMusicId) { throw "备用 ID 不能与主 ID 相同: $alt" }
     if ($allIds -contains $alt) { throw "备用 ID $alt 已存在于 index.json" }
+    $allIds += $alt
 }
 
 function Clean-Name([string]$value) {
@@ -57,11 +67,13 @@ $safeArtist = Clean-Name $Artist
 $safeTitle = Clean-Name $Title
 $fileName = "$safeArtist - $safeTitle - $AppleMusicId.ttml"
 $dest = Join-Path $lyricsDir $fileName
-if (Test-Path -LiteralPath $dest) {
+if ((Test-Path -LiteralPath $dest) -and $sourcePath -ne $dest) {
     throw "目标文件已存在: $fileName"
 }
 
-Copy-Item -LiteralPath $TtmlPath -Destination $dest
+if ($sourcePath -ne $dest) {
+    Copy-Item -LiteralPath $sourcePath -Destination $dest
+}
 
 $finalBytes = [System.IO.File]::ReadAllBytes($dest)
 $sha = [System.BitConverter]::ToString(
@@ -79,6 +91,9 @@ $entry = [ordered]@{
     sizeBytes    = $finalBytes.Length
     sha256       = $sha
 }
+if (-not [string]::IsNullOrWhiteSpace($Album)) {
+    $entry.album = $Album.Trim()
+}
 if (@($AlternateIds).Count -gt 0) {
     $entry.alternateIds = @($AlternateIds)
 }
@@ -92,4 +107,6 @@ $index.entries = @($index.entries) + [pscustomobject]$entry
 Write-Host "已添加歌词文件: $fileName"
 Write-Host "sizeBytes=$($finalBytes.Length)"
 Write-Host "sha256=$sha"
-Write-Host "请运行 git diff 核对后提交推送。"
+if (-not $SkipNextSteps) {
+    Write-Host "请运行 git diff 核对后提交推送。"
+}

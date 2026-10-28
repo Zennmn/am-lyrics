@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """TTML 格式校验器 — 按 ttml格式.md 规则检查 am-lyrics 目录下所有 *.ttml。
 
-用法: python tools/validate_ttml.py [目录]
+用法: python tools/validate_ttml.py [目录或 TTML 文件 ...]
 返回码 0 = 全部通过
 """
 import glob
@@ -134,7 +134,9 @@ def check(path):
     for tr in metas:
         texts = tr.findall(f"{ITUNES}text")
         fors = [t.get("for") for t in texts]
-        if len(fors) != n_p:
+        lang = (tr.get("{http://www.w3.org/XML/1998/namespace}lang") or "").lower()
+        is_romanization = lang == "und-latn" or lang.endswith("-latn")
+        if len(fors) != n_p and not is_romanization:
             errs.append(f"翻译轨 text 数 {len(fors)} != p 数 {n_p}")
         for f_ in fors:
             if f_ is None or not re.match(r"^L\d+$", f_):
@@ -154,8 +156,15 @@ def check(path):
     return errs, warns
 
 
-def main(dirs):
-    files = sorted(f for d in dirs for f in glob.glob(os.path.join(d, "*.ttml")))
+def main(paths):
+    files = sorted({
+        f
+        for path in paths
+        for f in (
+            [path] if os.path.isfile(path) and path.lower().endswith(".ttml")
+            else glob.glob(os.path.join(path, "*.ttml"))
+        )
+    })
     if not files:
         print("未找到 ttml 文件")
         return 2
@@ -178,5 +187,5 @@ def main(dirs):
 
 if __name__ == "__main__":
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    dirs = sys.argv[1:] or [os.path.join(repo_root, "am-lyrics")]
-    sys.exit(main(dirs))
+    paths = sys.argv[1:] or [os.path.join(repo_root, "am-lyrics")]
+    sys.exit(main(paths))

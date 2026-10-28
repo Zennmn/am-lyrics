@@ -1,2 +1,3 @@
 *.ttml text eol=lf
 index.json text eol=lf
+*.cmd text eol=crlf
