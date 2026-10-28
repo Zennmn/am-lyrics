@@ -1318,7 +1318,11 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 29510,
-      "sha256": "36ea2ff41d0d24ae3dd349f5ec924608b7bcaaff2ec7603614d455795cf22431"
+      "sha256": "36ea2ff41d0d24ae3dd349f5ec924608b7bcaaff2ec7603614d455795cf22431",
+      "album": "Answer",
+      "alternateIds": [
+        1538279587
+      ]
     },
     {
       "appleMusicId": 1538283049,
