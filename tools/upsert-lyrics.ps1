@@ -81,6 +81,34 @@ function Get-TtmlAlbum([string]$TtmlPath) {
     return ''
 }
 
+function Get-LyricContentSignature([string]$TtmlPath) {
+    $xml = [System.Xml.XmlDocument]::new()
+    $xml.XmlResolver = $null
+    $stream = [IO.File]::OpenRead($TtmlPath)
+    try {
+        $xml.Load($stream)
+    } finally {
+        $stream.Dispose()
+    }
+
+    $body = $xml.SelectSingleNode('//*[local-name()="body"]')
+    if (-not $body) { return $null }
+    $parts = [System.Collections.Generic.List[string]]::new()
+    $parts.Add("body|$($body.OuterXml)")
+    foreach ($translation in $xml.SelectNodes('//*[local-name()="translation"]')) {
+        $language = $translation.GetAttribute('lang', 'http://www.w3.org/XML/1998/namespace')
+        $type = $translation.GetAttribute('type')
+        $parts.Add("translation|$language|$type")
+        foreach ($textNode in $translation.SelectNodes('.//*[local-name()="text"]')) {
+            $line = $textNode.GetAttribute('for')
+            $parts.Add("text|$line|$($textNode.InnerText)")
+        }
+    }
+
+    $content = [Text.Encoding]::UTF8.GetBytes([string]::Join("`n", $parts))
+    return Get-Sha256 $content
+}
+
 function Same-Song($entry, [string]$artistName, [string]$songTitle) {
     $form = [Text.NormalizationForm]::FormC
     $entryArtist = ([string]$entry.artist).Trim().Normalize($form)
@@ -302,6 +330,15 @@ if (-not (Test-Path -LiteralPath $dest -PathType Leaf)) {
 }
 $existingBytes = [IO.File]::ReadAllBytes($dest)
 $existingSha = Get-Sha256 $existingBytes
+$lyricContentMatches = $false
+if ($sourceSha -ne $existingSha) {
+    $sourceContentSignature = Get-LyricContentSignature $sourcePath
+    $existingContentSignature = Get-LyricContentSignature $dest
+    $lyricContentMatches = [bool](
+        $sourceContentSignature -and
+        $sourceContentSignature -eq $existingContentSignature
+    )
+}
 $albumUpdated = $false
 if ($Album -and [string]$target.album -ne $Album) {
     if ($target.PSObject.Properties['album']) {
@@ -342,7 +379,7 @@ if ($idMatched -and -not $idMatchedAsAlternate) {
         $target.sha256 = $sourceSha
         $contentUpdated = $true
     }
-} elseif ($sourceSha -ne $existingSha) {
+} elseif ($sourceSha -ne $existingSha -and -not $lyricContentMatches) {
     Write-Warning '备用 ID 或同专辑、同时间轴的新 ID 对应内容不同；本次保留已有歌词，不覆盖原文件。'
 }
 
