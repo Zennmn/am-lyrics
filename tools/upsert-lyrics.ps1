@@ -409,18 +409,13 @@ if (-not $contentUpdated -and $newAltIds.Count -eq 0 -and -not $albumUpdated) {
 
 $action = if ($contentUpdated -and $newAltIds.Count -gt 0) { 'updated-and-alternate' }
           elseif ($contentUpdated) { 'updated' }
-          elseif ($albumUpdated) { 'updated' }
-          else { 'alternate' }
+          elseif ($newAltIds.Count -gt 0) { 'alternate' }
+          else { 'metadata-updated' }
 switch ($action) {
     'alternate'             { Write-Host "已给 $($target.path) 追加备用 ID: $($newAltIds -join ', ')" }
-    'updated'               {
-        if ($contentUpdated) {
-            Write-Host "已覆盖歌词并更新大小和哈希: $($target.path)"
-        } else {
-            Write-Host "已更新索引中的专辑信息: $($target.path)"
-        }
-    }
+    'updated'               { Write-Host "已覆盖歌词并更新大小和哈希: $($target.path)" }
     'updated-and-alternate' { Write-Host "已覆盖歌词并追加备用 ID: $($target.path)" }
+    'metadata-updated'      { Write-Host "已更新索引中的专辑信息: $($target.path)" }
 }
 return [pscustomobject]@{
     Action = $action; Changed = $true; Path = [string]$target.path

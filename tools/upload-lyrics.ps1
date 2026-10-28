@@ -419,6 +419,7 @@ if ($records.Count -eq 1) {
         'alternate'             { "lyrics: add alternate ID $($result.AddedIds -join ', ') for $($result.PrimaryId)" }
         'updated'               { "lyrics: update $($result.Artist) - $($result.Title) ($($result.PrimaryId))" }
         'updated-and-alternate' { "lyrics: update $($result.Artist) - $($result.Title) ($($result.PrimaryId))" }
+        'metadata-updated'      { "lyrics: update metadata for $($result.Artist) - $($result.Title) ($($result.PrimaryId))" }
         default                 { throw "未知上传操作: $($result.Action)" }
     }
 } else {
