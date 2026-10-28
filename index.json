@@ -1509,6 +1509,18 @@
       "sizeBytes": 32835,
       "sha256": "db5642eb8267af2502e9d30af25828021ead16751e0d3b3dc9518bd143ce192f",
       "album": "Dear My Boo - EP"
+    },
+    {
+      "appleMusicId": 1537764972,
+      "artist": "MIREI",
+      "title": "P.S. Toushindai No Love Song",
+      "displayName": "P.S. Toushindai No Love Song - MIREI",
+      "path": "am-lyrics/MIREI - P.S. Toushindai No Love Song - 1537764972.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 40607,
+      "sha256": "96b67954ea4e5196cbf99687a0a2a28bdc3c17c5b8008a35eaa043049b75b203",
+      "album": "P.S. Toushindai No Love Song - Single"
     }
   ]
 }
