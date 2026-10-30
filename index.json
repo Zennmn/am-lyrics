@@ -1413,8 +1413,9 @@
       "path": "am-lyrics/Walk Off the Earth & Tyler Shaw - Bet On Me (feat. Tyler Shaw) - 1625938409.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 36400,
-      "sha256": "0e35f06a6566028573ae79b684ab31d6f0f66c1dbfd93efe9f3be8c9eb5ba718"
+      "sizeBytes": 35259,
+      "sha256": "ebcd1f871361937d908fa18c65e7ef0020b5406b747ac5ba88239607dbff1fc9",
+      "album": "Bet On Me - Single"
     },
     {
       "appleMusicId": 1671948836,
