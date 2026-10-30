@@ -1531,6 +1531,30 @@
       "sizeBytes": 40607,
       "sha256": "96b67954ea4e5196cbf99687a0a2a28bdc3c17c5b8008a35eaa043049b75b203",
       "album": "P.S. Toushindai No Love Song - Single"
+    },
+    {
+      "appleMusicId": 1472727605,
+      "artist": "RADWIMPS",
+      "title": "Is There Still Anything That Love Can Do?",
+      "displayName": "Is There Still Anything That Love Can Do? - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Is There Still Anything That Love Can Do、 - 1472727605.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 20196,
+      "sha256": "c717f47558dfa5e95a9eb5c7219b5c534c8c045da363ce6acaef4f5889fcc969",
+      "album": "Weathering with You"
+    },
+    {
+      "appleMusicId": 1651284059,
+      "artist": "RADWIMPS",
+      "title": "Suzume (feat. Toaka)",
+      "displayName": "Suzume (feat. Toaka) - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Suzume (feat. Toaka) - 1651284059.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 16105,
+      "sha256": "de32d70b9f1f3bd204eb312e364debfc05a6cdb30ca4256e2500b4e8298cb565",
+      "album": "Suzume (Motion Picture Soundtrack)"
     }
   ]
 }
