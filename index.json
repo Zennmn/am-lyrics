@@ -1615,6 +1615,18 @@
       "sizeBytes": 23228,
       "sha256": "978471b6205779c9b2f0e63e5e5190759c978f0c10d07bd82f3bcd375feaf758",
       "album": "Your Name."
+    },
+    {
+      "appleMusicId": 1651284061,
+      "artist": "RADWIMPS",
+      "title": "Tamaki",
+      "displayName": "Tamaki - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Tamaki - 1651284061.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 25439,
+      "sha256": "5c51a08fe9d79d9fe9d83d9161c94838fe52c5f4ea898b16562840b9b1001fa9",
+      "album": "Suzume (Motion Picture Soundtrack)"
     }
   ]
 }
