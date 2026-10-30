@@ -1591,6 +1591,30 @@
       "sizeBytes": 20307,
       "sha256": "51cd22c5e1f87fecd2d9cddd662c316979a25996ada367ff0546b9485733e692",
       "album": "Weathering With You (Complete Version) - EP"
+    },
+    {
+      "appleMusicId": 1434005783,
+      "artist": "RADWIMPS",
+      "title": "Zenzenzense - Movie Ver.",
+      "displayName": "Zenzenzense - Movie Ver. - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Zenzenzense - Movie Ver - 1434005783.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29472,
+      "sha256": "a5e41beb8ff9313cbd1575e99f855d8306078eaa04840d1f83d995e2067d0151",
+      "album": "Your Name."
+    },
+    {
+      "appleMusicId": 1434005924,
+      "artist": "RADWIMPS",
+      "title": "Sparkle - Movie Ver.",
+      "displayName": "Sparkle - Movie Ver. - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Sparkle - Movie Ver - 1434005924.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 23228,
+      "sha256": "978471b6205779c9b2f0e63e5e5190759c978f0c10d07bd82f3bcd375feaf758",
+      "album": "Your Name."
     }
   ]
 }
