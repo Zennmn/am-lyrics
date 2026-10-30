@@ -1555,6 +1555,30 @@
       "sizeBytes": 16105,
       "sha256": "de32d70b9f1f3bd204eb312e364debfc05a6cdb30ca4256e2500b4e8298cb565",
       "album": "Suzume (Motion Picture Soundtrack)"
+    },
+    {
+      "appleMusicId": 1485833906,
+      "artist": "RADWIMPS",
+      "title": "Grand Escape (feat. Toko Miura)",
+      "displayName": "Grand Escape (feat. Toko Miura) - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Grand Escape (feat. Toko Miura) - 1485833906.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 32078,
+      "sha256": "0cecfcf61dbb2ff911b2ad7568a7ad71657e0567f7cdbeebcf308597ceb96242",
+      "album": "Weathering With You (Complete Version) - EP"
+    },
+    {
+      "appleMusicId": 1472727596,
+      "artist": "RADWIMPS",
+      "title": "Grand Escape (Movie Edit) [feat. Toko Miura]",
+      "displayName": "Grand Escape (Movie Edit) [feat. Toko Miura] - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Grand Escape (Movie Edit) [feat. Toko Miura] - 1472727596.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 17404,
+      "sha256": "0b456ca9b92eeaed209a992f4a6a9b0a7f66d382acb4d9f29b43d35952bc8b12",
+      "album": "Weathering with You"
     }
   ]
 }
