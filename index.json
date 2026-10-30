@@ -1579,6 +1579,18 @@
       "sizeBytes": 17404,
       "sha256": "0b456ca9b92eeaed209a992f4a6a9b0a7f66d382acb4d9f29b43d35952bc8b12",
       "album": "Weathering with You"
+    },
+    {
+      "appleMusicId": 1485833908,
+      "artist": "RADWIMPS",
+      "title": "Is There Still Anything That Love Can Do?",
+      "displayName": "Is There Still Anything That Love Can Do? - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Is There Still Anything That Love Can Do、 - 1485833908.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 20307,
+      "sha256": "51cd22c5e1f87fecd2d9cddd662c316979a25996ada367ff0546b9485733e692",
+      "album": "Weathering With You (Complete Version) - EP"
     }
   ]
 }
