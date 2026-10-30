@@ -30,6 +30,35 @@ function Get-Sha256([byte[]]$content) {
     ).Replace('-', '').ToLowerInvariant()
 }
 
+function Convert-TtmlTime([string]$Value) {
+    if ([string]::IsNullOrWhiteSpace($Value)) { return '' }
+    $value = $Value.Trim()
+    $culture = [Globalization.CultureInfo]::InvariantCulture
+    $styles = [Globalization.NumberStyles]::AllowDecimalPoint
+    $parts = $value -split ':'
+    [decimal]$total = 0
+    if ($parts.Count -ge 2 -and $parts.Count -le 3) {
+        foreach ($part in $parts) {
+            [decimal]$number = 0
+            if (-not [decimal]::TryParse($part, $styles, $culture, [ref]$number)) {
+                return "raw:$value"
+            }
+            $total = $total * 60 + $number
+        }
+    } elseif ($value -match '^(\d+(?:\.\d+)?)(ms|h|m|s)?$') {
+        $number = [decimal]::Parse($Matches[1], $styles, $culture)
+        $total = switch ($Matches[2]) {
+            'h'  { $number * 3600 }
+            'm'  { $number * 60 }
+            'ms' { $number / 1000 }
+            default { $number }
+        }
+    } else {
+        return "raw:$value"
+    }
+    return $total.ToString('0.############################', $culture)
+}
+
 function Get-TimingSignature([string]$TtmlPath) {
     $xml = [System.Xml.XmlDocument]::new()
     $xml.XmlResolver = $null
@@ -43,17 +72,13 @@ function Get-TimingSignature([string]$TtmlPath) {
     $body = $xml.SelectSingleNode('//*[local-name()="body"]')
     if (-not $body) { return $null }
 
+    # Compare lyric timestamps, independent of container lengths, paragraph
+    # grouping and equivalent representations such as 0.323 and 0:00.323.
     $segments = [System.Collections.Generic.List[string]]::new()
-    $bodyBegin = $body.GetAttribute('begin')
-    $bodyEnd = $body.GetAttribute('end')
-    $bodyDur = $body.GetAttribute('dur')
-    if ($bodyBegin -or $bodyEnd -or $bodyDur) {
-        $segments.Add("body|$bodyBegin|$bodyEnd|$bodyDur")
-    }
-    foreach ($node in $body.SelectNodes('.//*[@begin or @end or @dur]')) {
-        $begin = $node.GetAttribute('begin')
-        $end = $node.GetAttribute('end')
-        $dur = $node.GetAttribute('dur')
+    foreach ($node in $body.SelectNodes('.//*[local-name()="p" or local-name()="span"][@begin or @end or @dur]')) {
+        $begin = Convert-TtmlTime ($node.GetAttribute('begin'))
+        $end = Convert-TtmlTime ($node.GetAttribute('end'))
+        $dur = Convert-TtmlTime ($node.GetAttribute('dur'))
         $segments.Add("$($node.LocalName)|$begin|$end|$dur")
     }
     if ($segments.Count -eq 0) { return $null }
@@ -168,7 +193,21 @@ if ($idMatched) {
         $ownerTimingSignature = if ($sourceTimingSignature) { Get-TimingSignature $ownerPath } else { $null }
         $timingDiffers = $sourceTimingSignature -and $ownerTimingSignature -and
             $ownerTimingSignature -ne $sourceTimingSignature
-        if ($albumDiffers -or $timingDiffers) {
+        $ownerPrimaryId = [long]$idOwners[0].appleMusicId
+        $containsOwnerPrimary = @($AlternateIds) -contains $ownerPrimaryId
+        if ($containsOwnerPrimary -and $sourceTimingSignature -and $ownerTimingSignature -and
+            -not $albumDiffers -and -not $timingDiffers) {
+            # The file explicitly names both IDs already sharing this timing.
+            # Update their existing primary record instead of treating the
+            # last embedded ID as a separate version.
+            $embeddedAlternateId = $AppleMusicId
+            $AppleMusicId = $ownerPrimaryId
+            $AlternateIds = @($AlternateIds | Where-Object { [long]$_ -ne $ownerPrimaryId }) + @($embeddedAlternateId)
+            $idMatchedAsAlternate = $false
+        } elseif ($albumDiffers -or $timingDiffers) {
+            if ($containsOwnerPrimary) {
+                throw "文件同时包含主 ID $ownerPrimaryId 和备用 ID $AppleMusicId，但专辑或歌词时间轴不同；请确认要覆盖原记录还是拆分版本。"
+            }
             $splitAlternateOwner = $idOwners[0]
             $idMatched = $false
             $idMatchedAsAlternate = $false
