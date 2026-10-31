@@ -1628,6 +1628,18 @@
       "sizeBytes": 25439,
       "sha256": "5c51a08fe9d79d9fe9d83d9161c94838fe52c5f4ea898b16562840b9b1001fa9",
       "album": "Suzume (Motion Picture Soundtrack)"
+    },
+    {
+      "appleMusicId": 1647112151,
+      "artist": "RADWIMPS",
+      "title": "Suzume (feat. Toaka)",
+      "displayName": "Suzume (feat. Toaka) - RADWIMPS",
+      "path": "am-lyrics/RADWIMPS - Suzume (feat. Toaka) - 1647112151.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 16046,
+      "sha256": "13d6684d915cc755cbdd7eecc7dbca61d9f1857158dc6b32885ab505b877125b",
+      "album": "Suzume (feat. Toaka) - Single"
     }
   ]
 }
