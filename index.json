@@ -655,11 +655,12 @@
       "path": "am-lyrics/Galdive - Cloud - 1520362749.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21737,
-      "sha256": "83cfc3e2806609b7394e6ad2c802fe3a5f849880ccbc3ec689ea1cba4d2dd6fa",
+      "sizeBytes": 23920,
+      "sha256": "85624f0e204509b78f09ad0e38e072852d37b1aff5724faf0e3c543d047c1042",
       "alternateIds": [
         1485424431
-      ]
+      ],
+      "album": "Cloud - Single"
     },
     {
       "appleMusicId": 1534998916,
