@@ -182,38 +182,8 @@ $idOwners = @($index.entries | Where-Object {
 })
 if ($idOwners.Count -gt 1) { throw "ID $AppleMusicId 在索引中属于多条记录，请先修复索引" }
 $idMatched = $idOwners.Count -eq 1
-$idMatchedAsAlternate = $false
-$splitAlternateOwner = $null
-if ($idMatched) {
-    $idMatchedAsAlternate = [long]$idOwners[0].appleMusicId -ne $AppleMusicId
-    if ($idMatchedAsAlternate -and $TargetAppleMusicId -eq 0) {
-        $ownerPath = Get-LyricPath $idOwners[0]
-        $ownerAlbum = Get-EntryAlbum $idOwners[0]
-        $albumDiffers = $Album -and $ownerAlbum -and -not (Same-Album $Album $ownerAlbum)
-        $ownerTimingSignature = if ($sourceTimingSignature) { Get-TimingSignature $ownerPath } else { $null }
-        $timingDiffers = $sourceTimingSignature -and $ownerTimingSignature -and
-            $ownerTimingSignature -ne $sourceTimingSignature
-        $ownerPrimaryId = [long]$idOwners[0].appleMusicId
-        $containsOwnerPrimary = @($AlternateIds) -contains $ownerPrimaryId
-        if ($containsOwnerPrimary -and $sourceTimingSignature -and $ownerTimingSignature -and
-            -not $albumDiffers -and -not $timingDiffers) {
-            # The file explicitly names both IDs already sharing this timing.
-            # Update their existing primary record instead of treating the
-            # last embedded ID as a separate version.
-            $embeddedAlternateId = $AppleMusicId
-            $AppleMusicId = $ownerPrimaryId
-            $AlternateIds = @($AlternateIds | Where-Object { [long]$_ -ne $ownerPrimaryId }) + @($embeddedAlternateId)
-            $idMatchedAsAlternate = $false
-        } elseif ($albumDiffers -or $timingDiffers) {
-            if ($containsOwnerPrimary) {
-                throw "文件同时包含主 ID $ownerPrimaryId 和备用 ID $AppleMusicId，但专辑或歌词时间轴不同；请确认要覆盖原记录还是拆分版本。"
-            }
-            $splitAlternateOwner = $idOwners[0]
-            $idMatched = $false
-            $idMatchedAsAlternate = $false
-        }
-    }
-}
+# An existing primary or alternate ID always identifies its existing record.
+# Timing edits are updates, and must not silently split an alternate ID off.
 $target = $null
 $separateVersion = $false
 
@@ -306,57 +276,16 @@ if (-not $target) {
     if ($Album) { $argsForAdd.Album = $Album }
     if ($AlternateIds.Count -gt 0) { $argsForAdd.AlternateIds = $AlternateIds }
 
-    $indexBytesBeforeSplit = $null
-    $lyricPathsBeforeSplit = $null
-    if ($splitAlternateOwner) {
-        $indexBytesBeforeSplit = [IO.File]::ReadAllBytes($indexPath)
-        $lyricPathsBeforeSplit = [System.Collections.Generic.HashSet[string]]::new(
-            [StringComparer]::OrdinalIgnoreCase
-        )
-        foreach ($file in Get-ChildItem -LiteralPath $lyricsDir -File -Recurse) {
-            [void]$lyricPathsBeforeSplit.Add($file.FullName)
-        }
+    & $adder @argsForAdd
+    $updatedIndex = Get-Content -LiteralPath $indexPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    $newEntry = @($updatedIndex.entries | Where-Object { [long]$_.appleMusicId -eq $AppleMusicId })
+    if ($newEntry.Count -ne 1) { throw "无法找到新添加的 ID: $AppleMusicId" }
 
-        $remainingAlternateIds = @($splitAlternateOwner.alternateIds | Where-Object {
-            [long]$_ -ne $AppleMusicId
-        })
-        if ($remainingAlternateIds.Count -gt 0) {
-            $splitAlternateOwner.alternateIds = $remainingAlternateIds
-        } else {
-            $splitAlternateOwner.PSObject.Properties.Remove('alternateIds')
-        }
-        if (-not [string]$splitAlternateOwner.album -and $ownerAlbum) {
-            $splitAlternateOwner | Add-Member -NotePropertyName album -NotePropertyValue $ownerAlbum
-        }
-        [IO.File]::WriteAllText(
-            $indexPath,
-            ($index | ConvertTo-Json -Depth 5),
-            [Text.UTF8Encoding]::new($false)
-        )
-    }
-
-    try {
-        & $adder @argsForAdd
-        $updatedIndex = Get-Content -LiteralPath $indexPath -Raw -Encoding UTF8 | ConvertFrom-Json
-        $newEntry = @($updatedIndex.entries | Where-Object { [long]$_.appleMusicId -eq $AppleMusicId })
-        if ($newEntry.Count -ne 1) { throw "无法找到新添加的 ID: $AppleMusicId" }
-    } catch {
-        if ($splitAlternateOwner) {
-            [IO.File]::WriteAllBytes($indexPath, [byte[]]$indexBytesBeforeSplit)
-            foreach ($file in Get-ChildItem -LiteralPath $lyricsDir -File -Recurse) {
-                if (-not $lyricPathsBeforeSplit.Contains($file.FullName)) {
-                    Remove-Item -LiteralPath $file.FullName -Force
-                }
-            }
-        }
-        throw
-    }
-
-    if ($separateVersion -or $splitAlternateOwner) {
+    if ($separateVersion) {
         Write-Host '检测到同歌手、同歌名的专辑或时间轴不同，已作为独立版本添加。'
     }
     return [pscustomobject]@{
-        Action = if ($separateVersion -or $splitAlternateOwner) { 'added-version' } else { 'added' }
+        Action = if ($separateVersion) { 'added-version' } else { 'added' }
         Changed = $true; Path = [string]$newEntry[0].path
         PrimaryId = $AppleMusicId; Artist = [string]$newEntry[0].artist
         Title = [string]$newEntry[0].title; AddedIds = @($AlternateIds)
@@ -410,7 +339,7 @@ foreach ($alt in $requestedIds) {
 }
 
 $contentUpdated = $false
-if ($idMatched -and -not $idMatchedAsAlternate) {
+if ($idMatched) {
     if ($sourceSha -ne $existingSha -or $sourceSha -ne [string]$target.sha256 -or
         $sourceBytes.Length -ne [long]$target.sizeBytes) {
         if ($sourcePath -ne $dest) { Copy-Item -LiteralPath $sourcePath -Destination $dest -Force }
@@ -419,7 +348,7 @@ if ($idMatched -and -not $idMatchedAsAlternate) {
         $contentUpdated = $true
     }
 } elseif ($sourceSha -ne $existingSha -and -not $lyricContentMatches) {
-    Write-Warning '备用 ID 或同专辑、同时间轴的新 ID 对应内容不同；本次保留已有歌词，不覆盖原文件。'
+    Write-Warning '同专辑、同时间轴的新 ID 对应内容不同；本次保留已有歌词，不覆盖原文件。'
 }
 
 if ($newAltIds.Count -gt 0) {

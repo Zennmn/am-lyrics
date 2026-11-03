@@ -11,7 +11,7 @@
 
 ## AM++ 如何使用本仓库
 
-AM++ 读取 `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`，按 Apple Music ID 精确匹配，再下载索引路径指向的 TTML。用户在 AM++ 设置页的编辑器中显式导入并保存到本地；应用不会在播放时监视本仓库。当前应用按 `appleMusicId`（主 ID）匹配；`alternateIds` 供后续应用版本匹配其他地区 ID，不影响现有导入。
+AM++ 读取 `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`，按 Apple Music ID 精确匹配，再下载索引路径指向的 TTML。当前 AM++ 同时匹配 `appleMusicId`（主 ID）和 `alternateIds`（备用 ID），同一条目的 ID 共用一份歌词。旧版 AM++ 是否支持备用 ID 取决于所安装的版本。
 
 ## 提交歌词
 
@@ -36,9 +36,7 @@ AM++ 读取 `https://raw.githubusercontent.com/Zennmn/am-lyrics/main/index.json`
 批量和单文件上传都按以下重复上传规则处理：
 
 - 歌手、歌名相同而 ID 不同：专辑不同，或时间轴不同，就建立独立条目和歌词文件；专辑和时间轴都相同，才把新 ID 追加到对应条目的 `alternateIds`。同名条目有多条时，先按专辑和时间轴匹配，仍无法确定时询问目标主 ID。
-- ID 已属于已有主条目：沿用索引里的歌手名和歌名；歌词内容不同就覆盖原 TTML，并更新 `sizeBytes` 和 `sha256`，内容相同则跳过。已登记为备用 ID 的歌曲只有专辑和时间轴都相同时才共用原 TTML，否则拆成独立条目。即使上传文件里的歌手名或歌名不同，也按该 ID 更新，不因此跳过。
-
-AM++ 当前仅按主 `appleMusicId` 导入；新加的 `alternateIds` 暂不能直接用于导入。
+- ID 已是已有条目的主 ID 或备用 ID：沿用索引里的歌手名和歌名；歌词内容不同就覆盖原 TTML，并更新 `sizeBytes` 和 `sha256`，内容相同则跳过。修改时间轴不会将已有备用 ID 拆分为新条目。即使上传文件里的歌手名或歌名不同，也按该 ID 更新，不因此跳过。
 
 ## 版权
 
