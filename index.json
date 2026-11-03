@@ -1713,6 +1713,18 @@
       "sizeBytes": 26018,
       "sha256": "862dfdfebcf8b58503cc0495999b6dbc42c680c5fbf925777b63582fd15fce84",
       "album": "Viva La Vida or Death and All His Friends"
+    },
+    {
+      "appleMusicId": 1472495589,
+      "artist": "Michael Schulte",
+      "title": "All I Need",
+      "displayName": "All I Need - Michael Schulte",
+      "path": "am-lyrics/Michael Schulte - All I Need - 1472495589.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 31393,
+      "sha256": "cbaccd479eb68d3ac181cce8ab5996d5984ff0d105a84a73049e40fde43bb284",
+      "album": "Highs & Lows"
     }
   ]
 }
