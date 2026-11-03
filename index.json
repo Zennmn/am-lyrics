@@ -1676,6 +1676,18 @@
       "sizeBytes": 29403,
       "sha256": "487e73af5a9e973256dae4a9b394fa74693b5b7c94514ab7ad870cb1beef4f0e",
       "album": "Interweave 02"
+    },
+    {
+      "appleMusicId": 1677276654,
+      "artist": "CHIAKI SATO",
+      "title": "Hanagumori",
+      "displayName": "Hanagumori - CHIAKI SATO",
+      "path": "am-lyrics/CHIAKI SATO - Hanagumori - 1677276654.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 28181,
+      "sha256": "4cace04e2862a16c0c13576e89bd69429ee5449ac4bd0e56ea9fd405c7ac7979",
+      "album": "Hanagumori - Single"
     }
   ]
 }
