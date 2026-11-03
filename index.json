@@ -558,11 +558,11 @@
       "sizeBytes": 25892,
       "sha256": "858e1cecb1cec1e9ddcf93dea4061b01284aa5285c0f49dfc12e7b004f22cc4a",
       "alternateIds": [
-        1440831215,
         1445867313,
         1682141726,
         1710028848
-      ]
+      ],
+      "album": "Smoke + Mirrors (Deluxe)"
     },
     {
       "appleMusicId": 1811493448,
@@ -1712,6 +1712,18 @@
       "sizeBytes": 26018,
       "sha256": "862dfdfebcf8b58503cc0495999b6dbc42c680c5fbf925777b63582fd15fce84",
       "album": "Viva La Vida or Death and All His Friends"
+    },
+    {
+      "appleMusicId": 1440831215,
+      "artist": "Imagine Dragons",
+      "title": "I’m So Sorry",
+      "displayName": "I’m So Sorry - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - I’m So Sorry - 1440831215.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 25449,
+      "sha256": "aed5aa4ed1a2911bd6d9fdcc2ea3a3e27518d6e3d90fa7796b6645a23c8760ef",
+      "album": "Smoke + Mirrors (Deluxe)"
     }
   ]
 }
