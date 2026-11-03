@@ -1640,6 +1640,18 @@
       "sizeBytes": 16046,
       "sha256": "13d6684d915cc755cbdd7eecc7dbca61d9f1857158dc6b32885ab505b877125b",
       "album": "Suzume (feat. Toaka) - Single"
+    },
+    {
+      "appleMusicId": 1487534131,
+      "artist": "Manaco",
+      "title": "Aiodoru feat.217",
+      "displayName": "Aiodoru feat.217 - Manaco",
+      "path": "am-lyrics/Manaco - Aiodoru feat.217 - 1487534131.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26267,
+      "sha256": "4cc323f0a6c174c887fe3d11756f60b8fc0a55d4c222a3e12fb8964da6b2b00f",
+      "album": "On Blue"
     }
   ]
 }
