@@ -1688,6 +1688,18 @@
       "sizeBytes": 28181,
       "sha256": "4cace04e2862a16c0c13576e89bd69429ee5449ac4bd0e56ea9fd405c7ac7979",
       "album": "Hanagumori - Single"
+    },
+    {
+      "appleMusicId": 1664696515,
+      "artist": "CHIAKI SATO",
+      "title": "Time Machine",
+      "displayName": "Time Machine - CHIAKI SATO",
+      "path": "am-lyrics/CHIAKI SATO - Time Machine - 1664696515.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27749,
+      "sha256": "a41c5d2f85125e2ba3c10b171f6e2022734c38443678abb832b6b95a90e78680",
+      "album": "TIME LEAP - EP"
     }
   ]
 }
