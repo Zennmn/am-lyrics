@@ -1664,6 +1664,18 @@
       "sizeBytes": 32310,
       "sha256": "7d55069744efb475d2149bd719ab25c90740d2753a8d43a9c68a7fb164815b6b",
       "album": "Zutto Zutto Zutto - Single"
+    },
+    {
+      "appleMusicId": 1597080847,
+      "artist": "JUVENILE",
+      "title": "Kamone (feat. Natsumi)",
+      "displayName": "Kamone (feat. Natsumi) - JUVENILE",
+      "path": "am-lyrics/JUVENILE - Kamone (feat. Natsumi) - 1597080847.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29430,
+      "sha256": "d81e7a2a622323546e2ef33d9bb8bf148e6867002bdc69ba80507e0cf0f623d4",
+      "album": "Interweave 02"
     }
   ]
 }
