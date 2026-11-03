@@ -1652,6 +1652,18 @@
       "sizeBytes": 26267,
       "sha256": "4cc323f0a6c174c887fe3d11756f60b8fc0a55d4c222a3e12fb8964da6b2b00f",
       "album": "On Blue"
+    },
+    {
+      "appleMusicId": 1568447034,
+      "artist": "Ryokuoushoku Shakai",
+      "title": "Zutto Zutto Zutto",
+      "displayName": "Zutto Zutto Zutto - Ryokuoushoku Shakai",
+      "path": "am-lyrics/Ryokuoushoku Shakai - Zutto Zutto Zutto - 1568447034.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 32310,
+      "sha256": "7d55069744efb475d2149bd719ab25c90740d2753a8d43a9c68a7fb164815b6b",
+      "album": "Zutto Zutto Zutto - Single"
     }
   ]
 }
