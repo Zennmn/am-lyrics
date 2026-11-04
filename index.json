@@ -1754,6 +1754,18 @@
       "alternateIds": [
         1541001553
       ]
+    },
+    {
+      "appleMusicId": 1505498792,
+      "artist": "Fujii Kaze",
+      "title": "Shinunoga E-Wa",
+      "displayName": "Shinunoga E-Wa - Fujii Kaze",
+      "path": "am-lyrics/Fujii Kaze - Shinunoga E-Wa - 1505498792.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 18999,
+      "sha256": "eb7a5609124e301887ebe7f8c201504213d4e22b3b76069bc76e5d04c7cc809d",
+      "album": "HELP EVER HURT NEVER"
     }
   ]
 }
