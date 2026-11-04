@@ -1739,6 +1739,21 @@
       "sizeBytes": 29896,
       "sha256": "b0a1300f450e94cfaa7a4acba351ad1315d6d932125602d4f998e26d7916a1d9",
       "album": "Just the Same - Single"
+    },
+    {
+      "appleMusicId": 1540793097,
+      "artist": "Hallie Coggins",
+      "title": "网络动画《赛博朋克：边缘行者》插曲",
+      "displayName": "网络动画《赛博朋克：边缘行者》插曲 - Hallie Coggins",
+      "path": "am-lyrics/Hallie Coggins - 网络动画《赛博朋克：边缘行者》插曲 - 1540793097.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 36245,
+      "sha256": "eb9164a8f77cba3693b659ec463984e9c2f298946141beac0bc5edf2a28c3019",
+      "album": "Cyberpunk : Edgerunners Soundtrack Vol.1 (Ep1+2)",
+      "alternateIds": [
+        1541001553
+      ]
     }
   ]
 }
