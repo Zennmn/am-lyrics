@@ -1727,6 +1727,18 @@
       "sizeBytes": 35264,
       "sha256": "971fc77e3acb119948c4cee5ca421d666648ad4a7c0d2584182fef0e7552d78c",
       "album": "Highs & Lows"
+    },
+    {
+      "appleMusicId": 1555187732,
+      "artist": "Charlotte Lawrence",
+      "title": "Just the Same",
+      "displayName": "Just the Same - Charlotte Lawrence",
+      "path": "am-lyrics/Charlotte Lawrence - Just the Same - 1555187732.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29896,
+      "sha256": "b0a1300f450e94cfaa7a4acba351ad1315d6d932125602d4f998e26d7916a1d9",
+      "album": "Just the Same - Single"
     }
   ]
 }
