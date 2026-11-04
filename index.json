@@ -1766,6 +1766,18 @@
       "sizeBytes": 18999,
       "sha256": "eb7a5609124e301887ebe7f8c201504213d4e22b3b76069bc76e5d04c7cc809d",
       "album": "HELP EVER HURT NEVER"
+    },
+    {
+      "appleMusicId": 1841791887,
+      "artist": "Chen Li",
+      "title": "历历万乡",
+      "displayName": "历历万乡 - Chen Li",
+      "path": "am-lyrics/Chen Li - 历历万乡 - 1841791887.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 21114,
+      "sha256": "0abe0b78fc9fa36b1c9ddd00cb2947800278c5c92324f4938f77b4fb7235becd",
+      "album": "十年自选"
     }
   ]
 }
