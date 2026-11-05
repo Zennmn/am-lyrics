@@ -323,8 +323,9 @@
       "path": "am-lyrics/Franz Ferdinand - This Fffire - 29276049.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 16471,
-      "sha256": "18daa739f58a21e532c8153009934e2cbe69499d179713946bffeef7259a3db1"
+      "sizeBytes": 16752,
+      "sha256": "d26dfca658e2c963a576f665107b1d0bd41fa23f83f127ad676b8393262affe6",
+      "album": "This Fffire - Single"
     },
     {
       "appleMusicId": 1713845737,
