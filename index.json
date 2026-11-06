@@ -965,8 +965,9 @@
       "path": "am-lyrics/OneRepublic - Rescue Me - 1463236498.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31041,
-      "sha256": "c1e6e1e34c8ae38c63d2f7a53101c3b8dc891712590739471b9cf398eda811f3"
+      "sizeBytes": 31433,
+      "sha256": "31437784b1f5e75af4a9a5eced55cdb72422be656f3150829b3495bfa2b3f853",
+      "album": "Rescue Me - Single"
     },
     {
       "appleMusicId": 1441728727,
