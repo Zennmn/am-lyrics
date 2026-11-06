@@ -1023,8 +1023,9 @@
       "path": "am-lyrics/MIREI - iyaiiya - 1536633324.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 34803,
-      "sha256": "0278505c73944d921efc2119f44ae82d7efa6d94c7c9a5fab1f3d8c74134c603"
+      "sizeBytes": 34746,
+      "sha256": "ed5dcb6d22d5a24d4c4c5693d909ee5509a538a0976391455cf8aeb2e507dcfe",
+      "album": "iyaiiya - Single"
     },
     {
       "appleMusicId": 1437948996,
