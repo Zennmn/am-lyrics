@@ -1023,8 +1023,8 @@
       "path": "am-lyrics/MIREI - iyaiiya - 1536633324.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 34746,
-      "sha256": "ed5dcb6d22d5a24d4c4c5693d909ee5509a538a0976391455cf8aeb2e507dcfe",
+      "sizeBytes": 34703,
+      "sha256": "717f7928fa4e1d9f73174e8dca8bb1c93e1bbdc7c25d4f0f3888e586fd6d9a62",
       "album": "iyaiiya - Single"
     },
     {
@@ -1792,8 +1792,8 @@
       "path": "am-lyrics/MIREI - ^^ - 1661512334.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32307,
-      "sha256": "edbfad431eea381fa64c72751fe52fdd899b44a85e1f2e89a3d3c5d03c6cd830",
+      "sizeBytes": 32256,
+      "sha256": "e6ca979cc9b5179343d6e0ce19e823cea80a0430e335272df18ea3899091753d",
       "album": "^^ - Single"
     }
   ]
