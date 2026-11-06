@@ -335,11 +335,12 @@
       "path": "am-lyrics/Taylor Swift - Blank Space (Taylor's Version) - 1713845737.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38662,
-      "sha256": "cdb315c7c9066ffef3f6cf289b8dc3bfb641e1ab2921142676fd05b94b7d09ef",
+      "sizeBytes": 39542,
+      "sha256": "46939645e2e8bc81e2739ea6faf58b8b354c92a01bf62598ad584242f6dd816d",
       "alternateIds": [
         1708308993
-      ]
+      ],
+      "album": "1989 (Taylor's Version) [Deluxe]"
     },
     {
       "appleMusicId": 1464108341,
