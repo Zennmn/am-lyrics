@@ -1781,6 +1781,18 @@
       "sizeBytes": 21114,
       "sha256": "0abe0b78fc9fa36b1c9ddd00cb2947800278c5c92324f4938f77b4fb7235becd",
       "album": "十年自选"
+    },
+    {
+      "appleMusicId": 1661512334,
+      "artist": "MIREI",
+      "title": "^^",
+      "displayName": "^^ - MIREI",
+      "path": "am-lyrics/MIREI - ^^ - 1661512334.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 32307,
+      "sha256": "edbfad431eea381fa64c72751fe52fdd899b44a85e1f2e89a3d3c5d03c6cd830",
+      "album": "^^ - Single"
     }
   ]
 }
