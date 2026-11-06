@@ -976,8 +976,9 @@
       "path": "am-lyrics/Alec Benjamin - Let Me Down Slowly - 1441728727.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27903,
-      "sha256": "626fd783925682b6ddd83616b3a7a593bdedba8bfb8cacaf943e1599e799779b"
+      "sizeBytes": 27919,
+      "sha256": "2aa2d0f05fa61da811278e3580927a7cf0940c8c06a37eb58cca88b65bd0c0fb",
+      "album": "Narrated for You"
     },
     {
       "appleMusicId": 1441728724,
