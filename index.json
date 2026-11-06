@@ -999,8 +999,9 @@
       "path": "am-lyrics/J.Fla - FRIENDS - 1808885814.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21033,
-      "sha256": "a45f286f7fa727f1f3ec6fdfc4b4ff50b0c1e119a963afbee401f701e01c3ef9"
+      "sizeBytes": 21049,
+      "sha256": "9cec7f9c4b68a4a463b8f91b735ee051d28336792a0a0dc13b3be303098fe414",
+      "album": "FRIENDS - Single"
     },
     {
       "appleMusicId": 1502298687,
