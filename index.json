@@ -952,8 +952,9 @@
       "path": "am-lyrics/OneRepublic - Connection - 1401489355.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27135,
-      "sha256": "a45ba46ebff73e64c72b5177569d0ce8cbc1f8a3afec04d85a6967e83e29b8cc"
+      "sizeBytes": 26708,
+      "sha256": "368aef0fa6644048f43f9852ab75de60d1e4d46ea5cc159e964036d9213202b5",
+      "album": "Connection - Single"
     },
     {
       "appleMusicId": 1463236498,
