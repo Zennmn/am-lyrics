@@ -489,13 +489,14 @@
       "path": "am-lyrics/OneRepublic - Feel Again - 1440862988.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21435,
-      "sha256": "779b535f9367f392be236ddbb23e02357f3e28aae09a46779878140cdd7b48d4",
+      "sizeBytes": 20943,
+      "sha256": "fb43e23afdadbdb4d91f7f26bca73e3c47c397d76f816ff9cfd8f04ce0b882bc",
       "alternateIds": [
         1471704327,
         1440854629,
         1440854503
-      ]
+      ],
+      "album": "Native"
     },
     {
       "appleMusicId": 1858846444,
