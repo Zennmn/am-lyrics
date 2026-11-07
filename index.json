@@ -1012,11 +1012,12 @@
       "path": "am-lyrics/OneRepublic - Wanted - 1502298687.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21571,
-      "sha256": "2f813122672a5f83bddf443997f12ad65dd8674d8c92445b2e7914689773ed28",
+      "sizeBytes": 20877,
+      "sha256": "8b41ac4ff2946de7e8ffef7b740fb74f5fa43b42d132a4392f85c1fdf75c5619",
       "alternateIds": [
         1828512794
-      ]
+      ],
+      "album": "Human (Deluxe)"
     },
     {
       "appleMusicId": 1536633324,
