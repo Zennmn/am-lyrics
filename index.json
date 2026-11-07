@@ -10,8 +10,11 @@
       "path": "am-lyrics/OneRepublic - Good Life - 1461280616.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29542,
-      "sha256": "e8d432ff3b16378f08aa5ff5f7395e885b85e48af61de537c43408f36bf0f387"
+      "sizeBytes": 29686,
+      "sha256": "642225b6672af83b0f24b1132bd88623a3ca15d18a04fe1157b6c6d503d1b6bb",
+      "alternateIds": [
+        1446021775
+      ]
     },
     {
       "appleMusicId": 1445840922,
@@ -48,8 +51,11 @@
       "path": "am-lyrics/MIREI - Lonely In Tokyo (Japanese version) - 1682332990.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27409,
-      "sha256": "ffb3072dbcd62783d2f4d9ec58ec391f65eaeb47e2f7aef3b55112ea17b79e5a"
+      "sizeBytes": 27459,
+      "sha256": "63a99dcde9ce297a8183812eff023a0c92ac6798ca130adb759511336270c621",
+      "alternateIds": [
+        1685146835
+      ]
     },
     {
       "appleMusicId": 1716254220,
@@ -301,8 +307,11 @@
       "path": "am-lyrics/Jvzel & Neon Haze - Circus Minimus - 1559300640.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23220,
-      "sha256": "a354b3a340ca218c6795afc02546e3711fc19099e4c633d6f5dbc58bbbcdf21d"
+      "sizeBytes": 23270,
+      "sha256": "a4be18a63a855a6ae0188cd39740740b71e4b3e9a3ea85f5eb4862e5adc2abc9",
+      "alternateIds": [
+        1558985237
+      ]
     },
     {
       "appleMusicId": 1537779205,
@@ -350,10 +359,21 @@
       "path": "am-lyrics/ZUTOMAYO - Kan Saete Kuyashiiwa - 1464108341.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24613,
-      "sha256": "fc964383b8105b72f36d60bede329d46352be883f69c45d99ff5943a9400e671",
+      "sizeBytes": 25163,
+      "sha256": "c0d576dc6702c08e6aa53edc41ff6d177704f18a7b234a61f683150157e0a907",
       "alternateIds": [
-        1481464101
+        1481464101,
+        1749173523,
+        1749173201,
+        1582222267,
+        1619144241,
+        1729853321,
+        1582222079,
+        1619144273,
+        1582224763,
+        1582226556,
+        1582226683,
+        1620160134
       ]
     },
     {
@@ -417,10 +437,14 @@
       "path": "am-lyrics/ZUTOMAYO - Time Left - 1649264715.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27646,
-      "sha256": "2f4c6ab3cfb1d3d9c7ce1078a09578a99503acbd7074c3084b2d8b6f89f70a0b",
+      "sizeBytes": 27846,
+      "sha256": "20a7659668f67ea23acc3abf9cd02a9a4fc5f0bfc3d43d485f47dd59256338e3",
       "alternateIds": [
-        1688968529
+        1688968529,
+        1729853085,
+        1883661916,
+        1749173516,
+        1749173191
       ]
     },
     {
@@ -431,11 +455,13 @@
       "path": "am-lyrics/ZUTOMAYO - Humanoid - 1729853627.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47714,
-      "sha256": "ccf0b1f619b3a086ede87d7615bbd5cb8400bf65ff12ee898dbacee84d6c8e78",
+      "sizeBytes": 47864,
+      "sha256": "c519906f5cc8332bad153e140c3b4553d83da48dd3e078185e3b4dc322f2975d",
       "alternateIds": [
         1481464171,
-        1440134014
+        1440134014,
+        1749173748,
+        1749174007
       ]
     },
     {
@@ -468,8 +494,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kira Killer (feat. Mori Calliope) - 1729853527.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37201,
-      "sha256": "38bb1db8b76078ad8faac5819d5534894fa850d122ad647fdb71309f38b2a46d",
+      "sizeBytes": 37351,
+      "sha256": "8fbc9b8ba86949fb6ef04225bbf378de7ba87371b28fca88d934f91403b46aa3",
       "alternateIds": [
         1657388658,
         1688968536,
@@ -478,7 +504,10 @@
         1713626717,
         1694794583,
         1742856128,
-        1737877620
+        1737877620,
+        1883661913,
+        1749173720,
+        1749173993
       ]
     },
     {
@@ -489,12 +518,14 @@
       "path": "am-lyrics/OneRepublic - Feel Again - 1440862988.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 20943,
-      "sha256": "fb43e23afdadbdb4d91f7f26bca73e3c47c397d76f816ff9cfd8f04ce0b882bc",
+      "sizeBytes": 21043,
+      "sha256": "a4341385635efc9483b4d3cc86f950cce1de90d073460b0cb430d8c98463ed8b",
       "alternateIds": [
         1471704327,
         1440854629,
-        1440854503
+        1440854503,
+        1471704228,
+        1471704811
       ],
       "album": "Native"
     },
@@ -531,10 +562,11 @@
       "path": "am-lyrics/Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix] - 1458638381.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21716,
-      "sha256": "b7fd2c1862409b96469a09f985cb5592ba9e05984908d9288ed331fafa4a31c4",
+      "sizeBytes": 21860,
+      "sha256": "82d2a4875f4cdcd567c7a15e7343f3a3750624b998f896aa2d6b000ce1f9c7a3",
       "alternateIds": [
-        1468166326
+        1468166326,
+        1469482639
       ]
     },
     {
@@ -560,13 +592,14 @@
       "path": "am-lyrics/Imagine Dragons - I’m So Sorry - 1879820931.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25449,
-      "sha256": "aed5aa4ed1a2911bd6d9fdcc2ea3a3e27518d6e3d90fa7796b6645a23c8760ef",
+      "sizeBytes": 25549,
+      "sha256": "d5a19f3012f87aee420cec8244e802c52d14142ef0ade7cc1be83273284bcf3a",
       "alternateIds": [
         1440831215,
         1445867313,
         1682141726,
-        1710028848
+        1710028848,
+        1442719456
       ],
       "album": "Smoke + Mirrors (Deluxe)"
     },
@@ -687,13 +720,15 @@
       "path": "am-lyrics/Imagine Dragons - Demons - 1440830132.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23308,
-      "sha256": "29945841a72b8230d753e7d05de0fb37a5ffee5f5ef70a61ef78fcec404af936",
+      "sizeBytes": 23502,
+      "sha256": "216a5aff57ee38308de6ff27943e7f937b00824efed65b0d67791dc4faef68bd",
       "alternateIds": [
         1440873339,
         1440855802,
         1445011675,
-        1641822171
+        1641822171,
+        1440860495,
+        1440855940
       ]
     },
     {
@@ -732,14 +767,15 @@
       "path": "am-lyrics/OneRepublic - Secrets - 1445840797.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27429,
-      "sha256": "e95c6487abe922aeab40eafdacac63aad6679deb9adc9c1126d4a2ac731ff385",
+      "sizeBytes": 27479,
+      "sha256": "0b0ca2666b1cb7360f06f832e69f8b0c8b35ac81cbdc53f64bbc049a61487113",
       "alternateIds": [
         1461280403,
         1440734639,
         1569487261,
         1822898491,
-        6776896699
+        6776896699,
+        1669823897
       ]
     },
     {
@@ -761,10 +797,11 @@
       "path": "am-lyrics/YOASOBI - Moshimo inochiga egaketara - 1638045618.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24957,
-      "sha256": "ef4d79904fb67c5943ba2c3a83c72299face6b0550583b01cb9b0c7e8cee46c8",
+      "sizeBytes": 25101,
+      "sha256": "a9d1ad215c6748ffdbf82f33c0b53fa44926ce13afbed99a182de98cbe5e8f5f",
       "alternateIds": [
-        1593439946
+        1593439946,
+        1593438809
       ]
     },
     {
@@ -870,10 +907,12 @@
       "path": "am-lyrics/J.Fla - Stay - 1816252354.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17464,
-      "sha256": "fbe09f5e0fa96b8ab51882733fa37084f4c3934a2e3bbbeab034201b097b1398",
+      "sizeBytes": 17564,
+      "sha256": "9dcc13ef269c220e84f736fec9b0577973c57e43da7e64c493bd959635479e5a",
       "alternateIds": [
-        1364030570
+        1364030570,
+        1809159717,
+        1808910589
       ]
     },
     {
@@ -884,8 +923,13 @@
       "path": "am-lyrics/Lukas Graham - 7 Years - 1081573445.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29964,
-      "sha256": "13c93af323afd291d1a16e859bab52dc4001ec76712ee007fb539b5bd3913340"
+      "sizeBytes": 30114,
+      "sha256": "b2f8d3479d05452cbf112233954bed41f7737857219ccd6fc9b2bb2315bfe1c6",
+      "alternateIds": [
+        1440826018,
+        1051172233,
+        1443090703
+      ]
     },
     {
       "appleMusicId": 1600659272,
@@ -953,9 +997,12 @@
       "path": "am-lyrics/OneRepublic - Connection - 1401489355.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26708,
-      "sha256": "368aef0fa6644048f43f9852ab75de60d1e4d46ea5cc159e964036d9213202b5",
-      "album": "Connection - Single"
+      "sizeBytes": 26758,
+      "sha256": "34eec9fc837eb752a5ba90fe55f26eda026490fe2f8317f795443af4dbf106bf",
+      "album": "Connection - Single",
+      "alternateIds": [
+        1721405387
+      ]
     },
     {
       "appleMusicId": 1463236498,
@@ -977,9 +1024,12 @@
       "path": "am-lyrics/Alec Benjamin - Let Me Down Slowly - 1441728727.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27919,
-      "sha256": "2aa2d0f05fa61da811278e3580927a7cf0940c8c06a37eb58cca88b65bd0c0fb",
-      "album": "Narrated for You"
+      "sizeBytes": 27969,
+      "sha256": "219f8763e08811e2bd5be2ce1b2f974d8595da0e348a1e4913114eb86749e980",
+      "album": "Narrated for You",
+      "alternateIds": [
+        1386999451
+      ]
     },
     {
       "appleMusicId": 1441728724,
@@ -1000,9 +1050,12 @@
       "path": "am-lyrics/J.Fla - FRIENDS - 1808885814.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21049,
-      "sha256": "9cec7f9c4b68a4a463b8f91b735ee051d28336792a0a0dc13b3be303098fe414",
-      "album": "FRIENDS - Single"
+      "sizeBytes": 21099,
+      "sha256": "22a8ee451775b9436038a6f85fcbfad1ca716b343d9a154943a84804312a4c79",
+      "album": "FRIENDS - Single",
+      "alternateIds": [
+        1808909873
+      ]
     },
     {
       "appleMusicId": 1502298687,
@@ -1012,10 +1065,11 @@
       "path": "am-lyrics/OneRepublic - Wanted - 1502298687.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 20877,
-      "sha256": "8b41ac4ff2946de7e8ffef7b740fb74f5fa43b42d132a4392f85c1fdf75c5619",
+      "sizeBytes": 20927,
+      "sha256": "ef664999e59caa38fcf249284ee6eb0b8eb9b3b9fe4242734a3443fd5fff37d7",
       "alternateIds": [
-        1828512794
+        1828512794,
+        1478231272
       ],
       "album": "Human (Deluxe)"
     },
@@ -1039,8 +1093,11 @@
       "path": "am-lyrics/Imagine Dragons - Digital - 1437948996.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 30449,
-      "sha256": "7ce11fda970a4cf8e8cfc588646b1106d683d621a15cc8b099fd2b7b7a60b7c2"
+      "sizeBytes": 30499,
+      "sha256": "a01f4339b9e21ae0c937cb92de8613569769ed102639693708e4bd6e2040c31a",
+      "alternateIds": [
+        1437948602
+      ]
     },
     {
       "appleMusicId": 1437948985,
@@ -1050,8 +1107,11 @@
       "path": "am-lyrics/Imagine Dragons - Cool Out - 1437948985.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26567,
-      "sha256": "a6dfcac6b72b14f15753f72ae42427561938632559065c35c19cd391c00ec1f1"
+      "sizeBytes": 26617,
+      "sha256": "18f3715545a335d04fccc872b407e069ab0ca4b8505facefbfbd4c0ef42d02e6",
+      "alternateIds": [
+        1437948597
+      ]
     },
     {
       "appleMusicId": 1437948983,
@@ -1061,8 +1121,11 @@
       "path": "am-lyrics/Imagine Dragons - Machine - 1437948983.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22777,
-      "sha256": "2656a310b257821ebd48120661dd518cf8ab1c263beec8805ca65610eec4d5fa"
+      "sizeBytes": 22827,
+      "sha256": "a87d87f2b3660915a3b6b142ac178c407afdc22f8f5e508b5f41c6012257cff6",
+      "alternateIds": [
+        1437948596
+      ]
     },
     {
       "appleMusicId": 1437948991,
@@ -1072,8 +1135,12 @@
       "path": "am-lyrics/Imagine Dragons - Zero (From 、Ralph Breaks the Internet、) - 1437948991.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 36671,
-      "sha256": "288c9871f1af2c152e580669c3f2a910cae666a0e74afec5bb48365a63915bfc"
+      "sizeBytes": 36771,
+      "sha256": "00ec0e60b661ea2e6be978bcd2794b0890a88f0bd74051d8771a7157d211dee1",
+      "alternateIds": [
+        1436064499,
+        1437948600
+      ]
     },
     {
       "appleMusicId": 1437949212,
@@ -1083,8 +1150,11 @@
       "path": "am-lyrics/Imagine Dragons - Only - 1437949212.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24653,
-      "sha256": "303de9b9c44aff25051fac0068c21cd2aa3fa30c21c20b06c67b1404e9129d38"
+      "sizeBytes": 24703,
+      "sha256": "1eaeb9d76eb317c8d0334812ce97d3766632cade5914ad3c3d8c719bde611d85",
+      "alternateIds": [
+        1437948603
+      ]
     },
     {
       "appleMusicId": 1437949219,
@@ -1094,8 +1164,11 @@
       "path": "am-lyrics/Imagine Dragons - Birds - 1437949219.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21658,
-      "sha256": "750e7aa5e1d2b5d262a4df66dcb19a068d9423c48323cf4fe97f57fc47dae627"
+      "sizeBytes": 21708,
+      "sha256": "3f5911d0798ca04a159fbcc5f16891c13986993ff5134f8fbe60cba1d0ff36b9",
+      "alternateIds": [
+        1879821181
+      ]
     },
     {
       "appleMusicId": 1437949214,
@@ -1105,8 +1178,11 @@
       "path": "am-lyrics/Imagine Dragons - Stuck - 1437949214.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23623,
-      "sha256": "d954c5f0dd04522ef0cd47f6e085343da0921e29a67c4c4bb1f0a4cbd1e04fb2"
+      "sizeBytes": 23673,
+      "sha256": "25c2ae1e14d6668a0a3c559f7759588f2eac68722b3dd11643d3ed5e521ef5e3",
+      "alternateIds": [
+        1437948604
+      ]
     },
     {
       "appleMusicId": 1437949216,
@@ -1116,8 +1192,11 @@
       "path": "am-lyrics/Imagine Dragons - source - 1437949216.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32617,
-      "sha256": "9d36ee162dddf445282f6f903f5c1f8ec2b925898f869d6a6af07ab0c91459f5"
+      "sizeBytes": 32667,
+      "sha256": "bca2a90b71a7febbb47b59890cb411c83d8889b551846505f1de80509a16e381",
+      "alternateIds": [
+        1437948605
+      ]
     },
     {
       "appleMusicId": 1437949222,
@@ -1138,8 +1217,11 @@
       "path": "am-lyrics/Imagine Dragons - West Coast - 1437948990.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24534,
-      "sha256": "841eaa325216d4206c352931940f5cf5925e5bcfd6550ce62947b9b41a976340"
+      "sizeBytes": 24584,
+      "sha256": "ede14378548510f27dc8e2a4bb8453f37dddd33660f2f74c7de1d59d9996fea2",
+      "alternateIds": [
+        1437948599
+      ]
     },
     {
       "appleMusicId": 1437948981,
@@ -1149,8 +1231,11 @@
       "path": "am-lyrics/Imagine Dragons - Boomerang - 1437948981.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24478,
-      "sha256": "2223ed84000a014ca6aa4e7aa0a92e3b088c4a6b37425349393b5de68e5daf33"
+      "sizeBytes": 24528,
+      "sha256": "cf154594208703ffa0a14820185a8faacb0dd04fb4073f9a52e51b9d8b24b3fc",
+      "alternateIds": [
+        1437948595
+      ]
     },
     {
       "appleMusicId": 1833385237,
@@ -1160,10 +1245,11 @@
       "path": "am-lyrics/无畏契约 - TICKING AWAY - 1833385237.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21369,
-      "sha256": "360fce1323113c12976cc1c1bc729f17b63f7ba56a28b83ec23d909b674ff7b1",
+      "sizeBytes": 21419,
+      "sha256": "fa8f70477bb300241569b14eac79249e83bde66999af720c65ab5413da76c1c8",
       "alternateIds": [
-        1833385238
+        1833385238,
+        1833132370
       ]
     },
     {
@@ -1394,8 +1480,11 @@
       "path": "am-lyrics/Imagine Dragons - Bullet In a Gun - 1437948994.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28211,
-      "sha256": "235d85a00dabf9e39bd475fa78a37051327ade9f4a91261962afea2e63c9ddd7"
+      "sizeBytes": 28261,
+      "sha256": "2faa53fbb88d4970e72f7cd1b1dfac30f5aac1667b715614171fea67ac51d4e0",
+      "alternateIds": [
+        1437948601
+      ]
     },
     {
       "appleMusicId": 1437949221,
@@ -1416,8 +1505,12 @@
       "path": "am-lyrics/Glass Animals - The Other Side of Paradise - 1440840442.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25936,
-      "sha256": "2abfc806e53970bdf2cf8b8cb51f132821d61fd1b3eea03fa7dd649d95713739"
+      "sizeBytes": 26036,
+      "sha256": "4039dc604c9d08953723375334458b9f9600467d4711e816792d3a9f116d51d0",
+      "alternateIds": [
+        1737865031,
+        1790244174
+      ]
     },
     {
       "appleMusicId": 1625938409,
@@ -1553,9 +1646,12 @@
       "path": "am-lyrics/RADWIMPS - Is There Still Anything That Love Can Do、 - 1472727605.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 20196,
-      "sha256": "c717f47558dfa5e95a9eb5c7219b5c534c8c045da363ce6acaef4f5889fcc969",
-      "album": "Weathering with You"
+      "sizeBytes": 20246,
+      "sha256": "1470dcedc992de461e4f274f11fa30cca2df4702d9c8a2e46d89c3473fa31564",
+      "album": "Weathering with You",
+      "alternateIds": [
+        1518522045
+      ]
     },
     {
       "appleMusicId": 1651284059,
@@ -1565,9 +1661,12 @@
       "path": "am-lyrics/RADWIMPS - Suzume (feat. Toaka) - 1651284059.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 16105,
-      "sha256": "de32d70b9f1f3bd204eb312e364debfc05a6cdb30ca4256e2500b4e8298cb565",
-      "album": "Suzume (Motion Picture Soundtrack)"
+      "sizeBytes": 16155,
+      "sha256": "f9771d0674668f5eb31c25efd77958c8f0902b66ea5e350f24b941c0cfc281a3",
+      "album": "Suzume (Motion Picture Soundtrack)",
+      "alternateIds": [
+        1651183711
+      ]
     },
     {
       "appleMusicId": 1485833906,
@@ -1589,9 +1688,12 @@
       "path": "am-lyrics/RADWIMPS - Grand Escape (Movie Edit) [feat. Toko Miura] - 1472727596.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17404,
-      "sha256": "0b456ca9b92eeaed209a992f4a6a9b0a7f66d382acb4d9f29b43d35952bc8b12",
-      "album": "Weathering with You"
+      "sizeBytes": 17454,
+      "sha256": "de4e09c6d8435504d7bb7b71071ef5f2e4660b8b46725ec1c40fe2fc3e204e93",
+      "album": "Weathering with You",
+      "alternateIds": [
+        1518521794
+      ]
     },
     {
       "appleMusicId": 1485833908,
@@ -1613,9 +1715,12 @@
       "path": "am-lyrics/RADWIMPS - Zenzenzense - Movie Ver - 1434005783.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29472,
-      "sha256": "a5e41beb8ff9313cbd1575e99f855d8306078eaa04840d1f83d995e2067d0151",
-      "album": "Your Name."
+      "sizeBytes": 29522,
+      "sha256": "75f57de2559f5815c06158fef6c1d806a15a09fff893653d30d96d0a06c926d9",
+      "album": "Your Name.",
+      "alternateIds": [
+        1518516786
+      ]
     },
     {
       "appleMusicId": 1434005924,
@@ -1625,9 +1730,12 @@
       "path": "am-lyrics/RADWIMPS - Sparkle - Movie Ver - 1434005924.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23228,
-      "sha256": "978471b6205779c9b2f0e63e5e5190759c978f0c10d07bd82f3bcd375feaf758",
-      "album": "Your Name."
+      "sizeBytes": 23278,
+      "sha256": "1852fe7791c5d4603db8e09a346598df2cbb3e4b680d70f7734ebab2c7d6af5d",
+      "album": "Your Name.",
+      "alternateIds": [
+        1518516805
+      ]
     },
     {
       "appleMusicId": 1651284061,
@@ -1637,9 +1745,12 @@
       "path": "am-lyrics/RADWIMPS - Tamaki - 1651284061.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25439,
-      "sha256": "5c51a08fe9d79d9fe9d83d9161c94838fe52c5f4ea898b16562840b9b1001fa9",
-      "album": "Suzume (Motion Picture Soundtrack)"
+      "sizeBytes": 25489,
+      "sha256": "c63e4e9dda55b3e50adaafe5cdcb843406a73566c0cbdf7c62bc4968e0c216c0",
+      "album": "Suzume (Motion Picture Soundtrack)",
+      "alternateIds": [
+        1651183712
+      ]
     },
     {
       "appleMusicId": 1647112151,
@@ -1649,9 +1760,12 @@
       "path": "am-lyrics/RADWIMPS - Suzume (feat. Toaka) - 1647112151.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 16046,
-      "sha256": "13d6684d915cc755cbdd7eecc7dbca61d9f1857158dc6b32885ab505b877125b",
-      "album": "Suzume (feat. Toaka) - Single"
+      "sizeBytes": 16096,
+      "sha256": "04c0a4cbe6129f53d7dda857f42071a7131c218a906ff379bebeac98a93ac0d4",
+      "album": "Suzume (feat. Toaka) - Single",
+      "alternateIds": [
+        1646939428
+      ]
     },
     {
       "appleMusicId": 1487534131,
@@ -1721,9 +1835,12 @@
       "path": "am-lyrics/Coldplay - Viva La Vida - 1122773680.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26018,
-      "sha256": "862dfdfebcf8b58503cc0495999b6dbc42c680c5fbf925777b63582fd15fce84",
-      "album": "Viva La Vida or Death and All His Friends"
+      "sizeBytes": 26068,
+      "sha256": "60f05ea61dbe2de4396f5bd062b653c6d500caf029308216377bef9f42303d0c",
+      "album": "Viva La Vida or Death and All His Friends",
+      "alternateIds": [
+        1122778616
+      ]
     },
     {
       "appleMusicId": 1472495589,
@@ -1733,9 +1850,13 @@
       "path": "am-lyrics/Michael Schulte - All I Need - 1472495589.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 35264,
-      "sha256": "971fc77e3acb119948c4cee5ca421d666648ad4a7c0d2584182fef0e7552d78c",
-      "album": "Highs & Lows"
+      "sizeBytes": 35364,
+      "sha256": "8fccb02f55d2d7bbdec8768d672c77ea046b36abfa350575d13fb023def5c2e0",
+      "album": "Highs & Lows",
+      "alternateIds": [
+        1538743560,
+        1547577419
+      ]
     },
     {
       "appleMusicId": 1555187732,
@@ -1745,9 +1866,12 @@
       "path": "am-lyrics/Charlotte Lawrence - Just the Same - 1555187732.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29896,
-      "sha256": "b0a1300f450e94cfaa7a4acba351ad1315d6d932125602d4f998e26d7916a1d9",
-      "album": "Just the Same - Single"
+      "sizeBytes": 29946,
+      "sha256": "ce74d73b25eaf18c25a48035ca6ca5c638e107b4f702675221ada0389962a6b7",
+      "album": "Just the Same - Single",
+      "alternateIds": [
+        1555184196
+      ]
     },
     {
       "appleMusicId": 1540793097,
@@ -1772,9 +1896,12 @@
       "path": "am-lyrics/Fujii Kaze - Shinunoga E-Wa - 1505498792.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 18999,
-      "sha256": "eb7a5609124e301887ebe7f8c201504213d4e22b3b76069bc76e5d04c7cc809d",
-      "album": "HELP EVER HURT NEVER"
+      "sizeBytes": 19049,
+      "sha256": "b7e34d6fefad870dc9ec7c005f8056209e3533b6d7f30fdd6189a15981fa8320",
+      "album": "HELP EVER HURT NEVER",
+      "alternateIds": [
+        1748185866
+      ]
     },
     {
       "appleMusicId": 1841791887,
