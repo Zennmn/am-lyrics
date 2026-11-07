@@ -1433,8 +1433,9 @@
       "path": "am-lyrics/MIREI - Neiro Regards - 1538283049.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32806,
-      "sha256": "745790ebd20f62dded2b677fb6937a228849b1cde98bf03aacc6d126a6c08982"
+      "sizeBytes": 32670,
+      "sha256": "9182851d530f3d541abf4317bc56e9e7a54408355648bed36ad8f00f1cdc51e3",
+      "album": "Answer"
     },
     {
       "appleMusicId": 1538283051,
