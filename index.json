@@ -1187,16 +1187,17 @@
     {
       "appleMusicId": 1437949216,
       "artist": "Imagine Dragons",
-      "title": "source",
-      "displayName": "source - Imagine Dragons",
-      "path": "am-lyrics/Imagine Dragons - source - 1437949216.ttml",
+      "title": "Love",
+      "displayName": "Love - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Love - 1437949216.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32667,
-      "sha256": "bca2a90b71a7febbb47b59890cb411c83d8889b551846505f1de80509a16e381",
+      "sizeBytes": 32665,
+      "sha256": "a647c38496c815bbb9770c35720e3fa0bafa49f220b4539731fa8da2f0dff375",
       "alternateIds": [
         1437948605
-      ]
+      ],
+      "album": "Origins (Deluxe Edition)"
     },
     {
       "appleMusicId": 1437949222,
