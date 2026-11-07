@@ -1876,14 +1876,14 @@
     },
     {
       "appleMusicId": 1540793097,
-      "artist": "Hallie Coggins",
-      "title": "网络动画《赛博朋克：边缘行者》插曲",
-      "displayName": "网络动画《赛博朋克：边缘行者》插曲 - Hallie Coggins",
-      "path": "am-lyrics/Hallie Coggins - 网络动画《赛博朋克：边缘行者》插曲 - 1540793097.ttml",
+      "artist": "Rosa Walton & Hallie Coggins",
+      "title": "I Really Want to Stay At Your House",
+      "displayName": "I Really Want to Stay At Your House - Rosa Walton & Hallie Coggins",
+      "path": "am-lyrics/Rosa Walton & Hallie Coggins - I Really Want to Stay At Your House - 1540793097.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31649,
-      "sha256": "c84de88c52980ceef75bb79f631367289f9e74fa71afef856345638f7a3dd48c",
+      "sizeBytes": 31699,
+      "sha256": "ab17cdfc8f6560fa66a8ecbbe1ebf43c6b648b7e4e472982d89269e9ccaf2e5d",
       "album": "Cyberpunk : Edgerunners Soundtrack Vol.1 (Ep1+2)",
       "alternateIds": [
         1541001553
