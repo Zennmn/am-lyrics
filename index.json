@@ -51,11 +51,12 @@
       "path": "am-lyrics/MIREI - Lonely In Tokyo (Japanese version) - 1682332990.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27459,
-      "sha256": "63a99dcde9ce297a8183812eff023a0c92ac6798ca130adb759511336270c621",
+      "sizeBytes": 27613,
+      "sha256": "5cf1ee7d5fc8491b2c048050434c10c4c41352dac21cc3b4ab169556a9d9dc17",
       "alternateIds": [
         1685146835
-      ]
+      ],
+      "album": "Lonely In Tokyo (JPN)"
     },
     {
       "appleMusicId": 1716254220,
@@ -695,8 +696,8 @@
       "path": "am-lyrics/Galdive - Cloud - 1520362749.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23920,
-      "sha256": "85624f0e204509b78f09ad0e38e072852d37b1aff5724faf0e3c543d047c1042",
+      "sizeBytes": 24017,
+      "sha256": "f52dc032e7aaca4db5733581988ef118436a516add51bb0316edb9bf09adc51b",
       "alternateIds": [
         1485424431
       ],
