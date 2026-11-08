@@ -79,8 +79,9 @@
       "path": "am-lyrics/Will Stetson - God-Ish - 1633319441.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47307,
-      "sha256": "588b5e1f791ab5ecb6706e521a57d7480442720a149bd3aff99a7854deb2e090"
+      "sizeBytes": 49512,
+      "sha256": "5ba0ca7eafb3ab2868b94a7832361306712cf58d07c1a079a8cb5971e35349e2",
+      "album": "God-Ish - Single"
     },
     {
       "appleMusicId": 1540623213,
