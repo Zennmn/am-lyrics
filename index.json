@@ -103,8 +103,8 @@
       "path": "am-lyrics/陈粒 - 易燃易爆炸 - 1413543583.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 18829,
-      "sha256": "323d9e8c213d92917632ab083550d176a3a9f6cfe19d4701f4caba8532d5db16"
+      "sizeBytes": 18786,
+      "sha256": "ad5f6c0a4d8db6a275ce3ee66170aaef42bffb0ca0763d031ac536a06b1ee1e2"
     },
     {
       "appleMusicId": 1413542873,
@@ -114,8 +114,8 @@
       "path": "am-lyrics/陈粒 - 如也 - 1413542873.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 14804,
-      "sha256": "be4c3a00549a8726c2deedf8af4910d7b4c7a7d3f0588a42944c0d74a0903545"
+      "sizeBytes": 14761,
+      "sha256": "3b02356bb27339b93fe634f2b0024c20f2607d991ef69a2258e62d90f6142a49"
     },
     {
       "appleMusicId": 1538281340,
@@ -249,8 +249,8 @@
       "path": "am-lyrics/GenriX, CORBAL & Shiloh Dynasty - Novocaine - 1659746896.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21618,
-      "sha256": "88383f4f8b283bb073894c36e843c83036ae4c2d9112764d620b08d6e9d84812"
+      "sizeBytes": 21575,
+      "sha256": "c18fece8a0c316f5b3e6f464afafc95bdbef9bfb0a74e2916b3f4c841214dad1"
     },
     {
       "appleMusicId": 1706433971,
@@ -1123,8 +1123,8 @@
       "path": "am-lyrics/Imagine Dragons - Machine - 1437948983.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22827,
-      "sha256": "a87d87f2b3660915a3b6b142ac178c407afdc22f8f5e508b5f41c6012257cff6",
+      "sizeBytes": 22784,
+      "sha256": "a29bf188b76f3fbbdcc247869aa4dc2612db924c5640eced6f9180d7fd7ac7b1",
       "alternateIds": [
         1437948596
       ]
@@ -1166,8 +1166,8 @@
       "path": "am-lyrics/Imagine Dragons - Birds - 1437949219.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21708,
-      "sha256": "3f5911d0798ca04a159fbcc5f16891c13986993ff5134f8fbe60cba1d0ff36b9",
+      "sizeBytes": 21665,
+      "sha256": "09d8286136c6ed0e30c146c2176cc61d21847e91c73c9bbb7050443b7bbbc14e",
       "alternateIds": [
         1879821181
       ]
