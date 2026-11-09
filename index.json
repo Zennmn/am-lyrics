@@ -1931,6 +1931,18 @@
       "sizeBytes": 32256,
       "sha256": "e6ca979cc9b5179343d6e0ce19e823cea80a0430e335272df18ea3899091753d",
       "album": "^^ - Single"
+    },
+    {
+      "appleMusicId": 1536261607,
+      "artist": "YOUYA",
+      "title": "Mr. \"Broken Heart\"",
+      "displayName": "Mr. \"Broken Heart\" - YOUYA",
+      "path": "am-lyrics/YOUYA - Mr. 、Broken Heart、 - 1536261607.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 19612,
+      "sha256": "a75192abfbeb3b098c5888df92ad21717357a25302fb33c814800f1201d3e4b5",
+      "album": "I AM ME"
     }
   ]
 }
