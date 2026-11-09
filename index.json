@@ -1954,6 +1954,18 @@
       "sizeBytes": 38086,
       "sha256": "5b46eb76160813e64c193764153c0ac8742bcb3ee96f2387cebb28af72c32b29",
       "album": "Revenge - Single"
+    },
+    {
+      "appleMusicId": 1615315275,
+      "artist": "CaptainSparklez & TryHardNinja",
+      "title": "Fallen Kingdom",
+      "displayName": "Fallen Kingdom - CaptainSparklez & TryHardNinja",
+      "path": "am-lyrics/CaptainSparklez & TryHardNinja - Fallen Kingdom - 1615315275.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24598,
+      "sha256": "ce780d7367ecb995f1f3faad445d09e8e519c5117a01d227e1d405d7293ce72b",
+      "album": "Fallen Kingdom - Single"
     }
   ]
 }
