@@ -1965,6 +1965,18 @@
       "sizeBytes": 24598,
       "sha256": "ce780d7367ecb995f1f3faad445d09e8e519c5117a01d227e1d405d7293ce72b",
       "album": "Fallen Kingdom - Single"
+    },
+    {
+      "appleMusicId": 1428083880,
+      "artist": "ZUTOMAYO",
+      "title": "Byoushinwo Kamu",
+      "displayName": "Byoushinwo Kamu - ZUTOMAYO",
+      "path": "am-lyrics/ZUTOMAYO - Byoushinwo Kamu - 1428083880.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 18639,
+      "sha256": "8153957e5a1e6be0e91cc924fa97e5a58843e6fd774eecdc3fe0a7b3d3f26816",
+      "album": "Byoushinwo Kamu - Single"
     }
   ]
 }
