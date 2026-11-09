@@ -579,11 +579,12 @@
       "path": "am-lyrics/ZUTOMAYO - Byoushinwo Kamu - 1440134010.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 36431,
-      "sha256": "ab257acc024089e418fbc353a727a13f559a970d00051bba1c8986da385e834e",
+      "sizeBytes": 31430,
+      "sha256": "cf4e6f35c0a601b737d86062d2ca45bac3d6a0246914a1edafa6b0ff550dd38e",
       "alternateIds": [
         1481464176
-      ]
+      ],
+      "album": "Tadashii Itsuwarikarano Kishou - EP"
     },
     {
       "appleMusicId": 1879820931,
