@@ -1942,6 +1942,18 @@
       "sizeBytes": 19612,
       "sha256": "a75192abfbeb3b098c5888df92ad21717357a25302fb33c814800f1201d3e4b5",
       "album": "I AM ME"
+    },
+    {
+      "appleMusicId": 1834473567,
+      "artist": "CaptainSparklez & TryHardNinja",
+      "title": "Revenge",
+      "displayName": "Revenge - CaptainSparklez & TryHardNinja",
+      "path": "am-lyrics/CaptainSparklez & TryHardNinja - Revenge - 1834473567.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 33409,
+      "sha256": "533cad8dc3ceecf323f4ae792beb636eecf4de5f107c0d3f94b68009ef1c50b3",
+      "album": "Revenge - Single"
     }
   ]
 }
