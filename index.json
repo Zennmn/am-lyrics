@@ -1082,9 +1082,12 @@
       "path": "am-lyrics/MIREI - iyaiiya - 1536633324.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 34766,
-      "sha256": "2554ccce096ab177610fb55ecb0e841f0716d780eddbf37ed685810442e74869",
-      "album": "iyaiiya - Single"
+      "sizeBytes": 34854,
+      "sha256": "49d5e7980b1646cb3d7bd2007b6d09b65cf38ae36e750030e62457fc9543eb35",
+      "album": "iyaiiya - Single",
+      "alternateIds": [
+        1555193624
+      ]
     },
     {
       "appleMusicId": 1437948996,
@@ -1977,18 +1980,6 @@
       "sizeBytes": 18639,
       "sha256": "8153957e5a1e6be0e91cc924fa97e5a58843e6fd774eecdc3fe0a7b3d3f26816",
       "album": "Byoushinwo Kamu - Single"
-    },
-    {
-      "appleMusicId": 1555193624,
-      "artist": "MIREI",
-      "title": "iyaiiya",
-      "displayName": "iyaiiya - MIREI",
-      "path": "am-lyrics/MIREI - iyaiiya - 1555193624.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 34755,
-      "sha256": "6481ae69c4844381765f42503cbce06efab83d7c64876dfdc2a0e64c0caa95ff",
-      "album": "still"
     }
   ]
 }
