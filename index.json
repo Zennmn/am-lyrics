@@ -1980,6 +1980,18 @@
       "sizeBytes": 18639,
       "sha256": "8153957e5a1e6be0e91cc924fa97e5a58843e6fd774eecdc3fe0a7b3d3f26816",
       "album": "Byoushinwo Kamu - Single"
+    },
+    {
+      "appleMusicId": 1628728907,
+      "artist": "LÜCY",
+      "title": "isahini",
+      "displayName": "isahini - LÜCY",
+      "path": "am-lyrics/LÜCY - isahini - 1628728907.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27578,
+      "sha256": "2ecd03dcd5bb907d450bdd716d6b827c6b5f8cfee3cb8896da67fc5e4a39517b",
+      "album": "LÜCY"
     }
   ]
 }
