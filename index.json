@@ -2017,6 +2017,18 @@
       "sizeBytes": 26907,
       "sha256": "992e4f1873ddce4fb4872fa2673a422720878193a39357c830c666802d6de3c0",
       "album": "Hotel California"
+    },
+    {
+      "appleMusicId": 1503322249,
+      "artist": "Cécile Corbel",
+      "title": "Take Me Hand",
+      "displayName": "Take Me Hand - Cécile Corbel",
+      "path": "am-lyrics/Cécile Corbel - Take Me Hand - 1503322249.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 23161,
+      "sha256": "61163cd95e9009472ebfd50696391b2505fd8650392f655a3d7e1c1282e09250",
+      "album": "Take Me Hand"
     }
   ]
 }
