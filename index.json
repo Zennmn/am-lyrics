@@ -2005,6 +2005,18 @@
       "sizeBytes": 16480,
       "sha256": "0106c60222c774a2a49147a3fa06852f803afce7b45cffe6fa375bc4bf0ecd73",
       "album": "Dreaming Out Loud"
+    },
+    {
+      "appleMusicId": 635770202,
+      "artist": "Eagles",
+      "title": "Hotel California",
+      "displayName": "Hotel California - Eagles",
+      "path": "am-lyrics/Eagles - Hotel California - 635770202.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 26907,
+      "sha256": "992e4f1873ddce4fb4872fa2673a422720878193a39357c830c666802d6de3c0",
+      "album": "Hotel California"
     }
   ]
 }
