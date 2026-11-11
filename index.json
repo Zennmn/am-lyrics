@@ -2029,6 +2029,18 @@
       "sizeBytes": 23161,
       "sha256": "61163cd95e9009472ebfd50696391b2505fd8650392f655a3d7e1c1282e09250",
       "album": "Take Me Hand"
+    },
+    {
+      "appleMusicId": 1892123257,
+      "artist": "Sam Tinnesz",
+      "title": "Play with Fire (feat. Yacht Money)",
+      "displayName": "Play with Fire (feat. Yacht Money) - Sam Tinnesz",
+      "path": "am-lyrics/Sam Tinnesz - Play with Fire (feat. Yacht Money) - 1892123257.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 19667,
+      "sha256": "d5d47edd9c6d19bb663cb8fd52092c71e150ec88f2cffa20df3fc25c22107e09",
+      "album": "Play with Fire (feat. Yacht Money) - Single"
     }
   ]
 }
