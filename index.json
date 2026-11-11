@@ -2065,6 +2065,18 @@
       "sizeBytes": 25521,
       "sha256": "fb9df1c6e97b503a1a35057e070b36869a5c66c3a6a4982fbb448aeca52db0c9",
       "album": "BITEKI"
+    },
+    {
+      "appleMusicId": 6827268685,
+      "artist": "Lunak",
+      "title": "Cherry Candy",
+      "displayName": "Cherry Candy - Lunak",
+      "path": "am-lyrics/Lunak - Cherry Candy - 6827268685.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 16519,
+      "sha256": "752f3fff640a2a662dbf1e453664007573b7c497a951914363ec8b163da10c92",
+      "album": "Cherry Candy - Single"
     }
   ]
 }
