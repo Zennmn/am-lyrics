@@ -2041,6 +2041,18 @@
       "sizeBytes": 19667,
       "sha256": "d5d47edd9c6d19bb663cb8fd52092c71e150ec88f2cffa20df3fc25c22107e09",
       "album": "Play with Fire (feat. Yacht Money) - Single"
+    },
+    {
+      "appleMusicId": 6831510081,
+      "artist": "YOASOBI",
+      "title": "KILLA",
+      "displayName": "KILLA - YOASOBI",
+      "path": "am-lyrics/YOASOBI - KILLA - 6831510081.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 38346,
+      "sha256": "2ded6a6d18446228e753170649e7aff72abc76e4d03603c888d30b486130219b",
+      "album": "KILLA - Single"
     }
   ]
 }
