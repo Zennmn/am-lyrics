@@ -2053,6 +2053,18 @@
       "sizeBytes": 38346,
       "sha256": "2ded6a6d18446228e753170649e7aff72abc76e4d03603c888d30b486130219b",
       "album": "KILLA - Single"
+    },
+    {
+      "appleMusicId": 1612464701,
+      "artist": "Biteki Keikaku",
+      "title": "Mada Asahaka (feat. WANUKA)",
+      "displayName": "Mada Asahaka (feat. WANUKA) - Biteki Keikaku",
+      "path": "am-lyrics/Biteki Keikaku - Mada Asahaka (feat. WANUKA) - 1612464701.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 25521,
+      "sha256": "fb9df1c6e97b503a1a35057e070b36869a5c66c3a6a4982fbb448aeca52db0c9",
+      "album": "BITEKI"
     }
   ]
 }
