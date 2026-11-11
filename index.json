@@ -2077,6 +2077,18 @@
       "sizeBytes": 16519,
       "sha256": "752f3fff640a2a662dbf1e453664007573b7c497a951914363ec8b163da10c92",
       "album": "Cherry Candy - Single"
+    },
+    {
+      "appleMusicId": 1615585008,
+      "artist": "Harry Styles",
+      "title": "As It Was",
+      "displayName": "As It Was - Harry Styles",
+      "path": "am-lyrics/Harry Styles - As It Was - 1615585008.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 17559,
+      "sha256": "d9c287f54ebcdb7ec72a4d0af0b59fcdd1efb267b8dd07c6b6371540bf6dd512",
+      "album": "Harry's House"
     }
   ]
 }
