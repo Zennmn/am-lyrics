@@ -24,8 +24,8 @@
       "path": "am-lyrics/OneRepublic - Good Life - 1445840922.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29888,
-      "sha256": "a90cd5f6ae0838f2c813b2be236e590e68758f612db81e415d847a736bb4a403"
+      "sizeBytes": 29883,
+      "sha256": "1f8afcbbc73ea5524083d9bdb108c95fd67873feea9dbed96ace360afdebeb9e"
     },
     {
       "appleMusicId": 1609445854,
@@ -114,8 +114,8 @@
       "path": "am-lyrics/陈粒 - 如也 - 1413542873.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 14761,
-      "sha256": "3b02356bb27339b93fe634f2b0024c20f2607d991ef69a2258e62d90f6142a49"
+      "sizeBytes": 14766,
+      "sha256": "f20782603833e9d91184bd91b61f94cd3ef58a38ace4f42a7c7bcce483cbe8ed"
     },
     {
       "appleMusicId": 1538281340,
@@ -239,8 +239,8 @@
       "path": "am-lyrics/初音ミク、鏡音リン、GUMI、れるりり - 神のまにまに - 7335408332109193189.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38107,
-      "sha256": "062013b650150b7abcdb0f472b9737f9cb82eadcc4d7f8b17d63982a55690fff"
+      "sizeBytes": 38121,
+      "sha256": "f1a2007d71c88c7354f9daeb614c9c6c5cb7a84ca1ded1d827918b303d021929"
     },
     {
       "appleMusicId": 1659746896,
@@ -262,7 +262,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 36284,
-      "sha256": "d80f81b08a343e4b84cedf2a00ab5c44d319c611effaa95fe152ffd24d695ddb"
+      "sha256": "040ebf1383426fdde31b83b75e0bcd61b88841b093385d15b710797509ff0a7e"
     },
     {
       "appleMusicId": 1440827791,
@@ -310,8 +310,8 @@
       "path": "am-lyrics/Jvzel & Neon Haze - Circus Minimus - 1559300640.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 23270,
-      "sha256": "a4be18a63a855a6ae0188cd39740740b71e4b3e9a3ea85f5eb4862e5adc2abc9",
+      "sizeBytes": 23265,
+      "sha256": "738ce0615a5887c8237177645d55070ea9593dc1e749668d29ba491c2ab6f9fe",
       "alternateIds": [
         1558985237
       ]
@@ -324,8 +324,8 @@
       "path": "am-lyrics/MIREI - ユキコイ - 1537779205.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26262,
-      "sha256": "e4ff99951f50d4d7ddf8149f7b7566705427d0a116bcb7dc1300068dde1a353e"
+      "sizeBytes": 26276,
+      "sha256": "800831c98c57b0998c27ce1c7007961aec887463c6ea31e212a84b30f3ecbb0f"
     },
     {
       "appleMusicId": 29276049,
@@ -459,8 +459,8 @@
       "path": "am-lyrics/ZUTOMAYO - Humanoid - 1729853627.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47864,
-      "sha256": "c519906f5cc8332bad153e140c3b4553d83da48dd3e078185e3b4dc322f2975d",
+      "sizeBytes": 47878,
+      "sha256": "49133dcc01012ded012dd0de4e342720d65acccdeab09f3eae9c7c6d895f62b8",
       "alternateIds": [
         1481464171,
         1440134014,
@@ -616,8 +616,8 @@
       "path": "am-lyrics/J.Fla - Are You My Villain - 1811493448.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26225,
-      "sha256": "c5f6025b63c756ae499c935d826dc583524f6fdaf15d3b3b09c115dacd5c1174"
+      "sizeBytes": 26239,
+      "sha256": "94f4d8a2140928545704ff1bbae7756bd3bc86f202e8cf5e0ec963ce576eefb9"
     },
     {
       "appleMusicId": 1381916994,
@@ -628,7 +628,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 28769,
-      "sha256": "a11891f1363a24ba6d6514f74bdebf02c8a24e646e99f1c11f862f25bdf979e9",
+      "sha256": "46f91b7cb94c3a73f798b07e5e6644cb3bac589c8c8798337b5ee5cff59cb0a0",
       "alternateIds": [
         1632497615
       ]
@@ -677,8 +677,8 @@
       "path": "am-lyrics/林俊杰 - 无拘 - 1706145039.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 35852,
-      "sha256": "ae6f48a5f87e82e9b389486f9e93ef9f082889c41b1b2f8713f77647f88acdf6"
+      "sizeBytes": 35871,
+      "sha256": "3511ea809d17bd70f2d6d3e0c30ac8d833edf64529e7212fac82ecb45231503e"
     },
     {
       "appleMusicId": 1440134065,
@@ -903,8 +903,8 @@
       "path": "am-lyrics/Alec Benjamin - Gotta Be a Reason - 1441728853.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27823,
-      "sha256": "a13a20d086213f4aa4b84fe956f4b56822b81195b9aa471fa5c2a893a4abb8bd"
+      "sizeBytes": 27818,
+      "sha256": "31aa2fe5eae58190b7a75c74cadea851df524f7d34c3a2552f3fc10ab97b7aae"
     },
     {
       "appleMusicId": 1816252354,
@@ -914,8 +914,8 @@
       "path": "am-lyrics/J.Fla - Stay - 1816252354.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17564,
-      "sha256": "9dcc13ef269c220e84f736fec9b0577973c57e43da7e64c493bd959635479e5a",
+      "sizeBytes": 17559,
+      "sha256": "6c00d6086b7dae93dc3500836b372677754f3ba20ee0dc514c483149a8039dec",
       "alternateIds": [
         1364030570,
         1809159717,
@@ -930,8 +930,8 @@
       "path": "am-lyrics/Lukas Graham - 7 Years - 1081573445.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 30114,
-      "sha256": "b2f8d3479d05452cbf112233954bed41f7737857219ccd6fc9b2bb2315bfe1c6",
+      "sizeBytes": 30109,
+      "sha256": "c36191850edcd03334c75d60005fada7d310fed50e0fc0046ea7fc4c36b393e4",
       "alternateIds": [
         1440826018,
         1051172233,
@@ -1132,8 +1132,8 @@
       "path": "am-lyrics/Imagine Dragons - Machine - 1437948983.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22784,
-      "sha256": "a29bf188b76f3fbbdcc247869aa4dc2612db924c5640eced6f9180d7fd7ac7b1",
+      "sizeBytes": 22798,
+      "sha256": "d6b6c30d6cd9972ccc2fa46ea63dd84ec2da0aea85a37932ef9c72bd7cc2c4c3",
       "alternateIds": [
         1437948596
       ]
