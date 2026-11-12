@@ -65,8 +65,8 @@
       "path": "am-lyrics/YOASOBI - Biri-Biri - 1716254220.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 39598,
-      "sha256": "5f5d2178d0ac01fdf7f237c3c95f375fa33bab0a29889fb29c14c3c3097cff7e",
+      "sizeBytes": 39556,
+      "sha256": "12d7fbed015ddcc3b9b302ab00c9ce46ede095b5e410272674ff84a3a89bc65a",
       "alternateIds": [
         6775750940
       ],
@@ -172,8 +172,8 @@
       "path": "am-lyrics/ヒグチアイ - 悪魔の子 - 1609932617.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25010,
-      "sha256": "2d44dad67ff06ef95b685635e2b0e77720398b06ba5c3c52946bcc8e07be70b2",
+      "sizeBytes": 24966,
+      "sha256": "0ceff905f51a42752b4fe5b29d54f8618168b87c0e7f1d3c17623a652b6f9c6b",
       "alternateIds": [
         1601391184,
         1713134402
@@ -199,8 +199,8 @@
       "path": "am-lyrics/緑黄色社会 - Mela! - 1538137547.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 30197,
-      "sha256": "ac9f29c47b4e58b5d431632dbb1d7ff6d292344fa22b4acf68addb9e33a2a873"
+      "sizeBytes": 30163,
+      "sha256": "1d7de615ae416bc7263195120ea08ebb36b2f70b90fe5188e99b386874332cb3"
     },
     {
       "appleMusicId": 1531658816,
@@ -224,8 +224,8 @@
       "path": "am-lyrics/Miliyah - SAYONARAベイベー - 1537404923.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 68954,
-      "sha256": "9e23e40a44fa71181cb036f165946be0fc4279dfd44b1069e0aac3ba9337e686",
+      "sizeBytes": 68904,
+      "sha256": "6f9986c28c6fdaf67ed2d7ca708884ffad55b2ec6051424c98ad2531b803f157",
       "alternateIds": [
         1538459720,
         1537516461
@@ -362,8 +362,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kan Saete Kuyashiiwa - 1464108341.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 43342,
-      "sha256": "81dd6b20a0ea23580336ae22eafdd0861475547857d706fe76bf4d5c81375e01",
+      "sizeBytes": 43295,
+      "sha256": "1cab2c669ca0f402b9328454b8d9f6b54dea225146c555aa03c50c09abc12fa3",
       "alternateIds": [
         1481464101,
         1749173523,
@@ -412,8 +412,8 @@
       "path": "am-lyrics/ZUTOMAYO - Truth in Lies - 1770242100.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38210,
-      "sha256": "cac72e3d07ea01796148ccc826be431bc947b360af9db47919bca4016e3cffda",
+      "sizeBytes": 38138,
+      "sha256": "74cc5548e4fa0112cf46b6c9f5d7d1efb600e90546f480cf3c1a26d1d259d1b1",
       "alternateIds": [
         1746027609
       ]
@@ -440,8 +440,8 @@
       "path": "am-lyrics/ZUTOMAYO - Time Left - 1649264715.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 48455,
-      "sha256": "e595404e9034df1d3564e126f50efdd0733c4d127e6978b024a0172d03c9ac0b",
+      "sizeBytes": 48428,
+      "sha256": "735896467931d273b95043de10dedcbec7b276889d8ec2bcb70efd74f300c730",
       "alternateIds": [
         1688968529,
         1729853085,
@@ -487,8 +487,8 @@
       "path": "am-lyrics/Kocchi No Kento - Hai Yorokonde - 1745488818.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 42910,
-      "sha256": "fd78de6144f27f63367bd42eca34e5eccd487b8753a9b9ce2dd8f1d3ba782eaa",
+      "sizeBytes": 42869,
+      "sha256": "dccbfa9a284b4f15e5b5db82ba903b95c3058b2eee3040713d394837bc2fb8e9",
       "album": "Hai Yorokonde - Single"
     },
     {
@@ -499,8 +499,8 @@
       "path": "am-lyrics/ZUTOMAYO - Kira Killer (feat. Mori Calliope) - 1729853527.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 64290,
-      "sha256": "5c5ba35774247812689bab6dc9bc2a7fd448a3f2a5085ce50806bbccb8ca209d",
+      "sizeBytes": 64253,
+      "sha256": "35f4bd91e139ba2e1d22ed7b6b63469c3686d57ba3d26b186086322b8f0d1398",
       "alternateIds": [
         1657388658,
         1688968536,
@@ -542,8 +542,8 @@
       "path": "am-lyrics/Miki Matsubara - Mayonaka No Door ~Stay with Me - 1858846444.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 30999,
-      "sha256": "91bdbcf9b1bfa981ffac8a5312514df3ba9f0f09644d0fa8cd857632ae6d8d26",
+      "sizeBytes": 30954,
+      "sha256": "a63eee7f126e0b46db6c62d6720720ff0b63f474c83910c9394e7b0fd931659b",
       "alternateIds": [
         1858846510
       ]
@@ -744,8 +744,8 @@
       "path": "am-lyrics/YOASOBI - アイドル - 1679278167.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 48580,
-      "sha256": "660826cc69828cf522edfcbf841ecbb299b3eaf7eb27e4042f4b2677d722d71d"
+      "sizeBytes": 48513,
+      "sha256": "db89448836336fb791e98ee466528d71abcbf81f4fff4b9984aea208d5c0b805"
     },
     {
       "appleMusicId": 1502298674,
@@ -802,8 +802,8 @@
       "path": "am-lyrics/YOASOBI - Moshimo inochiga egaketara - 1638045618.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 42496,
-      "sha256": "e72f36776e745a2ba4815ca58ab575b12f12f9a7216244a055d77a48bcc198f5",
+      "sizeBytes": 42422,
+      "sha256": "36c7d54377252b20a182ea73dcd5b0e2d7bba5a3526e23df17020b664a647f46",
       "alternateIds": [
         1593439946,
         1593438809
@@ -817,8 +817,8 @@
       "path": "am-lyrics/YOASOBI - Orion - 6775750604.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 53346,
-      "sha256": "03e8049efa6ab628690a553e6573fee2b73e4a037fa884043d3a406c02166736"
+      "sizeBytes": 53281,
+      "sha256": "7e033760b08335e7883d205c23085bc28162d62468a1dbca509e98f8643e02f0"
     },
     {
       "appleMusicId": 1584159576,
@@ -839,8 +839,8 @@
       "path": "am-lyrics/YOASOBI - Tsubame (feat. midories) - 1588668629.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24268,
-      "sha256": "32fedf0c8404fc9448766c62ee8f0db6e07002dd19de04ad2e8e882d9a9f83c7",
+      "sizeBytes": 24211,
+      "sha256": "afacd520af74dca91125811b684b3612973e79b9da12b6be000c0b8eebd5ccc1",
       "alternateIds": [
         1593439703
       ]
@@ -879,8 +879,8 @@
       "path": "am-lyrics/ZUTOMAYO - Hanaichi Monnme - 1688968528.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47374,
-      "sha256": "59e313f385d0ecf04494ce5f0f2ab63dc596db2f20f960bebbf8a8ec6396b791",
+      "sizeBytes": 47318,
+      "sha256": "bda196b9382de7d3057b1dd049211003471214d01cc01f451b08076bca8f5d4c",
       "album": "沈香学"
     },
     {
@@ -891,8 +891,8 @@
       "path": "am-lyrics/ZUTOMAYO - Inside Joke - 1570795403.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 65411,
-      "sha256": "21a93d53f18658b3d5f75da35a26bbd0263ea46080cf7e480f58f92ffde247f0",
+      "sizeBytes": 65365,
+      "sha256": "9da000be6ce1879a7db26c04e8c6526c3c091b663f226c76c717b39b6d7726d6",
       "album": "Inside Joke - Single"
     },
     {
@@ -957,8 +957,8 @@
       "path": "am-lyrics/YOASOBI - HEART BEAT - 1721295079.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 91295,
-      "sha256": "0ea08dce26e184c882bd2e6bffffe999d0b57ae98c285e10a13b3075f6508afe",
+      "sizeBytes": 91237,
+      "sha256": "f0ec673af71bec8f04198fe8c28aa92ac45df502127bb32b571e7dc89616a60a",
       "album": "HEART BEAT"
     },
     {
@@ -1331,8 +1331,8 @@
       "path": "am-lyrics/YOASOBI - Comet - 1547210425.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26168,
-      "sha256": "89cee174746f3b998d94ce26f498cc9e81cd94e31ec132bc43034f7d4bb96fd4",
+      "sizeBytes": 26090,
+      "sha256": "e02b45b0ee31f4920a6bac1017d07e88b097de725feeb3fef0a1482ba1734234",
       "album": "Comet - Single"
     },
     {
@@ -1343,8 +1343,8 @@
       "path": "am-lyrics/YOASOBI - Gunjou - 1528119630.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 49056,
-      "sha256": "6e791aa37c02833e8ca45c0bbd9e5bafbc29cfb844740d7d61eb7fc83f0a52b1",
+      "sizeBytes": 49015,
+      "sha256": "ada2129693961cde2d7873eb328c8280aea5a433924c52f542a2df8eb4c8c290",
       "album": "Gunjou - Single"
     },
     {
@@ -1355,8 +1355,8 @@
       "path": "am-lyrics/YOASOBI - Monster - 1544083979.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32805,
-      "sha256": "a33814cd533b11999552469466240a4751534879c84d2fce97bf64cbf3559ba1",
+      "sizeBytes": 32743,
+      "sha256": "18e52699b9d99f9c6322f94c9d4d271f5c85e3666f9a2d999a661204c1770caf",
       "album": "Monster - Single"
     },
     {
@@ -1367,8 +1367,8 @@
       "path": "am-lyrics/YOASOBI - The Blessing - 1645308331.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38834,
-      "sha256": "dcc125e7eca911b5fe69ff3e78b4cc5621bed68e4a74d093e312dc0532eff8fb",
+      "sizeBytes": 38783,
+      "sha256": "b9929b515536d60c7d3784664d7946b24852b7cf2a43ef91650059e502d66416",
       "album": "The Blessing - Single"
     },
     {
@@ -1379,8 +1379,8 @@
       "path": "am-lyrics/YOASOBI - 夜に駆ける - 1490256995.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 48227,
-      "sha256": "3e278475b47970df27305e583a080c2f765b99fc7c1833f2662173464d5918e9",
+      "sizeBytes": 48155,
+      "sha256": "27b16eb27b5c38135c8878a1c24b14bd7233b6de14403c4ded8a4cbea9af686b",
       "album": "夜に駆ける - Single"
     },
     {
@@ -1391,8 +1391,8 @@
       "path": "am-lyrics/YOASOBI - The Bloom - 6817668876.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 52750,
-      "sha256": "c9e52af73faf41bb2312b3a435311aeb4a71d7d6185a98147cf6533c550958d6",
+      "sizeBytes": 52678,
+      "sha256": "d3c8058d86c02c84ae4ead57a5f231a625807dddba694fdb3ed1be25a398793a",
       "album": "The Bloom - Single"
     },
     {
@@ -1666,8 +1666,8 @@
       "path": "am-lyrics/RADWIMPS - Is There Still Anything That Love Can Do、 - 1472727605.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 34853,
-      "sha256": "a30e104fce02536ab04286843ff8e253a057d6e82e5edf074fc90dd31581a320",
+      "sizeBytes": 34793,
+      "sha256": "dcd0e36bffa31e4195b2f9bbdedaf8f8ee3bf330573dc1f83c60366a24a611e2",
       "album": "Weathering with You",
       "alternateIds": [
         1518522045
@@ -1681,8 +1681,8 @@
       "path": "am-lyrics/RADWIMPS - Suzume (feat. Toaka) - 1651284059.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28257,
-      "sha256": "27d1877ca8922b6aab959480a970777ae035d08851a7aeda346c032b3e05f9db",
+      "sizeBytes": 28230,
+      "sha256": "b79a739ebfc3df4147724ce775666e54a3076dffb839a9cf568891be703a6b06",
       "album": "Suzume (Motion Picture Soundtrack)",
       "alternateIds": [
         1651183711
@@ -1696,8 +1696,8 @@
       "path": "am-lyrics/RADWIMPS - Grand Escape (feat. Toko Miura) - 1485833906.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 56988,
-      "sha256": "36c52bc73c85a63c6668a2c84588a8a3e7df4672aecd4921f49104f7b596ca02",
+      "sizeBytes": 56932,
+      "sha256": "bc7814204391013a15dca5de686f23bc484f81bfd9e7c044233c9412b9aa7c69",
       "album": "Weathering With You (Complete Version) - EP"
     },
     {
@@ -1723,8 +1723,8 @@
       "path": "am-lyrics/RADWIMPS - Is There Still Anything That Love Can Do、 - 1485833908.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 34914,
-      "sha256": "788fde02b0ca255cfa20a7c84b62085438ff37ef7c9a2c2a9295e400f0e2546d",
+      "sizeBytes": 34854,
+      "sha256": "546d236c5371153de77f6c6585c9773f404188466e51ebd376ca881d28226fa2",
       "album": "Weathering With You (Complete Version) - EP"
     },
     {
@@ -1780,8 +1780,8 @@
       "path": "am-lyrics/RADWIMPS - Suzume (feat. Toaka) - 1647112151.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28206,
-      "sha256": "1d71e0c3a70a6b040784d31fd3590f6f2d25666165ee5165d059010524e8dc74",
+      "sizeBytes": 28177,
+      "sha256": "81dcedbcb31d47653b74c2d7645da8cddb45075de0efc2e64ee1aa92018c6c0f",
       "album": "Suzume (feat. Toaka) - Single",
       "alternateIds": [
         1646939428
@@ -1916,8 +1916,8 @@
       "path": "am-lyrics/Fujii Kaze - Shinunoga E-Wa - 1505498792.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31850,
-      "sha256": "2d5d629599308df8ffd02eb1ecc4a6383694ca67ff99bbdce48970dee7941f6b",
+      "sizeBytes": 31832,
+      "sha256": "888b68cc2f495857f3e65adcc028993971d9017912548802fe722e897f3ecd7d",
       "album": "HELP EVER HURT NEVER",
       "alternateIds": [
         1748185866
@@ -1991,8 +1991,8 @@
       "path": "am-lyrics/ZUTOMAYO - Byoushinwo Kamu - 1428083880.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31281,
-      "sha256": "66a5ed804c6e142a9bb9cd431a519d3399f910980a884836a5d194fe468f7b2b",
+      "sizeBytes": 31225,
+      "sha256": "9b2b11593be53783e010371c170161d1f8a43400a85b9606317d531bd36846d6",
       "album": "Byoushinwo Kamu - Single"
     },
     {
