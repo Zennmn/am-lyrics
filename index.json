@@ -92,8 +92,8 @@
       "path": "am-lyrics/Rainych - Blind Curve - 1540623213.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37949,
-      "sha256": "0c43726ef76e2cbd0cafeae13261e74003c317ca24e546f57b0f3021640a0033"
+      "sizeBytes": 37935,
+      "sha256": "dadf31d4f5df95bc11e183c3b5f6749a28a9a414a6703bc43d15c50b3dce304d"
     },
     {
       "appleMusicId": 1413543583,
@@ -245,8 +245,8 @@
       "path": "am-lyrics/初音ミク、鏡音リン、GUMI、れるりり - 神のまにまに - 7335408332109193189.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 38121,
-      "sha256": "f1a2007d71c88c7354f9daeb614c9c6c5cb7a84ca1ded1d827918b303d021929",
+      "sizeBytes": 69757,
+      "sha256": "1a19f6080b3e05dd3ad7a203e7ba77b9aedda2e40b2179be517cb5ab737d3733",
       "alternateIds": [
         7335408332109193189
       ]
@@ -308,8 +308,8 @@
       "path": "am-lyrics/Rainych - Say So (Japanese Version) - 1505586937.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 55426,
-      "sha256": "6a404e0a4640590d9b882223fc397d1833d83db300c72b7a98478dc0c0ea6487"
+      "sizeBytes": 55405,
+      "sha256": "4149c92daffa717e6be4b2d3276abcd3712f8f14c6e69defa7b994702b3e832b"
     },
     {
       "appleMusicId": 1559300640,
@@ -333,8 +333,8 @@
       "path": "am-lyrics/MIREI - ユキコイ - 1537779205.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47021,
-      "sha256": "67caf83ef097ead07952047dce29f3ef4243d63a21abb7ce4580e1a00a58cc76"
+      "sizeBytes": 47015,
+      "sha256": "779560c8da699c2f59b403f83437e4e734db7cdccc2ef18846286f42964b2213"
     },
     {
       "appleMusicId": 29276049,
@@ -566,8 +566,8 @@
       "path": "am-lyrics/asmi - earth meal - 1631321136.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 67194,
-      "sha256": "c6b170d259b7d76a66680472df3b85927abeac1d06c1b5561a5a6119ad5f16e5",
+      "sizeBytes": 67192,
+      "sha256": "04c87cead2780f7ae7afac1b0b945016efb5b920f8783301c000888752cb1cfc",
       "album": "earth meal - Single"
     },
     {
@@ -870,8 +870,8 @@
       "path": "am-lyrics/Marika／Nao'ymt - Lil' Goldfish - 1615076981.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 74014,
-      "sha256": "bffee67fed7f720ee81e2c3ac3d9e3c0aea0cd7a6bb7fe123e3fb7b3fbee8d35",
+      "sizeBytes": 74011,
+      "sha256": "525709fe8ad2c0d78c98e0e1dc7cb29dcb4aa6d4b1934706d2c39fe64763bebc",
       "album": "Nao’ymt wit’ - 1st Season -"
     },
     {
@@ -882,8 +882,8 @@
       "path": "am-lyrics/鸣潮先约电台, jkinss & 薄荷Miint - 玄翎谣 - 6789678131.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 39977,
-      "sha256": "a1b329403850c09b9e654d5409006e0ebc74a5321f6bb13faa8bdf7c4add4279",
+      "sizeBytes": 39931,
+      "sha256": "c270890010d0edc6a4d70ccf12692931ea125fde574e4db3de29c598b7edf84c",
       "alternateIds": [
         6789684026
       ],
@@ -1011,11 +1011,12 @@
       "path": "am-lyrics/Michita - Cry For Me (feat. Ami) - 1795032540.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17917,
-      "sha256": "cd3a28925f4ef2a3306397a827e025b5a152b2692fd696ce82dcf0eec863273f",
+      "sizeBytes": 31339,
+      "sha256": "f0420d45a22aff0e1000c7e895bd4ac2f3b929b7b85fe01f27a895d5adb20259",
       "alternateIds": [
         675919330
-      ]
+      ],
+      "album": "Cry For Me (feat. Ami) - Single"
     },
     {
       "appleMusicId": 1401489355,
@@ -1782,8 +1783,8 @@
       "path": "am-lyrics/RADWIMPS - Sparkle - Movie Ver - 1434005924.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 42571,
-      "sha256": "4e75d4efc8c5210bffda1dd8a848c18bce58d7278703d3f766864c6ed0f26038",
+      "sizeBytes": 42562,
+      "sha256": "168e75b2eca45b2cf48c93ed215af54e5a3752275d60aafa31d5c8914933824b",
       "album": "Your Name.",
       "alternateIds": [
         1518516805
@@ -1851,8 +1852,8 @@
       "path": "am-lyrics/JUVENILE - Kamone (feat. Natsumi) - 1597080847.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 52038,
-      "sha256": "4850475b0d072df43ec155273af7a01935538a52ac8bf429b68d5a7c3ca9cc4c",
+      "sizeBytes": 52022,
+      "sha256": "e334becd8edb2044c907c9fba35590f5b074603b3b56d9717e6cf2cf277aff4e",
       "album": "Interweave 02"
     },
     {
@@ -1975,8 +1976,8 @@
       "path": "am-lyrics/MIREI - ^^ - 1661512334.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 58226,
-      "sha256": "444cb57e1ede81dce72d7d06d97bb60e5f7159bca81ec9991461683341af6a98",
+      "sizeBytes": 58196,
+      "sha256": "4c2d10801903879726d14da81de0767bf347080176b67fb4051cb0e49614a9e2",
       "album": "^^ - Single"
     },
     {
@@ -2095,8 +2096,8 @@
       "path": "am-lyrics/YOASOBI - KILLA - 6831510081.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 67760,
-      "sha256": "65ae89dfdc265f53de4da783757bb634814a51bd7c06ae6b11265db41915535a",
+      "sizeBytes": 67733,
+      "sha256": "34ca457cfa83bfd94e97c731117cb76f8962e8dc6143120af539f1d5de6dabe3",
       "album": "KILLA - Single"
     },
     {
