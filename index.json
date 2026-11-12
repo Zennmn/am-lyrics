@@ -35,8 +35,8 @@
       "path": "am-lyrics/八神纯子 - みずいろの雨 - 1609445854.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 16267,
-      "sha256": "ac1e630c1b186a9d7b65deb7830475eb0488bd6185632dc793cab760e076f916",
+      "sizeBytes": 29447,
+      "sha256": "94d192e79383b99dff05163806d5c3417142345aa87442dd2bea271f58508ecf",
       "alternateIds": [
         74877644
       ],
@@ -50,8 +50,8 @@
       "path": "am-lyrics/MIREI - Lonely In Tokyo (Japanese version) - 1682332990.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27613,
-      "sha256": "5cf1ee7d5fc8491b2c048050434c10c4c41352dac21cc3b4ab169556a9d9dc17",
+      "sizeBytes": 48699,
+      "sha256": "943dacff3ba3e0d69d1917551da008c0ae9ddd8d1b185f01ef6ea8b7d5c86606",
       "alternateIds": [
         1685146835
       ],
@@ -103,8 +103,9 @@
       "path": "am-lyrics/陈粒 - 易燃易爆炸 - 1413543583.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 18786,
-      "sha256": "ad5f6c0a4d8db6a275ce3ee66170aaef42bffb0ca0763d031ac536a06b1ee1e2"
+      "sizeBytes": 35933,
+      "sha256": "9176d3977774084d5e49c2e69177c34bab20dac75831b9e6d25bc170ffe0020f",
+      "album": "如也"
     },
     {
       "appleMusicId": 1413542873,
@@ -114,8 +115,9 @@
       "path": "am-lyrics/陈粒 - 如也 - 1413542873.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 14766,
-      "sha256": "f20782603833e9d91184bd91b61f94cd3ef58a38ace4f42a7c7bcce483cbe8ed"
+      "sizeBytes": 27814,
+      "sha256": "abdee4be3f982eacb710dbca38cd0bcbb6cd116e1c7bba5b4f029eb4cc20727a",
+      "album": "如也"
     },
     {
       "appleMusicId": 1538281340,
@@ -125,8 +127,9 @@
       "path": "am-lyrics/MIREI - First Heart Break - 1538281340.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27949,
-      "sha256": "0ead10ff9af02e2bc952ad6fc06111a27e8f120a3ed7e453b8d4d72d3bb4d419"
+      "sizeBytes": 49727,
+      "sha256": "d7d37f00ba2e5a59a9d25a41cdb023aff4877db5755b69e5f31c19050019012c",
+      "album": "Negai EP"
     },
     {
       "appleMusicId": 1555193623,
@@ -136,8 +139,9 @@
       "path": "am-lyrics/MIREI - 春夏秋冬 reprise - 1555193623.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 43182,
-      "sha256": "db4537da1c906bcca7931ea4f14c6113ecc1821f597f57bc19cb2a3d824d935b"
+      "sizeBytes": 79329,
+      "sha256": "eb2f6119e4302c20632800f16e07adfdf2d2e4756bb640ba6ae36115277457b9",
+      "album": "still"
     },
     {
       "appleMusicId": 1538281338,
@@ -147,8 +151,8 @@
       "path": "am-lyrics/MIREI - 願い〜あの頃のキミへ〜 - 1538281338.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 46960,
-      "sha256": "932f80c7fe864f3e590d361e18f3ca7e8cc18a2c0f892f9dca6551ba6acb23cb",
+      "sizeBytes": 85302,
+      "sha256": "5f998e9d54c19b5f05792b957fa62de5125a8757ba9cb564c092f58aa812ad7d",
       "alternateIds": [
         1538283050
       ]
@@ -161,8 +165,9 @@
       "path": "am-lyrics/Rainych & evening cinema - RIDE ON TIME - 1556607963.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24312,
-      "sha256": "be6f096261859e0e73d0b3925387d9de0e2df249fcf2b4a5d6e8c22793b366e8"
+      "sizeBytes": 42426,
+      "sha256": "fefd333322754bda5b41ffcac3e61a0a3f0a07ec24f9a2a0f0a02aa228de2b91",
+      "album": "RIDE ON TIME - Single"
     },
     {
       "appleMusicId": 1609932617,
@@ -210,11 +215,12 @@
       "path": "am-lyrics/MIREI - Daimeiwakusei - 1531658816.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24816,
-      "sha256": "aae30376e185e43e483f4d654075ea613ec0334bd3c81b10e74bc71d44f78eb7",
+      "sizeBytes": 42942,
+      "sha256": "455335eaccbbe6b3e45401bfd9f0df0634e2be17292dde09b02162e6debad6be",
       "alternateIds": [
         1555193626
-      ]
+      ],
+      "album": "Daimeiwakusei. - Single"
     },
     {
       "appleMusicId": 1537404923,
@@ -387,11 +393,12 @@
       "path": "am-lyrics/ZUTOMAYO - Milabo - 1522244028.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29973,
-      "sha256": "22bfe6ddf972ca3235e47fd9127167e886ba7d9cdb11c8968ff99e589ba73948",
+      "sizeBytes": 51988,
+      "sha256": "d4bc2fe38c0c927692a977454bd628ecdc3281e5a3f2df7318b75b82e00bd53a",
       "alternateIds": [
         1548835931
-      ]
+      ],
+      "album": "Hogarakana Hifutote Fufuku - EP"
     },
     {
       "appleMusicId": 1538283046,
@@ -401,8 +408,8 @@
       "path": "am-lyrics/MIREI - Lie - 1538283046.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24990,
-      "sha256": "44df0a7b1d3e947adb5793cfbc4b80ab463aa1ce03be5c2d8b214b5ef2c798e3"
+      "sizeBytes": 44450,
+      "sha256": "28a6d4e1089e3395c8acc3095466102b6cb602d736bf93d9c3611828b4755f10"
     },
     {
       "appleMusicId": 1770242100,
@@ -459,8 +466,8 @@
       "path": "am-lyrics/ZUTOMAYO - Humanoid - 1729853627.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47878,
-      "sha256": "49133dcc01012ded012dd0de4e342720d65acccdeab09f3eae9c7c6d895f62b8",
+      "sizeBytes": 86791,
+      "sha256": "83436ba3120d661563877510640c2cd67a49898665826d2211d5ebdaf87591f1",
       "alternateIds": [
         1481464171,
         1440134014,
@@ -476,8 +483,8 @@
       "path": "am-lyrics/MIREI - Goodbye My Love - 1538281341.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27982,
-      "sha256": "98d0cadccb8007ae3b4e05f29a778b2acbda8ac42005edb169748af79029b70d"
+      "sizeBytes": 50032,
+      "sha256": "c0a116e76c2ee10a37793f219d4fe9ed4b10cfde042be84294e9fb5b29eb2ebb"
     },
     {
       "appleMusicId": 1745488818,
@@ -582,8 +589,8 @@
       "path": "am-lyrics/ZUTOMAYO - Byoushinwo Kamu - 1440134010.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31430,
-      "sha256": "cf4e6f35c0a601b737d86062d2ca45bac3d6a0246914a1edafa6b0ff550dd38e",
+      "sizeBytes": 56648,
+      "sha256": "1b359df3522a01154f6dabd237d223fcd7e96150f8cdad57cc312a33a1fc4f92",
       "alternateIds": [
         1481464176
       ],
@@ -641,11 +648,12 @@
       "path": "am-lyrics/MIREI - 光 - 1538281339.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24873,
-      "sha256": "2a0f421cf978e087d3228b0172a914a214daf533a2c800c7ac9a7a6bd9956128",
+      "sizeBytes": 44255,
+      "sha256": "19a4d204b35a3311c57b035676e5eb5a94dc151fb817c7586f785931e8b48938",
       "alternateIds": [
         1538283045
-      ]
+      ],
+      "album": "Negai EP"
     },
     {
       "appleMusicId": 1593531390,
@@ -666,8 +674,9 @@
       "path": "am-lyrics/MIREI - Let Me Know - 1537779208.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26269,
-      "sha256": "7b10e203ad875b808f7a141384d34ec2b0a94a747bce8b9a8ba30d769b812d46"
+      "sizeBytes": 47045,
+      "sha256": "7a71c34d1792cac3a4f76da14efc6ec2f2e334fc7d5d58232c722e3cc02204f6",
+      "album": "Playlist - EP"
     },
     {
       "appleMusicId": 1706145039,
@@ -677,8 +686,9 @@
       "path": "am-lyrics/林俊杰 - 无拘 - 1706145039.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 35871,
-      "sha256": "3511ea809d17bd70f2d6d3e0c30ac8d833edf64529e7212fac82ecb45231503e"
+      "sizeBytes": 67938,
+      "sha256": "66bbc1271c898e65bb6aa996c857566325e3beee51b1f98e49741737336b44d6",
+      "album": "无拘 - Single"
     },
     {
       "appleMusicId": 1440134065,
@@ -714,8 +724,9 @@
       "path": "am-lyrics/May'n - 春夢 - 1534998916.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24602,
-      "sha256": "5988bb944f1d69b122bcdf4f88f8f5dff2eb58f4ac7ceb12476a1393d44f67e1"
+      "sizeBytes": 43498,
+      "sha256": "90bcf66918afc1c3cf5b8c3b1973dca1e7c9a6b23f046ae8d2be7765d92bea25",
+      "album": "15Colors -Nu Skool- - EP"
     },
     {
       "appleMusicId": 1440830132,
@@ -946,8 +957,9 @@
       "path": "am-lyrics/緑黄色社会 - ずっとずっとずっと - 1600659272.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32288,
-      "sha256": "017b7354fb60646eeb08a5dd3ca9b6bdf4a575811a00e5e9e911be5e0ba20ba7"
+      "sizeBytes": 58245,
+      "sha256": "060190086ce6679b70d0f1a76244388c03d3b591d3bb89c84211e7f808cdfbff",
+      "album": "Actor"
     },
     {
       "appleMusicId": 1721295079,
@@ -1089,9 +1101,9 @@
       "path": "am-lyrics/MIREI - iyaiiya - 1536633324.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 34854,
-      "sha256": "49d5e7980b1646cb3d7bd2007b6d09b65cf38ae36e750030e62457fc9543eb35",
-      "album": "iyaiiya - Single",
+      "sizeBytes": 61577,
+      "sha256": "2bc5fb1a0585cee4cb8155bad5f8fd5c3d3294acc8aa2004da5b54bc9bb45a75",
+      "album": "still",
       "alternateIds": [
         1555193624
       ]
@@ -1283,8 +1295,8 @@
       "path": "am-lyrics/MIREI - またねがあれば - 1577315032.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 48252,
-      "sha256": "70b6a13002499b136cdb77db9f7630e4483d1eb37e112c61f366341367419de0"
+      "sizeBytes": 88334,
+      "sha256": "3e86513f076450cd2063657a7e019b075e260ed09255e3dc1302470c0986c424"
     },
     {
       "appleMusicId": 1555193620,
@@ -1294,8 +1306,8 @@
       "path": "am-lyrics/MIREI - Wake Atte - 1555193620.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 30633,
-      "sha256": "6644a8a279d571c2522d5e288e414c4c05babc7c4149aff2744810ffc6aa150f"
+      "sizeBytes": 55979,
+      "sha256": "0a4deb55d58e720945644ed103aae2d34cf20dc051650ba61fece868814ea1a1"
     },
     {
       "appleMusicId": 1555193628,
@@ -1305,11 +1317,12 @@
       "path": "am-lyrics/MIREI - Giai - 1555193628.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 39991,
-      "sha256": "08101535c2e1e910d63d75984a83b0581e7562bb084539a708646222348df204",
+      "sizeBytes": 72599,
+      "sha256": "dfba401222d7f3610790d7fcc8443c8ef5dfa81bceff7986cbd725b2c587b9c7",
       "alternateIds": [
         1534682814
-      ]
+      ],
+      "album": "Giai - Single"
     },
     {
       "appleMusicId": 1831861474,
@@ -1319,8 +1332,8 @@
       "path": "am-lyrics/K、DA, Madison Beer & i-dle - POP、STARS (feat. Jaira Burns & League of Legends Music) - 1831861474.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 41082,
-      "sha256": "466f08a651b960157d955e93f098380191b25fa5cbb50679ae19584a863f3d72",
+      "sizeBytes": 71274,
+      "sha256": "ad74cbe044c4c3b88f72d30c175fd7232fc1200775b2e03a17169cdd55aad1a2",
       "album": "POP/STARS (feat. Jaira Burns & League of Legends Music) - Single"
     },
     {
@@ -1403,8 +1416,9 @@
       "path": "am-lyrics/MIREI - Dear My Boo - 1538283043.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32876,
-      "sha256": "650b13b2357d8f5bed61fd1482475f3095df274704f449e559f1fa8b4f70903e"
+      "sizeBytes": 59294,
+      "sha256": "10b1367c699dfba446239f237698d293c50afa49ca376833aa0f5ebcf2cbe565",
+      "album": "Answer"
     },
     {
       "appleMusicId": 1538283044,
@@ -1414,8 +1428,9 @@
       "path": "am-lyrics/MIREI - P.S. Toushindai No Love Song - 1538283044.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 40568,
-      "sha256": "e4ca9291c281cfcd37ecbc9011b62c727eee6d9e1b8a0828cd481ad5673fac30"
+      "sizeBytes": 74187,
+      "sha256": "339b64448933e46c9164a257b4d1c74545acad3dddb5da5cfe5952a8307af392",
+      "album": "Answer"
     },
     {
       "appleMusicId": 1538283047,
@@ -1425,8 +1440,9 @@
       "path": "am-lyrics/MIREI - Tiger - 1538283047.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 33609,
-      "sha256": "c419af8701260f1e5cc07621b9e434b47ffa0d396487678bea27abcf4069f23b"
+      "sizeBytes": 58594,
+      "sha256": "4f5ec0f1165f0ef50b6241d59da1a442e69382bbf2c3e5b78e02d1938dbbbcdf",
+      "album": "Answer"
     },
     {
       "appleMusicId": 1538283048,
@@ -1436,8 +1452,8 @@
       "path": "am-lyrics/MIREI - By Your Side - 1538283048.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29510,
-      "sha256": "36ea2ff41d0d24ae3dd349f5ec924608b7bcaaff2ec7603614d455795cf22431",
+      "sizeBytes": 53352,
+      "sha256": "b07d3166405a87ffca6326dfb13c3e574bf12bd0d7d4990d44595ec81687d376",
       "album": "Answer",
       "alternateIds": [
         1538279587
@@ -1451,8 +1467,8 @@
       "path": "am-lyrics/MIREI - Neiro Regards - 1538283049.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32715,
-      "sha256": "10fb46dfec8137e6dd6d8aa46d9201f4d967d30c68b0fee03ff36bf69bb2b9d5",
+      "sizeBytes": 58922,
+      "sha256": "cf5d914ccead9ccd5f6be6c3fefc07b4d0b711948f0c55a8c76c68dc52cd8cf9",
       "album": "Answer"
     },
     {
@@ -1463,8 +1479,8 @@
       "path": "am-lyrics/MIREI - Missing You - 1538283051.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 22552,
-      "sha256": "da1107e2c0a08e2180c284a641498799de55e9f6bb558b0da981db5dc18b197c",
+      "sizeBytes": 40792,
+      "sha256": "7cac84bb48a556250cbffe2da70a40f6913dab9b2ca57643ef242f1c2f508b05",
       "album": "Answer",
       "alternateIds": [
         1538281342
@@ -1478,8 +1494,9 @@
       "path": "am-lyrics/MIREI - Kimi No Sukina Uta - 1538283052.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29797,
-      "sha256": "9be262ad30b25036195f855b9dcfc156d6e002f9645da3465cbeec168b41da3d"
+      "sizeBytes": 54276,
+      "sha256": "fa88b2b922e918a5b28eaa2faf0cc7e88ef0bd73bb9e579ef741b35862ae85ab",
+      "album": "Answer"
     },
     {
       "appleMusicId": 1538283053,
@@ -1489,8 +1506,9 @@
       "path": "am-lyrics/MIREI - Answer - 1538283053.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 36790,
-      "sha256": "4e68eac97098eb28889c4978c1fef6f2d33fc9208e67d8b714a71a5afa252e30"
+      "sizeBytes": 66695,
+      "sha256": "c9d215374e6a38cb21871a1fed87bf6779a88552038bf7a0a669a4491ffa7506",
+      "album": "Answer"
     },
     {
       "appleMusicId": 1437948994,
@@ -1552,8 +1570,9 @@
       "path": "am-lyrics/Lilas - Tanpopo - 1671948836.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26001,
-      "sha256": "8f86112d5bc8f43bd67bfc57e78be49f86a67c40a46d355961aa312224d0557e"
+      "sizeBytes": 46472,
+      "sha256": "61d84d3bb2db5fd705258d4b93cc9ed278a9b9725fa6721f16afcc0468813942",
+      "album": "Sketch"
     },
     {
       "appleMusicId": 1554086499,
@@ -1564,8 +1583,8 @@
       "path": "am-lyrics/Lilas - Answer - 1554086499.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26909,
-      "sha256": "1d8c27b6c414d2acf048f37aab19b5cd77d264a22b85139f30c393b90c82c099"
+      "sizeBytes": 49060,
+      "sha256": "7550039cd4695369f5705974900ddcd7b37e9c843cfcfb9c90736030d54d2ad0"
     },
     {
       "appleMusicId": 1543594895,
@@ -1575,8 +1594,9 @@
       "path": "am-lyrics/Lilas - HIkari - 1543594895.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26432,
-      "sha256": "64ff87701e1b9bdf40f7e274a3d8fc0c468efdfe558912b3bf93be83526998f0"
+      "sizeBytes": 47863,
+      "sha256": "d13f1e2007a40211fb7cccf9e7261ee9b29238f0fc91ee40716e915c0642210f",
+      "album": "ヒカリ - Single"
     },
     {
       "appleMusicId": 1671948838,
@@ -1586,8 +1606,9 @@
       "path": "am-lyrics/Lilas - JUMP - 1671948838.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 20743,
-      "sha256": "db2ce626942849f99baf235e9b5e90c30a173b284472cec325e675b2a08dcec9"
+      "sizeBytes": 37116,
+      "sha256": "3bd9d5ba6f7eac9d40dc39f635ff9d5ba890c787ffa83707bcb6ca7a52827d73",
+      "album": "Sketch"
     },
     {
       "appleMusicId": 1671948843,
@@ -1597,8 +1618,9 @@
       "path": "am-lyrics/Lilas - Kichijoji - 1671948843.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21675,
-      "sha256": "acb497fb68f92552ccfc5c3587a17f21284eb5d231ff8daf849ac24250ad9dd0"
+      "sizeBytes": 38585,
+      "sha256": "6267b88d29a7d3a07cb04864dba3f06304deb21db4396b448d07aa7a22bef05c",
+      "album": "Sketch"
     },
     {
       "appleMusicId": 1671948834,
@@ -1608,8 +1630,9 @@
       "path": "am-lyrics/Lilas - Midnight Talk - 1671948834.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 20959,
-      "sha256": "5b041568d0f3ba7366f851a41b8ea69780e8a71df7fa7da6b171be9768da71ef"
+      "sizeBytes": 37456,
+      "sha256": "43499aea64caa22055255754668939a2d332a495629a4e74539656a7c372c3db",
+      "album": "Sketch"
     },
     {
       "appleMusicId": 1857886416,
@@ -1631,8 +1654,8 @@
       "path": "am-lyrics/Lilas - Answer - 1671948401.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26950,
-      "sha256": "e3b897f129f622432fd96c357810f7db2bf60061eb0cfaee3fe4be45426fdf3a"
+      "sizeBytes": 49101,
+      "sha256": "1fedc583db67983ffc08f516fe2635408b3bce157e784f72c5028acba9a4d870"
     },
     {
       "appleMusicId": 1538281931,
@@ -1642,8 +1665,8 @@
       "path": "am-lyrics/MIREI - Dear My Boo - 1538281931.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 59197,
-      "sha256": "e63ff70f8cdbf0f84684455c6a3e2306914017a8070803b6162d0b977d5b9da0",
+      "sizeBytes": 59361,
+      "sha256": "917e1da5babecd2fa8b95d6ca0d63df61c23c6874406f5688aee52e27b4d30b9",
       "album": "Dear My Boo - EP"
     },
     {
@@ -1654,8 +1677,8 @@
       "path": "am-lyrics/MIREI - P.S. Toushindai No Love Song - 1537764972.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 40607,
-      "sha256": "96b67954ea4e5196cbf99687a0a2a28bdc3c17c5b8008a35eaa043049b75b203",
+      "sizeBytes": 74226,
+      "sha256": "ddb280ee4f20544686efeee6987be41986a8d372beceeedda7223dd75c8c405b",
       "album": "P.S. Toushindai No Love Song - Single"
     },
     {
@@ -1708,8 +1731,8 @@
       "path": "am-lyrics/RADWIMPS - Grand Escape (Movie Edit) [feat. Toko Miura] - 1472727596.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 17454,
-      "sha256": "de4e09c6d8435504d7bb7b71071ef5f2e4660b8b46725ec1c40fe2fc3e204e93",
+      "sizeBytes": 30814,
+      "sha256": "4a4a4406a988f35ce6d2de7d630aa4e9c245610db098ef957aea2f977fa56761",
       "album": "Weathering with You",
       "alternateIds": [
         1518521794
@@ -1735,8 +1758,8 @@
       "path": "am-lyrics/RADWIMPS - Zenzenzense - Movie Ver - 1434005783.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 29522,
-      "sha256": "75f57de2559f5815c06158fef6c1d806a15a09fff893653d30d96d0a06c926d9",
+      "sizeBytes": 53404,
+      "sha256": "737cce4d09ec9d0ade0c2d1c67e007b16dd176a8c84c2391fd01942c6aaaa7da",
       "album": "Your Name.",
       "alternateIds": [
         1518516786
@@ -1765,8 +1788,8 @@
       "path": "am-lyrics/RADWIMPS - Tamaki - 1651284061.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25489,
-      "sha256": "c63e4e9dda55b3e50adaafe5cdcb843406a73566c0cbdf7c62bc4968e0c216c0",
+      "sizeBytes": 46851,
+      "sha256": "10c762072f039e0ef85e9a14d68f1fe2e87c0f4d30b00ab913ef5193fa380d8c",
       "album": "Suzume (Motion Picture Soundtrack)",
       "alternateIds": [
         1651183712
@@ -1795,8 +1818,8 @@
       "path": "am-lyrics/Manaco - Aiodoru feat.217 - 1487534131.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 26267,
-      "sha256": "4cc323f0a6c174c887fe3d11756f60b8fc0a55d4c222a3e12fb8964da6b2b00f",
+      "sizeBytes": 46432,
+      "sha256": "616f4f82061304083c22ae97366cbc6fd1561974a80fb061fc0809a8dc60c6c7",
       "album": "On Blue"
     },
     {
@@ -1807,8 +1830,8 @@
       "path": "am-lyrics/Ryokuoushoku Shakai - Zutto Zutto Zutto - 1568447034.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 32310,
-      "sha256": "7d55069744efb475d2149bd719ab25c90740d2753a8d43a9c68a7fb164815b6b",
+      "sizeBytes": 58263,
+      "sha256": "a4902107862a58e5f73f6afc33baf14136a3fcd6e576441ec4616b26922a2a6d",
       "album": "Zutto Zutto Zutto - Single"
     },
     {
@@ -1831,8 +1854,8 @@
       "path": "am-lyrics/CHIAKI SATO - Hanagumori - 1677276654.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 28181,
-      "sha256": "4cace04e2862a16c0c13576e89bd69429ee5449ac4bd0e56ea9fd405c7ac7979",
+      "sizeBytes": 50530,
+      "sha256": "fabf85e1734bcb909ed98c72fb83c9c059920f8b6ec7ee75603454ef39d5d735",
       "album": "Hanagumori - Single"
     },
     {
@@ -1843,8 +1866,8 @@
       "path": "am-lyrics/CHIAKI SATO - Time Machine - 1664696515.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27749,
-      "sha256": "a41c5d2f85125e2ba3c10b171f6e2022734c38443678abb832b6b95a90e78680",
+      "sizeBytes": 49530,
+      "sha256": "f2917f9eaf23ba1714c3619e01df7b856bf9a32501fc9d372ca798dd4c362faa",
       "album": "TIME LEAP - EP"
     },
     {
@@ -1931,8 +1954,8 @@
       "path": "am-lyrics/Chen Li - 历历万乡 - 1841791887.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21114,
-      "sha256": "0abe0b78fc9fa36b1c9ddd00cb2947800278c5c92324f4938f77b4fb7235becd",
+      "sizeBytes": 40311,
+      "sha256": "0d3a5748cb02bf661b59c88629f7551e428ce2c6a74bea762cefed3b35a530c5",
       "album": "十年自选"
     },
     {
@@ -1955,8 +1978,8 @@
       "path": "am-lyrics/YOUYA - Mr. 、Broken Heart、 - 1536261607.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 19612,
-      "sha256": "a75192abfbeb3b098c5888df92ad21717357a25302fb33c814800f1201d3e4b5",
+      "sizeBytes": 35166,
+      "sha256": "484cc1ee7715d86ae9c0f77e56041cec05276e23af20b1482b1cdcea0f849b63",
       "album": "I AM ME"
     },
     {
@@ -2003,8 +2026,8 @@
       "path": "am-lyrics/LÜCY - isahini - 1628728907.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 27578,
-      "sha256": "2ecd03dcd5bb907d450bdd716d6b827c6b5f8cfee3cb8896da67fc5e4a39517b",
+      "sizeBytes": 48920,
+      "sha256": "e55840409a0fb70785e7304e559b116359fee1ff9e1e5e57cafb5325c104324a",
       "album": "LÜCY"
     },
     {
@@ -2075,8 +2098,8 @@
       "path": "am-lyrics/Biteki Keikaku - Mada Asahaka (feat. WANUKA) - 1612464701.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 25521,
-      "sha256": "fb9df1c6e97b503a1a35057e070b36869a5c66c3a6a4982fbb448aeca52db0c9",
+      "sizeBytes": 45758,
+      "sha256": "286bfdb073a7f8be2eea1e666049d0957749b57ac901db159f81c9be1cbbfde3",
       "album": "BITEKI"
     },
     {
