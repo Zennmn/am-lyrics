@@ -121,8 +121,23 @@ function Get-TtmlUploadInfo {
     if ($fileTitle -and $metaTitle -and $fileTitle -ne $metaTitle) {
         Write-Warning "文件名歌名「$fileTitle」与 TTML 内「$metaTitle」不同，请核对。"
     }
-    if ($fileId -and $metaId -and $fileId -ne $metaId) {
+    if ($fileId -and $metaIds.Count -gt 0 -and $metaIds -notcontains $fileId) {
         Write-Warning "文件名 ID「$fileId」与 TTML 内「$metaId」不同，请核对。"
+    }
+
+    # Without an explicit or filename ID, embedded IDs may refer to an existing
+    # primary or alternate record. Never choose between different owners silently.
+    $matchedEntry = $null
+    if (-not $AppleMusicIdOverride -and -not $fileId -and $metaIds.Count -gt 0) {
+        $index = Get-Content -LiteralPath $indexPath -Raw -Encoding UTF8 | ConvertFrom-Json
+        $owners = @($index.entries | Where-Object {
+            $entryIds = @([string]$_.appleMusicId) + @($_.alternateIds | ForEach-Object { [string]$_ })
+            @($entryIds | Where-Object { $metaIds -contains $_ }).Count -gt 0
+        })
+        if ($owners.Count -gt 1) {
+            throw "TTML 内的 ID 属于多条索引记录，请核对后指定 Apple Music ID：$([IO.Path]::GetFileName($SourcePath))"
+        }
+        if ($owners.Count -eq 1) { $matchedEntry = $owners[0] }
     }
 
     $artistName = $ArtistOverride
@@ -133,6 +148,7 @@ function Get-TtmlUploadInfo {
     $fromMetadata = @()
     if ([string]::IsNullOrWhiteSpace($artistName)) {
         if ($fileArtist) { $artistName = $fileArtist }
+        elseif ($matchedEntry) { $artistName = [string]$matchedEntry.artist; $fromMetadata += '索引歌手' }
         elseif ($metaArtist) { $artistName = $metaArtist; $fromMetadata += '歌手' }
     }
     if ([string]::IsNullOrWhiteSpace($songTitle)) {
@@ -141,6 +157,7 @@ function Get-TtmlUploadInfo {
     }
     if ([string]::IsNullOrWhiteSpace($appleMusicId)) {
         if ($fileId) { $appleMusicId = $fileId }
+        elseif ($matchedEntry) { $appleMusicId = [string]$matchedEntry.appleMusicId; $fromMetadata += '索引 Apple Music ID' }
         elseif ($metaId) { $appleMusicId = $metaId; $fromMetadata += 'Apple Music ID' }
     }
     if ([string]::IsNullOrWhiteSpace($AlbumOverride) -and $metaAlbum) {
