@@ -143,7 +143,11 @@ function Get-TtmlUploadInfo {
     $artistName = $ArtistOverride
     $songTitle = $TitleOverride
     $albumName = $AlbumOverride
-    if ([string]::IsNullOrWhiteSpace($albumName)) { $albumName = $metaAlbum }
+    $albumFromMetadata = $false
+    if ([string]::IsNullOrWhiteSpace($albumName)) {
+        if ($matchedEntry -and $matchedEntry.album) { $albumName = [string]$matchedEntry.album }
+        elseif ($metaAlbum) { $albumName = $metaAlbum; $albumFromMetadata = $true }
+    }
     $appleMusicId = $AppleMusicIdOverride
     $fromMetadata = @()
     if ([string]::IsNullOrWhiteSpace($artistName)) {
@@ -160,7 +164,7 @@ function Get-TtmlUploadInfo {
         elseif ($matchedEntry) { $appleMusicId = [string]$matchedEntry.appleMusicId; $fromMetadata += '索引 Apple Music ID' }
         elseif ($metaId) { $appleMusicId = $metaId; $fromMetadata += 'Apple Music ID' }
     }
-    if ([string]::IsNullOrWhiteSpace($AlbumOverride) -and $metaAlbum) {
+    if ($albumFromMetadata) {
         $fromMetadata += '专辑'
     }
     if ($fromMetadata.Count -gt 0) {
