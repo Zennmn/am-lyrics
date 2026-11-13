@@ -2135,6 +2135,18 @@
       "sizeBytes": 17559,
       "sha256": "d9c287f54ebcdb7ec72a4d0af0b59fcdd1efb267b8dd07c6b6371540bf6dd512",
       "album": "Harry's House"
+    },
+    {
+      "appleMusicId": 6832523356,
+      "artist": "MIREI",
+      "title": "Ex Nihilo",
+      "displayName": "Ex Nihilo - MIREI",
+      "path": "am-lyrics/MIREI - Ex Nihilo - 6832523356.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 24748,
+      "sha256": "6a1c89fa7a6c0adde97463539c5523f242f8906192a030f361cd09e90d9d0892",
+      "album": "Honkai: Star Rail - Let There Be Laughter (Part 3) [Original Game Soundtrack]"
     }
   ]
 }
