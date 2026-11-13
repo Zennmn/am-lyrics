@@ -469,14 +469,15 @@
       "path": "am-lyrics/ZUTOMAYO - Humanoid - 1729853627.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 86789,
-      "sha256": "01b689ba50b1d91c79e06e39a065158c9945c06a46de4e388fd91de62d8c9518",
+      "sizeBytes": 70152,
+      "sha256": "db2bb0d15723d3c1039edfec2a0e4129ec9d61df8c01521eec78dde83670d719",
       "alternateIds": [
         1481464171,
         1440134014,
         1749173748,
         1749174007
-      ]
+      ],
+      "album": "Hisohiso Banashi"
     },
     {
       "appleMusicId": 1538281341,
