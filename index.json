@@ -2144,9 +2144,15 @@
       "path": "am-lyrics/MIREI - Ex Nihilo - 6832523356.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 24748,
-      "sha256": "6a1c89fa7a6c0adde97463539c5523f242f8906192a030f361cd09e90d9d0892",
-      "album": "Honkai: Star Rail - Let There Be Laughter (Part 3) [Original Game Soundtrack]"
+      "sizeBytes": 25772,
+      "sha256": "04e30d9d6958b0d83bcee4a5c5db8e2219145e455050d1bf694220b178264289",
+      "album": "붕괴: 스타레일 - 신이 이르시되, 웃음이 있으라(하편) [Original Game Soundtrack]",
+      "alternateIds": [
+        6832518117,
+        6832522242,
+        6832522628,
+        6832522502
+      ]
     }
   ]
 }
