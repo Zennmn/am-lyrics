@@ -2166,6 +2166,18 @@
       "sizeBytes": 19693,
       "sha256": "f8ff113f7fea9007c8873c5e918c35ceb5d4e39cb884784ecc189ec28770b425",
       "album": "Havana - Single"
+    },
+    {
+      "appleMusicId": 6832922819,
+      "artist": "杨羊烊.",
+      "title": "烂奇迹(不小心惹了上帝)",
+      "displayName": "烂奇迹(不小心惹了上帝) - 杨羊烊.",
+      "path": "am-lyrics/杨羊烊 - 烂奇迹(不小心惹了上帝) - 6832922819.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 62729,
+      "sha256": "494c72f39b2c4c2e8ac99eda3c34cba3b0fe4f97a076f4e1bbc2675bf4556ea0",
+      "album": "烂奇迹(不小心惹了上帝)"
     }
   ]
 }
