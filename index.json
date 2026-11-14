@@ -595,7 +595,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 56561,
-      "sha256": "f908107c1ff5df50df0b667a1508886c245d306c15f4953e6321fdd7dbdcc3fd",
+      "sha256": "ce19cd3ac26919fe066b83fb9328e218326d0d2758c0f6404f59c0f3c999ef17",
       "alternateIds": [
         1481464176
       ],
@@ -680,7 +680,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 46944,
-      "sha256": "c867116eb451c126053f0ac90c062ec4e2977897dbca6e452eac5fb9420ca43c",
+      "sha256": "7ba75e6e66325ee3f163f3aebc249b0d844eb01367bc5fd94f69fcdeb85834ac",
       "album": "Playlist - EP"
     },
     {
@@ -1112,7 +1112,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 61096,
-      "sha256": "a1e22029be6d58778b737ab1f29c48dd43014455574e7339498abea99e5ca852",
+      "sha256": "7f6ef1c46a0e085b895b622f196bcbf4c6ff18039a7ac1014221922ad50e3d4a",
       "album": "still",
       "alternateIds": [
         1555193624
@@ -1306,7 +1306,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 88214,
-      "sha256": "e4c149e111ebac7c5d622d2f3080fd9d2f4d7d967bec5ba5b5158577d74764f9"
+      "sha256": "18136f37285658eea0cd4912e1cd4b5ffbe866de4f9aeb8150ae396c993ab742"
     },
     {
       "appleMusicId": 1555193620,
@@ -1317,7 +1317,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 55968,
-      "sha256": "e9b7c650a7751b1e9203ec4cd85765b44c72c5fd3c209bd0047a7dbb32b209c8"
+      "sha256": "6dfe1988d304e9b2678fe8fb1ac37b8d526cb17526a51209cce472dc92047758"
     },
     {
       "appleMusicId": 1555193628,
@@ -1328,7 +1328,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 72559,
-      "sha256": "25fc748e97a2c2e8cbf31795f249c8801d965996267d5daf7271637355b98cec",
+      "sha256": "b12a9562fabb77e919d5bd70e56544aec97cfc08ccd9b92a39c43393350a53d6",
       "alternateIds": [
         1534682814
       ],
@@ -1616,8 +1616,8 @@
       "path": "am-lyrics/Lilas - JUMP - 1671948838.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 37111,
-      "sha256": "002e8796d804824078ee1b776471410daf074e2d59761e6ab60adfb3122d56be",
+      "sizeBytes": 36891,
+      "sha256": "c049f565d3332e6ac13052c526c24bbee997a738b3883436a0abdca03bb8c56b",
       "album": "Sketch"
     },
     {
@@ -1853,8 +1853,8 @@
       "path": "am-lyrics/JUVENILE - Kamone (feat. Natsumi) - 1597080847.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 52022,
-      "sha256": "e334becd8edb2044c907c9fba35590f5b074603b3b56d9717e6cf2cf277aff4e",
+      "sizeBytes": 51771,
+      "sha256": "0ec937c3f9b605155fb80f844d72b1e2b4d0a3effd2877bf99a353dfa0d32be9",
       "album": "Interweave 02"
     },
     {
@@ -2025,8 +2025,8 @@
       "path": "am-lyrics/ZUTOMAYO - Byoushinwo Kamu - 1428083880.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 31141,
-      "sha256": "391860b9e344d99bff35a9a8af7b8c07d9fbc417c3e1f8d56e3efc62010b2793",
+      "sizeBytes": 30789,
+      "sha256": "23bf43bec6473c11d5a15ca8a395d217c18254037e598f2fcb0387b3a43911ac",
       "album": "Byoushinwo Kamu - Single"
     },
     {
