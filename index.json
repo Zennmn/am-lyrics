@@ -2178,6 +2178,18 @@
       "sizeBytes": 62729,
       "sha256": "494c72f39b2c4c2e8ac99eda3c34cba3b0fe4f97a076f4e1bbc2675bf4556ea0",
       "album": "烂奇迹(不小心惹了上帝)"
+    },
+    {
+      "appleMusicId": 1617910506,
+      "artist": "Imagine Dragons",
+      "title": "Sharks",
+      "displayName": "Sharks - Imagine Dragons",
+      "path": "am-lyrics/Imagine Dragons - Sharks - 1617910506.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 33754,
+      "sha256": "a0545efd3a127bc10fcaa2a92e490aeef19f4ae5629bba8db575950c0a987676",
+      "album": "Mercury - Acts 1 & 2"
     }
   ]
 }
