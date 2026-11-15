@@ -2190,6 +2190,18 @@
       "sizeBytes": 33738,
       "sha256": "89cf9d847d6fc92f3670effcf546354438b25a48f19bfce42bec94cba4c4b74c",
       "album": "Mercury - Acts 1 & 2"
+    },
+    {
+      "appleMusicId": 1699560732,
+      "artist": "Huazhou & 王胜娚",
+      "title": "出山",
+      "displayName": "出山 - Huazhou & 王胜娚",
+      "path": "am-lyrics/Huazhou & 王胜娚 - 出山 - 1699560732.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 43075,
+      "sha256": "ffed518373bb78dbc94d96ca74e9a3fcff7e297f2b349d26cad0e8a1edb35578",
+      "album": "出山 - Single"
     }
   ]
 }
