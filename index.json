@@ -333,8 +333,9 @@
       "path": "am-lyrics/MIREI - ユキコイ - 1537779205.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 47015,
-      "sha256": "779560c8da699c2f59b403f83437e4e734db7cdccc2ef18846286f42964b2213"
+      "sizeBytes": 41770,
+      "sha256": "9411d1d2c61e7eba0f93cdfcfad7ee0873fd3523260fc4aff3c87b47ad3acf89",
+      "album": "Playlist - EP"
     },
     {
       "appleMusicId": 29276049,
