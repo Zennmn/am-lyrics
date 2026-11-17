@@ -2215,6 +2215,18 @@
       "sizeBytes": 47631,
       "sha256": "0540508eb2be4af50d2c6f80a558f4d7869c3a884713e90a355fdfd849df02d9",
       "album": "÷ (Deluxe)"
+    },
+    {
+      "appleMusicId": 1471491978,
+      "artist": "Benjamin Ingrosso",
+      "title": "Costa Rica",
+      "displayName": "Costa Rica - Benjamin Ingrosso",
+      "path": "am-lyrics/Benjamin Ingrosso - Costa Rica - 1471491978.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 34225,
+      "sha256": "413f7ba8ee068f565d9de72951bddad081a25a2c790e55d5b9b4f2bca5a39215",
+      "album": "Costa Rica - Single"
     }
   ]
 }
