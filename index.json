@@ -2203,6 +2203,18 @@
       "sizeBytes": 43454,
       "sha256": "d1a4ab1c855727676f13a60cec1835c7221805c2aaddc19f6e57a70e828c6b05",
       "album": "出山 - Single"
+    },
+    {
+      "appleMusicId": 1193701440,
+      "artist": "Ed Sheeran",
+      "title": "New Man",
+      "displayName": "New Man - Ed Sheeran",
+      "path": "am-lyrics/Ed Sheeran - New Man - 1193701440.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 47631,
+      "sha256": "0540508eb2be4af50d2c6f80a558f4d7869c3a884713e90a355fdfd849df02d9",
+      "album": "÷ (Deluxe)"
     }
   ]
 }
