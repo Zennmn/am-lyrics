@@ -2227,6 +2227,18 @@
       "sizeBytes": 33401,
       "sha256": "84fad2e77d2cf8925a078265c90957d4c045eaf230bdb2aecb8ee1588996fe6d",
       "album": "Costa Rica - Single"
+    },
+    {
+      "appleMusicId": 1770671793,
+      "artist": "Elephante",
+      "title": "Come Back For You (feat. Matluck)",
+      "displayName": "Come Back For You (feat. Matluck) - Elephante",
+      "path": "am-lyrics/Elephante - Come Back For You (feat. Matluck) - 1770671793.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 29431,
+      "sha256": "082848910e73357bb34c3581ec1e9df290cfa226441ef6edc0cc4905c2f68e9d",
+      "album": "Glass Mansion"
     }
   ]
 }
