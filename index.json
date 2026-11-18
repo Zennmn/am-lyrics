@@ -2239,6 +2239,18 @@
       "sizeBytes": 29431,
       "sha256": "082848910e73357bb34c3581ec1e9df290cfa226441ef6edc0cc4905c2f68e9d",
       "album": "Glass Mansion"
+    },
+    {
+      "appleMusicId": 1690015442,
+      "artist": "CHIAKI SATO",
+      "title": "SENKOUHANABI (feat. LILAS IKUTA)",
+      "displayName": "SENKOUHANABI (feat. LILAS IKUTA) - CHIAKI SATO",
+      "path": "am-lyrics/CHIAKI SATO - SENKOUHANABI (feat. LILAS IKUTA) - 1690015442.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 22015,
+      "sha256": "5be83f3af17c6b9f54d0204ef5f33eaa3e7ab582af0b295041cd4e4f1f818e49",
+      "album": "SENKOUHANABI (feat. LILAS IKUTA) - Single"
     }
   ]
 }
