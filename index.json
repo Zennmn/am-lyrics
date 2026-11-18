@@ -2251,6 +2251,18 @@
       "sizeBytes": 36229,
       "sha256": "e780f568f31fd217993f968601df3ec26a49ea0852239aae9fb0e8da206bf58a",
       "album": "SENKOUHANABI (feat. LILAS IKUTA) - Single"
+    },
+    {
+      "appleMusicId": 1491411574,
+      "artist": "MIREI",
+      "title": "Lonely in Tokyo",
+      "displayName": "Lonely in Tokyo - MIREI",
+      "path": "am-lyrics/MIREI - Lonely in Tokyo - 1491411574.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 34233,
+      "sha256": "879ed5ab7520e732e9d25da229cbc3b19890e248ab8405dcdf121538dd313ea5",
+      "album": "Take Me Away"
     }
   ]
 }
