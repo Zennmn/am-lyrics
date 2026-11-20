@@ -2299,6 +2299,18 @@
       "sizeBytes": 45471,
       "sha256": "9bc08f9e21f575502b31b945496e8a87b0f26a1ff7c823f9dea1131e9ae06449",
       "album": "CLOSET"
+    },
+    {
+      "appleMusicId": 1618070118,
+      "artist": "YOH KAMIYAMA",
+      "title": "YELLOW (CLOSET version)",
+      "displayName": "YELLOW (CLOSET version) - YOH KAMIYAMA",
+      "path": "am-lyrics/YOH KAMIYAMA - YELLOW (CLOSET version) - 1618070118.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 49117,
+      "sha256": "d5ecf3676e3fe1fca57a5e1ad4f2940c6c5875c1a82429ab837b18bbe9e45357",
+      "album": "CLOSET"
     }
   ]
 }
