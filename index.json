@@ -2311,6 +2311,18 @@
       "sizeBytes": 49117,
       "sha256": "d5ecf3676e3fe1fca57a5e1ad4f2940c6c5875c1a82429ab837b18bbe9e45357",
       "album": "CLOSET"
+    },
+    {
+      "appleMusicId": 1618070321,
+      "artist": "YOH KAMIYAMA",
+      "title": "Laundry",
+      "displayName": "Laundry - YOH KAMIYAMA",
+      "path": "am-lyrics/YOH KAMIYAMA - Laundry - 1618070321.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 52061,
+      "sha256": "1267aaa587975cc6fbc3fcba3ecdfc7f0dc1b4eb0def7d7f9474b172a97a15b2",
+      "album": "CLOSET"
     }
   ]
 }
