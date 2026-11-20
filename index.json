@@ -2263,6 +2263,18 @@
       "sizeBytes": 34233,
       "sha256": "879ed5ab7520e732e9d25da229cbc3b19890e248ab8405dcdf121538dd313ea5",
       "album": "Take Me Away"
+    },
+    {
+      "appleMusicId": 1456989944,
+      "artist": "YOH KAMIYAMA",
+      "title": "Yellow",
+      "displayName": "Yellow - YOH KAMIYAMA",
+      "path": "am-lyrics/YOH KAMIYAMA - Yellow - 1456989944.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 50760,
+      "sha256": "94c43615a27678b4c38b54b25060184ec842bd2a0c83af2087040c579e07088f",
+      "album": "Shiawase Na Otona"
     }
   ]
 }
