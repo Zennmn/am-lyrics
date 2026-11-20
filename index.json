@@ -2287,6 +2287,18 @@
       "sizeBytes": 44092,
       "sha256": "80fb1b73d446034c0b36ef099fd60f6b608c7a0bde9e83cfb191abe24ef53015",
       "album": "CLOSET"
+    },
+    {
+      "appleMusicId": 1618070133,
+      "artist": "YOH KAMIYAMA",
+      "title": "CUT (CLOSET version)",
+      "displayName": "CUT (CLOSET version) - YOH KAMIYAMA",
+      "path": "am-lyrics/YOH KAMIYAMA - CUT (CLOSET version) - 1618070133.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 45471,
+      "sha256": "9bc08f9e21f575502b31b945496e8a87b0f26a1ff7c823f9dea1131e9ae06449",
+      "album": "CLOSET"
     }
   ]
 }
