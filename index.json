@@ -2275,6 +2275,18 @@
       "sizeBytes": 50760,
       "sha256": "94c43615a27678b4c38b54b25060184ec842bd2a0c83af2087040c579e07088f",
       "album": "Shiawase Na Otona"
+    },
+    {
+      "appleMusicId": 1618070119,
+      "artist": "YOH KAMIYAMA",
+      "title": "Seventeen",
+      "displayName": "Seventeen - YOH KAMIYAMA",
+      "path": "am-lyrics/YOH KAMIYAMA - Seventeen - 1618070119.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 44092,
+      "sha256": "80fb1b73d446034c0b36ef099fd60f6b608c7a0bde9e83cfb191abe24ef53015",
+      "album": "CLOSET"
     }
   ]
 }
