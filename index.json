@@ -2323,6 +2323,18 @@
       "sizeBytes": 52061,
       "sha256": "1267aaa587975cc6fbc3fcba3ecdfc7f0dc1b4eb0def7d7f9474b172a97a15b2",
       "album": "CLOSET"
+    },
+    {
+      "appleMusicId": 1618070121,
+      "artist": "YOH KAMIYAMA",
+      "title": "Irokousui",
+      "displayName": "Irokousui - YOH KAMIYAMA",
+      "path": "am-lyrics/YOH KAMIYAMA - Irokousui - 1618070121.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 47860,
+      "sha256": "5a22f728f52412605baf5933b9dac91288ac3652eb78af7aef618d8591834f98",
+      "album": "CLOSET"
     }
   ]
 }
