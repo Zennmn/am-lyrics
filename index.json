@@ -1280,12 +1280,13 @@
       "path": "am-lyrics/无畏契约 - TICKING AWAY - 1833385237.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 21419,
-      "sha256": "fa8f70477bb300241569b14eac79249e83bde66999af720c65ab5413da76c1c8",
+      "sizeBytes": 22596,
+      "sha256": "ed5f7e68510060a3bcfa7a770c83794461fce0254347966e1eaf7d81182d4aa7",
       "alternateIds": [
         1833385238,
         1833132370
-      ]
+      ],
+      "album": "Ticking Away - Single"
     },
     {
       "appleMusicId": 1832097286,
