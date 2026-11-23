@@ -596,7 +596,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 56561,
-      "sha256": "ce19cd3ac26919fe066b83fb9328e218326d0d2758c0f6404f59c0f3c999ef17",
+      "sha256": "3595cfd122dbfc37abf32694e3294466b7de01df4a3f84a271dd7e212d75f6a0",
       "alternateIds": [
         1481464176
       ],
@@ -681,7 +681,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 46944,
-      "sha256": "7ba75e6e66325ee3f163f3aebc249b0d844eb01367bc5fd94f69fcdeb85834ac",
+      "sha256": "14bcb3aff7840cb401c56f4f67bc990143e3aa808a78765432160646aadd6f06",
       "album": "Playlist - EP"
     },
     {
@@ -1112,8 +1112,8 @@
       "path": "am-lyrics/MIREI - iyaiiya - 1536633324.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 61096,
-      "sha256": "7f6ef1c46a0e085b895b622f196bcbf4c6ff18039a7ac1014221922ad50e3d4a",
+      "sizeBytes": 61115,
+      "sha256": "db8c7eebdc0dd738914098f5872484d805e2e942f4050424f9a674a224fee6d7",
       "album": "still",
       "alternateIds": [
         1555193624
@@ -1308,7 +1308,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 88214,
-      "sha256": "18136f37285658eea0cd4912e1cd4b5ffbe866de4f9aeb8150ae396c993ab742"
+      "sha256": "9eaa4416fb91c0fe04d0f22b5b44df72456586cb796e5c7e3d3053498f087c03"
     },
     {
       "appleMusicId": 1555193620,
@@ -1319,7 +1319,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 55968,
-      "sha256": "6dfe1988d304e9b2678fe8fb1ac37b8d526cb17526a51209cce472dc92047758"
+      "sha256": "8b48e6d56c7562e866b726de3a55acf26faf57259e99319b3223ce3b75ce9d91"
     },
     {
       "appleMusicId": 1555193628,
@@ -1330,7 +1330,7 @@
       "source": "manual",
       "enabled": true,
       "sizeBytes": 72559,
-      "sha256": "b12a9562fabb77e919d5bd70e56544aec97cfc08ccd9b92a39c43393350a53d6",
+      "sha256": "2bab7ca007778d8a0bd4b85fd45d66cbd2aa75e03117d58ed2e8c5946547aae0",
       "alternateIds": [
         1534682814
       ],
@@ -1618,8 +1618,8 @@
       "path": "am-lyrics/Lilas - JUMP - 1671948838.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 36891,
-      "sha256": "c049f565d3332e6ac13052c526c24bbee997a738b3883436a0abdca03bb8c56b",
+      "sizeBytes": 36910,
+      "sha256": "55f95387c9137dbffd668ed6db40f3e8911875bdc0d4ff04d863057d2f954fa4",
       "album": "Sketch"
     },
     {
@@ -1855,8 +1855,8 @@
       "path": "am-lyrics/JUVENILE - Kamone (feat. Natsumi) - 1597080847.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 51771,
-      "sha256": "0ec937c3f9b605155fb80f844d72b1e2b4d0a3effd2877bf99a353dfa0d32be9",
+      "sizeBytes": 51790,
+      "sha256": "b4fcd2be5e194ae59f0fd42fc672f75beebca0e7e55935919944c3a3cf0e7998",
       "album": "Interweave 02"
     },
     {
@@ -2027,8 +2027,8 @@
       "path": "am-lyrics/ZUTOMAYO - Byoushinwo Kamu - 1428083880.ttml",
       "source": "manual",
       "enabled": true,
-      "sizeBytes": 30789,
-      "sha256": "23bf43bec6473c11d5a15ca8a395d217c18254037e598f2fcb0387b3a43911ac",
+      "sizeBytes": 30808,
+      "sha256": "d809eb57fe79292530cc2a565fc13655317d99ceb69371075ca99d67f48ccbef",
       "album": "Byoushinwo Kamu - Single"
     },
     {
