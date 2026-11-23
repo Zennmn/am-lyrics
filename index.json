@@ -2360,6 +2360,18 @@
       "sizeBytes": 36856,
       "sha256": "57690fa6b9eea96ec9f8010a5a7a1bce03d701c87dc2182d92d8a83110f218e7",
       "album": "梦哑 - Single"
+    },
+    {
+      "appleMusicId": 6810372452,
+      "artist": "Renran & 刘兆宇",
+      "title": "梦哑 (说唱版)",
+      "displayName": "梦哑 (说唱版) - Renran & 刘兆宇",
+      "path": "am-lyrics/Renran & 刘兆宇 - 梦哑 (说唱版) - 6810372452.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 55558,
+      "sha256": "3521baa631385a2a87b32ef3df68b85759cd4ff0ae4dabd7c5ebe8f2a7dc8acc",
+      "album": "梦哑 (说唱版) - Single"
     }
   ]
 }
