@@ -2372,6 +2372,18 @@
       "sizeBytes": 64676,
       "sha256": "ab94b6828dc977417e53b6032718e3f723c30b91b1a84e26b644b262ec0e6e5c",
       "album": "梦哑 (说唱版) - Single"
+    },
+    {
+      "appleMusicId": 1691044822,
+      "artist": "王力宏",
+      "title": "我们的歌",
+      "displayName": "我们的歌 - 王力宏",
+      "path": "am-lyrics/王力宏 - 我们的歌 - 1691044822.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 49166,
+      "sha256": "cc987647b681adcc30daca6bb09dddb93e58545bfdb8210661e28827992e5c96",
+      "album": "大馬Music Man 紀念精選輯"
     }
   ]
 }
