@@ -2348,6 +2348,18 @@
       "sizeBytes": 17791,
       "sha256": "f87d3b2b8147c9b2ad2530d1613f0de5b3fa09268b67749a648b1aa96c9f3026",
       "album": "Seen 11:23 Pm - EP"
+    },
+    {
+      "appleMusicId": 6788330051,
+      "artist": "Renran",
+      "title": "梦哑",
+      "displayName": "梦哑 - Renran",
+      "path": "am-lyrics/Renran - 梦哑 - 6788330051.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 36856,
+      "sha256": "57690fa6b9eea96ec9f8010a5a7a1bce03d701c87dc2182d92d8a83110f218e7",
+      "album": "梦哑 - Single"
     }
   ]
 }
