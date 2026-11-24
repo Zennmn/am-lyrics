@@ -2384,6 +2384,18 @@
       "sizeBytes": 49166,
       "sha256": "cc987647b681adcc30daca6bb09dddb93e58545bfdb8210661e28827992e5c96",
       "album": "大馬Music Man 紀念精選輯"
+    },
+    {
+      "appleMusicId": 1605552326,
+      "artist": "Toya Takase",
+      "title": "Doushite (feat. Emi Noda)",
+      "displayName": "Doushite (feat. Emi Noda) - Toya Takase",
+      "path": "am-lyrics/Toya Takase - Doushite (feat. Emi Noda) - 1605552326.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 38004,
+      "sha256": "f92873a07c37d87314cee1a6f8f199f97b71a1993605485c0e4502e448ecc50d",
+      "album": "The 1st of the 13th Month - EP"
     }
   ]
 }
