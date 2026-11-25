@@ -2432,6 +2432,18 @@
       "sizeBytes": 27201,
       "sha256": "260478e4d406dff10bbf7123b6e3ef62d56ef8452ac5040191cef4b6f771d3f3",
       "album": "Yoru Ni Ukabu - Single"
+    },
+    {
+      "appleMusicId": 1537806863,
+      "artist": "Shoko Makinohara(CV:Inori Minase)",
+      "title": "Fukashigi no KARTE",
+      "displayName": "Fukashigi no KARTE - Shoko Makinohara(CV:Inori Minase)",
+      "path": "am-lyrics/Shoko Makinohara(CV、Inori Minase) - Fukashigi no KARTE - 1537806863.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 36725,
+      "sha256": "92dc9c4e9d44018308688113984858b9e80b9964fc6a9cd73d133cc9350ad710",
+      "album": "Seishunbutayarouhabunnygirlsenpainoyumewominai Fukashigi no KARTE"
     }
   ]
 }
