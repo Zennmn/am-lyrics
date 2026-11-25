@@ -2420,6 +2420,18 @@
       "sizeBytes": 27511,
       "sha256": "77105bc92d352dd6bcfe4374acebac3f55946775cc90fa8b9dd8cde04e685ad5",
       "album": "Eutopia / EMOTION / stars we chase [Shioriko Mifune Version] - EP"
+    },
+    {
+      "appleMusicId": 1536763396,
+      "artist": "Haruna",
+      "title": "Yoru Ni Ukabu",
+      "displayName": "Yoru Ni Ukabu - Haruna",
+      "path": "am-lyrics/Haruna - Yoru Ni Ukabu - 1536763396.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27201,
+      "sha256": "260478e4d406dff10bbf7123b6e3ef62d56ef8452ac5040191cef4b6f771d3f3",
+      "album": "Yoru Ni Ukabu - Single"
     }
   ]
 }
