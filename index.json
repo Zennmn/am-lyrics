@@ -2396,6 +2396,18 @@
       "sizeBytes": 38004,
       "sha256": "f92873a07c37d87314cee1a6f8f199f97b71a1993605485c0e4502e448ecc50d",
       "album": "The 1st of the 13th Month - EP"
+    },
+    {
+      "appleMusicId": 1543710010,
+      "artist": "shimamo",
+      "title": "Nimensei Star Light",
+      "displayName": "Nimensei Star Light - shimamo",
+      "path": "am-lyrics/shimamo - Nimensei Star Light - 1543710010.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 40022,
+      "sha256": "da14a67d1774c63d58a642db7bd940e41d2633bcc66ebae8d9305aea13e74e89",
+      "album": "Nimensei Star Light - Single"
     }
   ]
 }
