@@ -2408,6 +2408,18 @@
       "sizeBytes": 40022,
       "sha256": "da14a67d1774c63d58a642db7bd940e41d2633bcc66ebae8d9305aea13e74e89",
       "album": "Nimensei Star Light - Single"
+    },
+    {
+      "appleMusicId": 1822731824,
+      "artist": "Mia Taylor (CV: Shu Uchida)",
+      "title": "stars we chase",
+      "displayName": "stars we chase - Mia Taylor (CV: Shu Uchida)",
+      "path": "am-lyrics/Mia Taylor (CV、 Shu Uchida) - stars we chase - 1822731824.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 27511,
+      "sha256": "77105bc92d352dd6bcfe4374acebac3f55946775cc90fa8b9dd8cde04e685ad5",
+      "album": "Eutopia / EMOTION / stars we chase [Shioriko Mifune Version] - EP"
     }
   ]
 }
