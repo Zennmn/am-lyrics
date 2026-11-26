@@ -2468,6 +2468,18 @@
       "sizeBytes": 47704,
       "sha256": "07ccf31a9e8e5d48f7b840710fde19e8f63fae896dd397d801b299a0431a9494",
       "album": "Light & Shade Chapter 2"
+    },
+    {
+      "appleMusicId": 1449581370,
+      "artist": "MIKOLAS",
+      "title": "Abu Dhabi",
+      "displayName": "Abu Dhabi - MIKOLAS",
+      "path": "am-lyrics/MIKOLAS - Abu Dhabi - 1449581370.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 28383,
+      "sha256": "a5f89399dfbb7a89fa5aa8422b3201ea76d94cfced30aff8e66652c9ebfc6a79",
+      "album": "Abu Dhabi - Single"
     }
   ]
 }
