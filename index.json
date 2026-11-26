@@ -2456,6 +2456,18 @@
       "sizeBytes": 37859,
       "sha256": "5796163b55b034d2a0792099a8f5aa53bd63395232ad07d885675fc5c7928536",
       "album": "Fukashigi no KARTE All Heroine Version - Single"
+    },
+    {
+      "appleMusicId": 1453285529,
+      "artist": "Lucia",
+      "title": "The Moon and Sixpence",
+      "displayName": "The Moon and Sixpence - Lucia",
+      "path": "am-lyrics/Lucia - The Moon and Sixpence - 1453285529.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 47704,
+      "sha256": "07ccf31a9e8e5d48f7b840710fde19e8f63fae896dd397d801b299a0431a9494",
+      "album": "Light & Shade Chapter 2"
     }
   ]
 }
