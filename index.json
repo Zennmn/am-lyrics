@@ -2480,6 +2480,18 @@
       "sizeBytes": 28383,
       "sha256": "a5f89399dfbb7a89fa5aa8422b3201ea76d94cfced30aff8e66652c9ebfc6a79",
       "album": "Abu Dhabi - Single"
+    },
+    {
+      "appleMusicId": 1451473807,
+      "artist": "CY8ER",
+      "title": "マイライフ",
+      "displayName": "マイライフ - CY8ER",
+      "path": "am-lyrics/CY8ER - マイライフ - 1451473807.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 54487,
+      "sha256": "fe3390df1a5434276764dc148b542d01ea5057e87daafdb84c607f38489be731",
+      "album": "デッドボーイ、デッドガール - EP"
     }
   ]
 }
