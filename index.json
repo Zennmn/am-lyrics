@@ -2444,6 +2444,18 @@
       "sizeBytes": 36725,
       "sha256": "92dc9c4e9d44018308688113984858b9e80b9964fc6a9cd73d133cc9350ad710",
       "album": "Seishunbutayarouhabunnygirlsenpainoyumewominai Fukashigi no KARTE"
+    },
+    {
+      "appleMusicId": 1715826481,
+      "artist": "Shoko Makinohara(CV:Inori Minase)",
+      "title": "Fukashigi no KARTE All Heroine Version",
+      "displayName": "Fukashigi no KARTE All Heroine Version - Shoko Makinohara(CV:Inori Minase)",
+      "path": "am-lyrics/Shoko Makinohara(CV、Inori Minase) - Fukashigi no KARTE All Heroine Version - 1715826481.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 37563,
+      "sha256": "7f9f99f129d3cb282af06cf51e8fb3acaa1ac2e866ba65d1654680a0ff9cbca0",
+      "album": "Fukashigi no KARTE All Heroine Version - Single"
     }
   ]
 }
