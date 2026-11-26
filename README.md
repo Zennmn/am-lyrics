@@ -7,7 +7,7 @@
 - `index.json` — AM++ 使用的条目索引：每个 Apple Music ID 一条，包含歌手、歌名、（可选）专辑、文件路径、大小和 sha256。同一录音在不同地区 ID 不同时，可用 `alternateIds` 数组收录其他地区 ID（主 ID 仍为 `appleMusicId`）；同歌手、同歌名但专辑不同或时间轴不同的版本应各自建立独立条目。
 - `am-lyrics/` — TTML 文件，命名格式为 `歌手 - 歌名 - AppleMusicID.ttml`。
 - `ttml格式.md` — Apple Music TTML 格式参考，供投稿者参考。
-- `tools/validate_ttml.py` — TTML 格式校验脚本，按 [ttml格式.md](ttml格式.md) 的规则检查 `am-lyrics/` 下所有文件。
+- `tools/validate_ttml.py` — TTML 格式校验脚本，检查格式错误和零时长歌词单元，默认扫描 `am-lyrics/` 下的 TTML 文件。
 
 ## AM++ 如何使用本仓库
 

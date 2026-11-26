@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""TTML 格式校验器 — 按 ttml格式.md 规则检查 am-lyrics 目录下所有 *.ttml。
+"""TTML 格式校验器 — 检查 am-lyrics 目录下所有 *.ttml 的结构和格式。
 
 用法: python tools/validate_ttml.py [目录或 TTML 文件 ...]
 返回码 0 = 全部通过
@@ -19,7 +19,6 @@ ITUNES = "{http://music.apple.com/lyric-ttml-internal}"
 
 SECTIONS = {"Verse", "Chorus", "PreChorus", "Bridge", "Intro", "Outro", "PostChorus", "Refrain", "Instrumental"}
 TIME_RE = re.compile(r"^(?:(?:(\d+):)?(\d{1,2}):(\d{1,2})\.(\d{1,3}))$")
-PAREN = "()（）"
 
 
 def t2s(s):
@@ -119,10 +118,6 @@ def check(path):
                         errs.append(f"{key or '?'}: x-bg 外层 begin 早于内层")
                     if inn_es and max(inn_es) > oe:
                         errs.append(f"{key or '?'}: x-bg 外层 end 晚于内层")
-            # x-bg 内不允许括号（实测部分设备可正常渲染，降级为警告）
-            txt = "".join(x.itertext())
-            if any(c in PAREN for c in txt):
-                warns.append(f"{key or '?'}: x-bg 内出现括号: {txt[:20]!r}")
             # x-bg 内层不能再有 x-bg
             if any(i.get(f"{TTM}role") == "x-bg" for i in inner):
                 errs.append(f"{key or '?'}: x-bg 嵌套 x-bg")
@@ -145,11 +140,6 @@ def check(path):
                 errs.append(f"翻译 text for 越界: {f_}")
         if len(set(fors)) != len(fors):
             errs.append("翻译轨存在重复 for")
-        for t in texts:
-            if t.text is None and not list(t):
-                continue
-            if any(ch.tag.endswith("span") for ch in t):
-                warns.append(f"翻译 text for={t.get('for')}: 内含 span（实测部分设备可正常渲染，降级为警告）")
     # agent 注册数 = 使用数
     if reg_agents and used_agents and set(reg_agents) != used_agents:
         errs.append(f"agent 注册 {sorted(reg_agents)} != 使用 {sorted(used_agents)}")
