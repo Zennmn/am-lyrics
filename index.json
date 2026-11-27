@@ -2504,6 +2504,18 @@
       "sizeBytes": 55523,
       "sha256": "2ea5b88e8ca4d48f6917594108b6c41cd7be60b6b6299d0945c3d15177fbf995",
       "album": "Goodbye & Good Riddance (5 Year Anniversary Edition) [Deluxe]"
+    },
+    {
+      "appleMusicId": 1551586021,
+      "artist": "Taichi Mukai",
+      "title": "Reset",
+      "displayName": "Reset - Taichi Mukai",
+      "path": "am-lyrics/Taichi Mukai - Reset - 1551586021.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 50866,
+      "sha256": "c548b58c2022c254581c0a75351c0b72e64124d0031e5a1d37e87493ab32aa3f",
+      "album": "Reset - Single"
     }
   ]
 }
