@@ -2528,6 +2528,18 @@
       "sizeBytes": 38687,
       "sha256": "b170562f0a60df98a9490e65328e5b58d3d5f8f81171c04568db875983e3e594",
       "album": "Probably - Single"
+    },
+    {
+      "appleMusicId": 1823924623,
+      "artist": "tayori",
+      "title": "A Little Bird Told Me",
+      "displayName": "A Little Bird Told Me - tayori",
+      "path": "am-lyrics/tayori - A Little Bird Told Me - 1823924623.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 46986,
+      "sha256": "972d081440098cb57b855e2a4c9929c101cb41350de62409b52d17587e3c1873",
+      "album": "A Little Bird Told Me - Single"
     }
   ]
 }
