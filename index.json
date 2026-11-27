@@ -2516,6 +2516,18 @@
       "sizeBytes": 50866,
       "sha256": "c548b58c2022c254581c0a75351c0b72e64124d0031e5a1d37e87493ab32aa3f",
       "album": "Reset - Single"
+    },
+    {
+      "appleMusicId": 1520198760,
+      "artist": "YOASOBI",
+      "title": "Probably",
+      "displayName": "Probably - YOASOBI",
+      "path": "am-lyrics/YOASOBI - Probably - 1520198760.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 38701,
+      "sha256": "0d1722a0614c26537de0fb7bd0c1c1d12bea9eb9b47e0cfb28302b610545e83e",
+      "album": "Probably - Single"
     }
   ]
 }
