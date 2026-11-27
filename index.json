@@ -2492,6 +2492,18 @@
       "sizeBytes": 54487,
       "sha256": "fe3390df1a5434276764dc148b542d01ea5057e87daafdb84c607f38489be731",
       "album": "デッドボーイ、デッドガール - EP"
+    },
+    {
+      "appleMusicId": 1687735013,
+      "artist": "Juice WRLD",
+      "title": "Wasted (feat. Lil Uzi Vert)",
+      "displayName": "Wasted (feat. Lil Uzi Vert) - Juice WRLD",
+      "path": "am-lyrics/Juice WRLD - Wasted (feat. Lil Uzi Vert) - 1687735013.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 55523,
+      "sha256": "2ea5b88e8ca4d48f6917594108b6c41cd7be60b6b6299d0945c3d15177fbf995",
+      "album": "Goodbye & Good Riddance (5 Year Anniversary Edition) [Deluxe]"
     }
   ]
 }
