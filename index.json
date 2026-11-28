@@ -2526,6 +2526,18 @@
       "sizeBytes": 46986,
       "sha256": "972d081440098cb57b855e2a4c9929c101cb41350de62409b52d17587e3c1873",
       "album": "A Little Bird Told Me - Single"
+    },
+    {
+      "appleMusicId": 1538286503,
+      "artist": "三月のパンタシア",
+      "title": "パステルレイン",
+      "displayName": "パステルレイン - 三月のパンタシア",
+      "path": "am-lyrics/三月のパンタシア - パステルレイン - 1538286503.ttml",
+      "source": "manual",
+      "enabled": true,
+      "sizeBytes": 46838,
+      "sha256": "5ff036b0c4ec9239857be3973e22451a8e4373d1cc03f8f3a90468cddb3d5ef0",
+      "album": "ガールズブルー・ハッピーサッド"
     }
   ]
 }
