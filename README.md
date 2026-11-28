@@ -2,6 +2,8 @@
 
 为 [AM++](https://github.com/Zennmn/AM-plus-plus) 准备的 Apple Music TTML 歌词收藏仓库，按 Apple Music ID 索引。AM++ 模块通过 `main` 分支上的 `index.json` 消费本仓库。
 
+其他播放器或工具可参考[第三方接入文档](接入文档.md)。
+
 ## 目录结构
 
 - `index.json` — AM++ 使用的条目索引：每个 Apple Music ID 一条，包含歌手、歌名、（可选）专辑、文件路径、大小和 sha256。同一录音在不同地区 ID 不同时，可用 `alternateIds` 数组收录其他地区 ID（主 ID 仍为 `appleMusicId`）；同歌手、同歌名但专辑不同或时间轴不同的版本应各自建立独立条目。

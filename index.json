@@ -238,20 +238,6 @@
       ]
     },
     {
-      "appleMusicId": 7335408332109193000,
-      "artist": "初音ミク、鏡音リン、GUMI、れるりり",
-      "title": "神のまにまに",
-      "displayName": "神のまにまに - 初音ミク/鏡音リン/GUMI/れるりり",
-      "path": "am-lyrics/初音ミク、鏡音リン、GUMI、れるりり - 神のまにまに - 7335408332109193189.ttml",
-      "source": "manual",
-      "enabled": true,
-      "sizeBytes": 69757,
-      "sha256": "1a19f6080b3e05dd3ad7a203e7ba77b9aedda2e40b2179be517cb5ab737d3733",
-      "alternateIds": [
-        7335408332109193189
-      ]
-    },
-    {
       "appleMusicId": 1659746896,
       "artist": "GenriX, CORBAL & Shiloh Dynasty",
       "title": "Novocaine",
